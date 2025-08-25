@@ -10,7 +10,7 @@
                 "name": "C", 
                 "slug": "c", 
                 "description": "Learn C for system programming, embedded systems, and low-level development.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/zeynexa-assets/refs/heads/main/jobfi2/logos/programming-language/c.svg",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/c.svg",
                 "exercises": [
                     {
                         "level": "Beginner",

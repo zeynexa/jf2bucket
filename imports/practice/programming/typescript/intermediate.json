@@ -10,7 +10,7 @@
                 "name": "TypeScript", 
                 "slug": "typescript", 
                 "description": "Learn TypeScript for type-safe JavaScript development.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/zeynexa-assets/refs/heads/main/jobfi2/logos/programming-language/typescript.svg",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/typescript.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",

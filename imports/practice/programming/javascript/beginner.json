@@ -10,7 +10,7 @@
                 "name": "JavaScript", 
                 "slug": "javascript", 
                 "description": "Master JavaScript for web development and dynamic applications.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/zeynexa-assets/refs/heads/main/jobfi2/logos/programming-language/javascript.svg",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Beginner",

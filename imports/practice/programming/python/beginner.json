@@ -10,7 +10,7 @@
                 "name": "Python", 
                 "slug": "python", 
                 "description": "Learn Python for data science, web development, and automation.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/zeynexa-assets/refs/heads/main/jobfi2/logos/programming-language/python.svg",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/python.svg",
                 "exercises": [
                     {
                         "level": "Beginner",

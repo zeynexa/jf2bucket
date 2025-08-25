@@ -10,7 +10,7 @@
                 "name": "Java", 
                 "slug": "java", 
                 "description": "Master Java for enterprise development and Android applications.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/zeynexa-assets/refs/heads/main/jobfi2/logos/programming-language/java.svg",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/java.svg",
                 "exercises": [
                     {
                         "level": "Expert",

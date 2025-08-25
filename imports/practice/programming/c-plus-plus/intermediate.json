@@ -10,7 +10,7 @@
                 "name": "C++", 
                 "slug": "c-plus-plus", 
                 "description": "Learn C++ for system programming, game development, and high-performance applications.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/zeynexa-assets/refs/heads/main/jobfi2/logos/programming-language/c-plus-plus.svg",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/c-plus-plus.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",

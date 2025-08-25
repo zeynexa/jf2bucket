@@ -10,7 +10,7 @@
                 "name": "C#", 
                 "slug": "c-sharp", 
                 "description": "Learn C# for .NET development, Windows applications, and enterprise software.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/zeynexa-assets/refs/heads/main/jobfi2/logos/programming-language/c-sharp.svg",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/c-sharp.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
