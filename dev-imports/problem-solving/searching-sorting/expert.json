@@ -16,74 +16,94 @@
                     {
                         "level": "Expert",
                         "title": "Advanced Search Optimization",
-                        "description": "Implement highly optimized search algorithms and solve complex search problems.",
+                        "description": "Master advanced search optimization techniques and algorithms.",
                         "tags": ["searching", "optimization", "advanced"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Kth Smallest Element",
-                                "question": "<p>Write a function that finds the kth smallest element in an unsorted array.</p><p>Your function should:</p><ul><li>Accept an array and integer k</li><li>Find the kth smallest element efficiently</li><li>Return the element value</li><li>Handle edge cases (k > array length)</li></ul><p>Note: k is 1-indexed (1st smallest = smallest element)</p>",
-                                "hint": "Use quickselect algorithm - similar to quicksort but only recurse on relevant partition",
-                                "input": "7 10 4 3 20 15\n3",
-                                "output": "7"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Quickselect Complexity",
-                                "question": "<p>What is the average time complexity of quickselect algorithm?</p><p>Consider: Quickselect is like quicksort but only recurses on one partition</p>",
-                                "hint": "Think about how much work is done in each recursive call",
+                                "title": "Jump Search",
+                                "question": "<p>What is the optimal jump size for jump search in an array of size n?</p><p>Consider: Balancing jump size and linear search</p>",
+                                "hint": "Think about minimizing total comparisons",
                                 "options": [
-                                    "O(n) - linear time on average",
-                                    "O(n log n) - linearithmic time",
-                                    "O(n²) - quadratic time",
-                                    "O(log n) - logarithmic time"
+                                    "√n - square root of array size",
+                                    "n/2 - half of array size",
+                                    "log n - logarithmic jump size",
+                                    "n - full array size"
                                 ],
                                 "correct_answer": 0
                             },
                             {
-                                "type": "Coding",
-                                "title": "Median of Two Sorted Arrays",
-                                "question": "<p>Write a function that finds the median of two sorted arrays of different sizes.</p><p>Your function should:</p><ul><li>Accept two sorted arrays</li><li>Find the median of the combined array</li><li>Handle arrays of different lengths</li><li>Return the median value</li></ul><p>Note: For even total length, return average of two middle elements</p>",
-                                "hint": "Use binary search to find correct partition point in both arrays",
-                                "input": "1 3 8 9 15\n7 11 18 19 21 25",
-                                "output": "11"
+                                "type": "MCQ",
+                                "title": "Fibonacci Search",
+                                "question": "<p>What is the time complexity of Fibonacci search?</p><p>Consider: How Fibonacci search divides the search space</p>",
+                                "hint": "Think about the Fibonacci sequence and search space reduction",
+                                "options": [
+                                    "O(1) - constant time",
+                                    "O(log n) - logarithmic time",
+                                    "O(n) - linear time",
+                                    "O(n log n) - linearithmic time"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Hash Table Search",
+                                "question": "<p>What is the average case time complexity of search in a hash table?</p><p>Consider: Hash function distribution and collision handling</p>",
+                                "hint": "Think about direct access using hash function",
+                                "options": [
+                                    "O(1) - constant time average case",
+                                    "O(log n) - logarithmic time",
+                                    "O(n) - linear time",
+                                    "O(n²) - quadratic time"
+                                ],
+                                "correct_answer": 0
                             }
                         ]
                     },
                     {
                         "level": "Expert",
                         "title": "Advanced Sorting Algorithms",
-                        "description": "Implement specialized sorting algorithms and solve complex sorting problems.",
-                        "tags": ["sorting", "advanced", "specialized"],
+                        "description": "Master advanced sorting algorithms and their applications.",
+                        "tags": ["sorting", "advanced", "algorithms"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Counting Sort",
-                                "question": "<p>Write a function that implements counting sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers with known range</li><li>Sort the array using counting sort</li><li>Return the sorted array</li><li>Handle duplicate elements</li></ul><p>Note: Assume range is 0 to max_value</p>",
-                                "hint": "Count occurrences of each element, then reconstruct sorted array",
-                                "input": "4 2 1 4 1 2 0 1",
-                                "output": "0 1 1 1 2 2 4 4"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Counting Sort Complexity",
-                                "question": "<p>What is the time complexity of counting sort?</p><p>Consider: Counting sort works by counting occurrences of each element</p>",
-                                "hint": "Think about the range of values vs number of elements",
+                                "title": "Counting Sort",
+                                "question": "<p>What is the time complexity of counting sort?</p><p>Consider: Range of elements and counting process</p>",
+                                "hint": "Think about counting occurrences and placing elements",
                                 "options": [
                                     "O(n) - linear time",
-                                    "O(n + k) - where k is range of values",
+                                    "O(n + k) - where k is range of elements",
                                     "O(n log n) - linearithmic time",
                                     "O(n²) - quadratic time"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
+                                "type": "MCQ",
                                 "title": "Radix Sort",
-                                "question": "<p>Write a function that implements radix sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of positive integers</li><li>Sort by individual digits from least to most significant</li><li>Return the sorted array</li><li>Handle numbers of different lengths</li></ul>",
-                                "hint": "Use counting sort for each digit position, starting from least significant",
-                                "input": "170 45 75 90 802 24 2 66",
-                                "output": "2 24 45 66 75 90 170 802"
+                                "question": "<p>What is the time complexity of radix sort for n numbers with d digits?</p><p>Consider: Processing each digit position</p>",
+                                "hint": "Think about the number of passes and operations per pass",
+                                "options": [
+                                    "O(n) - linear time",
+                                    "O(d(n + k)) - where k is base (usually 10)",
+                                    "O(n log n) - linearithmic time",
+                                    "O(n²) - quadratic time"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Bucket Sort",
+                                "question": "<p>When is bucket sort most efficient?</p><p>Consider: Distribution of elements and bucket usage</p>",
+                                "hint": "Think about uniform distribution across buckets",
+                                "options": [
+                                    "When elements are uniformly distributed",
+                                    "When elements are already sorted",
+                                    "When elements are all equal",
+                                    "When elements are in reverse order"
+                                ],
+                                "correct_answer": 0
                             }
                         ]
                     }

@@ -3,87 +3,106 @@
         "category": { 
             "name": "Aptitude", 
             "slug": "aptitude", 
-            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
         },
         "sub_categories": [
             { 
                 "name": "Arithmetic", 
                 "slug": "arithmetic", 
                 "description": "Master arithmetic operations, number theory, and mathematical problem-solving techniques.", 
-                "image": null,
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Advanced Number Theory",
-                        "description": "Solve complex number theory problems and mathematical proofs.",
-                        "tags": ["number-theory", "advanced", "mathematical-proofs"],
+                        "description": "Master advanced number theory concepts and applications.",
+                        "tags": ["advanced-number-theory", "expert", "mathematics"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Euler's Totient Function",
-                                "question": "<p>Implement Euler's Totient Function φ(n) to count numbers coprime to n.</p><p>Your function should:</p><ul><li>Calculate φ(n) for any positive integer n</li><li>Use prime factorization for efficiency</li><li>Handle large numbers efficiently</li><li>Return the totient value</li><li>Include optimization for prime numbers</li></ul>",
-                                "hint": "Use formula φ(n) = n × ∏(1 - 1/p) where p are distinct prime factors of n",
-                                "input": "12",
-                                "output": "4"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Euler's Totient Properties",
-                                "question": "<p>What is the value of φ(p) for a prime number p?</p><p>Consider: Prime numbers have no factors other than 1 and themselves</p>",
-                                "hint": "Think about how many numbers are coprime to a prime number",
+                                "title": "Euler's Totient Function",
+                                "question": "<p>What is φ(12) where φ is Euler's totient function?</p><p>Consider: Count numbers less than 12 that are coprime to 12</p>",
+                                "hint": "Numbers coprime to 12: 1, 5, 7, 11",
                                 "options": [
-                                    "p - all numbers less than p are coprime",
-                                    "p-1 - all numbers from 1 to p-1 are coprime",
-                                    "p/2 - half the numbers are coprime",
-                                    "1 - only 1 is coprime"
+                                    "2 - incorrect count",
+                                    "4 - correct totient value",
+                                    "6 - incorrect",
+                                    "8 - incorrect"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Modular Arithmetic Calculator",
-                                "question": "<p>Create a modular arithmetic calculator with advanced operations.</p><p>Your calculator should:</p><ul><li>Perform modular addition, subtraction, multiplication</li><li>Calculate modular exponentiation efficiently</li><li>Find modular multiplicative inverse</li><li>Handle negative numbers and large values</li><li>Support Chinese Remainder Theorem</li></ul>",
-                                "hint": "Use properties of modular arithmetic, Fermat's Little Theorem for inverses, and binary exponentiation",
-                                "input": "7 3 11",
-                                "output": "7³ mod 11 = 2"
+                                "type": "MCQ",
+                                "title": "Modular Arithmetic",
+                                "question": "<p>What is the multiplicative inverse of 3 modulo 7?</p><p>Consider: Find x such that 3x ≡ 1 (mod 7)</p>",
+                                "hint": "3 × 5 = 15 ≡ 1 (mod 7)",
+                                "options": [
+                                    "2 - incorrect",
+                                    "3 - incorrect",
+                                    "5 - correct inverse",
+                                    "6 - incorrect"
+                                ],
+                                "correct_answer": 2
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Chinese Remainder Theorem",
+                                "question": "<p>What is the smallest positive integer that leaves remainder 2 when divided by 3 and remainder 3 when divided by 5?</p><p>Consider: Find x such that x ≡ 2 (mod 3) and x ≡ 3 (mod 5)</p>",
+                                "hint": "Check numbers: 8 ≡ 2 (mod 3) and 8 ≡ 3 (mod 5)",
+                                "options": [
+                                    "5 - incorrect",
+                                    "8 - correct answer",
+                                    "11 - incorrect",
+                                    "13 - incorrect"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     },
                     {
                         "level": "Expert",
                         "title": "Complex Financial Mathematics",
-                        "description": "Solve advanced financial calculations and investment problems.",
-                        "tags": ["financial-math", "investments", "advanced-calculations"],
+                        "description": "Master complex financial calculations and applications.",
+                        "tags": ["financial-mathematics", "expert", "advanced"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Investment Portfolio Analyzer",
-                                "question": "<p>Create a comprehensive investment portfolio analysis system.</p><p>Your system should:</p><ul><li>Calculate portfolio returns and risk metrics</li><li>Compute Sharpe ratio and beta values</li><li>Perform asset allocation optimization</li><li>Calculate correlation between assets</li><li>Generate risk-return analysis reports</li></ul>",
-                                "hint": "Use statistical formulas for returns, standard deviation for risk, and covariance for correlation",
-                                "input": "Stock A: 10% return, 15% risk; Stock B: 8% return, 12% risk; Correlation: 0.3",
-                                "output": "Portfolio Return: 9.2%, Risk: 11.8%, Sharpe Ratio: 0.78"
+                                "type": "MCQ",
+                                "title": "Investment Portfolio Analysis",
+                                "question": "<p>If you invest $1000 in a stock that grows 20% in year 1 and loses 10% in year 2, what is your final investment value?</p><p>Consider: Compound the percentage changes</p>",
+                                "hint": "Final value = 1000 × 1.20 × 0.90",
+                                "options": [
+                                    "$1080 - correct final value",
+                                    "$1100 - simple addition",
+                                    "$1200 - year 1 only",
+                                    "$900 - year 2 only"
+                                ],
+                                "correct_answer": 0
                             },
                             {
                                 "type": "MCQ",
-                                "title": "Sharpe Ratio Interpretation",
-                                "question": "<p>What does a Sharpe ratio of 1.5 indicate about an investment?</p><p>Consider: Sharpe ratio measures risk-adjusted returns</p>",
-                                "hint": "Think about excess return per unit of risk",
+                                "title": "Option Pricing (Black-Scholes)",
+                                "question": "<p>What factors affect the price of a call option in the Black-Scholes model?</p><p>Consider: Key variables in option pricing</p>",
+                                "hint": "Think about stock price, strike price, time, volatility, and interest rate",
                                 "options": [
-                                    "Poor performance - low returns",
-                                    "Good risk-adjusted performance - 1.5 units excess return per unit risk",
-                                    "High risk investment - risky",
-                                    "Low volatility - stable returns"
+                                    "Only stock price",
+                                    "Stock price, strike price, time to expiration, volatility, and risk-free rate",
+                                    "Only time to expiration",
+                                    "Only volatility"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Option Pricing Calculator",
-                                "question": "<p>Implement Black-Scholes option pricing model.</p><p>Your calculator should:</p><ul><li>Calculate call and put option prices</li><li>Compute option Greeks (delta, gamma, theta, vega)</li><li>Handle dividend-paying stocks</li><li>Calculate implied volatility</li><li>Provide sensitivity analysis</li></ul>",
-                                "hint": "Use Black-Scholes formula with cumulative normal distribution, calculate partial derivatives for Greeks",
-                                "input": "S=100, K=100, T=1, r=0.05, σ=0.2, call option",
-                                "output": "Call Price: 10.45, Delta: 0.54, Gamma: 0.02"
+                                "type": "MCQ",
+                                "title": "Present Value",
+                                "question": "<p>What is the present value of $1000 received 3 years from now at a discount rate of 5%?</p><p>Consider: PV = FV / (1 + r)^n</p>",
+                                "hint": "PV = 1000 / (1.05)^3",
+                                "options": [
+                                    "$863.84 - correct present value",
+                                    "$950 - simple subtraction",
+                                    "$1000 - no discounting",
+                                    "$1157.63 - incorrect"
+                                ],
+                                "correct_answer": 0
                             }
                         ]
                     }

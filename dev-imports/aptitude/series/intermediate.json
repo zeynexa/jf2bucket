@@ -3,15 +3,14 @@
         "category": { 
             "name": "Aptitude", 
             "slug": "aptitude", 
-            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
         },
         "sub_categories": [
             { 
                 "name": "Series", 
                 "slug": "series", 
                 "description": "Master number series, sequences, and pattern recognition techniques.", 
-                "image": null,
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
@@ -20,16 +19,8 @@
                         "tags": ["advanced-patterns", "complex-series", "intermediate"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Mixed Series Analyzer",
-                                "question": "<p>Create a function to analyze mixed series patterns.</p><p>Your function should:</p><ul><li>Detect alternating arithmetic and geometric patterns</li><li>Identify series with multiple rules</li><li>Handle series with changing differences/ratios</li><li>Predict next terms accurately</li><li>Provide pattern explanation</li></ul>",
-                                "hint": "Look for patterns in odd/even positions, check for alternating rules",
-                                "input": "Series: 2, 4, 8, 16, 32, 64, 128, 256",
-                                "output": "Pattern: Geometric with ratio 2, Next: 512"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Series Pattern Recognition",
+                                "title": "Mixed Series Recognition",
                                 "question": "<p>What is the pattern in the series: 1, 2, 4, 7, 11, 16?</p><p>Consider: Look at the differences between consecutive terms</p>",
                                 "hint": "Calculate differences: 1, 2, 3, 4, 5",
                                 "options": [
@@ -39,30 +30,6 @@
                                     "Fibonacci sequence"
                                 ],
                                 "correct_answer": 2
-                            },
-                            {
-                                "type": "Coding",
-                                "title": "Recursive Series Generator",
-                                "question": "<p>Implement a recursive series generator for complex patterns.</p><p>Your generator should:</p><ul><li>Handle Fibonacci-like sequences</li><li>Generate series with custom recurrence relations</li><li>Calculate closed-form formulas</li><li>Find generating functions</li><li>Handle boundary conditions</li></ul>",
-                                "hint": "Use recurrence relations, implement memoization for efficiency",
-                                "input": "Recurrence: aₙ = 2aₙ₋₁ + aₙ₋₂, Initial: a₀=1, a₁=2",
-                                "output": "Series: [1,2,5,12,29,70,...]"
-                            }
-                        ]
-                    },
-                    {
-                        "level": "Intermediate",
-                        "title": "Series Convergence Analysis",
-                        "description": "Analyze series convergence and divergence properties.",
-                        "tags": ["convergence", "analysis", "intermediate"],
-                        "tasks": [
-                            {
-                                "type": "Coding",
-                                "title": "Convergence Test Suite",
-                                "question": "<p>Create a comprehensive convergence test suite.</p><p>Your suite should:</p><ul><li>Implement ratio test for series convergence</li><li>Use root test for convergence analysis</li><li>Apply comparison test with known series</li><li>Handle alternating series with Leibniz test</li><li>Return convergence status and limit</li></ul>",
-                                "hint": "Use ratio test: lim |aₙ₊₁/aₙ| < 1 for convergence, root test: lim |aₙ|^(1/n) < 1",
-                                "input": "Series: Σ(1/n²) from n=1 to ∞",
-                                "output": "Convergent, Sum: π²/6"
                             },
                             {
                                 "type": "MCQ",
@@ -78,12 +45,64 @@
                                 "correct_answer": 3
                             },
                             {
-                                "type": "Coding",
-                                "title": "Power Series Calculator",
-                                "question": "<p>Implement a power series calculator and analyzer.</p><p>Your calculator should:</p><ul><li>Calculate power series expansions</li><li>Find radius of convergence</li><li>Determine interval of convergence</li><li>Handle Taylor and Maclaurin series</li><li>Provide series approximation</li></ul>",
-                                "hint": "Use ratio test for radius of convergence, check endpoints separately",
-                                "input": "Function: e^x, Center: 0, Terms: 5",
-                                "output": "Series: 1 + x + x²/2! + x³/3! + x⁴/4!, Radius: ∞"
+                                "type": "MCQ",
+                                "title": "Power Series Radius",
+                                "question": "<p>What is the radius of convergence for the power series Σ(x^n/n!)?</p><p>Consider: The exponential series</p>",
+                                "hint": "Think about the exponential function's convergence",
+                                "options": [
+                                    "0 - no convergence",
+                                    "1 - finite radius",
+                                    "∞ - converges for all x",
+                                    "2 - finite radius"
+                                ],
+                                "correct_answer": 2
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Intermediate",
+                        "title": "Series Convergence Analysis",
+                        "description": "Analyze series convergence and divergence properties.",
+                        "tags": ["convergence", "analysis", "intermediate"],
+                        "tasks": [
+                            {
+                                "type": "MCQ",
+                                "title": "Alternating Series Test",
+                                "question": "<p>What is the Alternating Series Test used for?</p><p>Consider: Series with alternating positive and negative terms</p>",
+                                "hint": "Think about series like Σ((-1)^n/n)",
+                                "options": [
+                                    "Testing any series",
+                                    "Testing alternating series for convergence",
+                                    "Testing geometric series",
+                                    "Testing power series"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Ratio Test",
+                                "question": "<p>What does the ratio test tell us about a series?</p><p>Consider: The limit of |aₙ₊₁/aₙ|</p>",
+                                "hint": "Think about comparing consecutive terms",
+                                "options": [
+                                    "The sum of the series",
+                                    "Whether the series converges or diverges",
+                                    "The exact value of the series",
+                                    "The number of terms"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Comparison Test",
+                                "question": "<p>When can the Comparison Test be used?</p><p>Consider: Comparing with known series</p>",
+                                "hint": "Think about comparing with series whose convergence is known",
+                                "options": [
+                                    "For any series",
+                                    "For positive series with known comparison series",
+                                    "For alternating series only",
+                                    "For geometric series only"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     }

@@ -20,65 +20,41 @@
                         "tags": ["arrays", "advanced", "optimization"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Median of Two Sorted Arrays",
-                                "question": "<p>Write a function that finds the median of two sorted arrays of different sizes.</p><p>Your function should:</p><ul><li>Accept two sorted arrays</li><li>Find the median of the combined array</li><li>Handle arrays of different lengths</li><li>Return the median value</li></ul>",
-                                "hint": "Use binary search to find the correct partition point",
-                                "input": "1 3 8 9 15\n7 11 18 19 21 25",
-                                "output": "11"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Array Inversion Count",
-                                "question": "<p>What is the inversion count of array [3, 1, 2]?</p><p>Inversion: pair (i,j) where i < j and arr[i] > arr[j]</p>",
-                                "hint": "Count pairs where larger element comes before smaller element",
+                                "title": "Dynamic Programming Arrays",
+                                "question": "<p>What is the time complexity of the longest increasing subsequence (LIS) problem using dynamic programming?</p><p>Consider: Nested loops and state transitions</p>",
+                                "hint": "Think about the DP table size and filling process",
                                 "options": [
-                                    "0 - no inversions",
-                                    "1 - (3,1) is an inversion",
-                                    "2 - (3,1) and (3,2) are inversions",
-                                    "3 - all pairs are inversions"
-                                ],
-                                "correct_answer": 2
-                            },
-                            {
-                                "type": "Coding",
-                                "title": "Trapping Rain Water",
-                                "question": "<p>Write a function that calculates how much water can be trapped between bars.</p><p>Your function should:</p><ul><li>Accept an array representing bar heights</li><li>Calculate trapped water between bars</li><li>Return total trapped water</li><li>Handle edge cases</li></ul>",
-                                "hint": "Use two pointers to track left and right maximum heights",
-                                "input": "0 1 0 2 1 0 1 3 2 1 2 1",
-                                "output": "6"
-                            },
-                            {
-                                "type": "MCQ",
-                                "title": "Array Partitioning",
-                                "question": "<p>What is the time complexity of the Dutch National Flag algorithm?</p><p>Consider: Three-way partitioning of array with three distinct values</p>",
-                                "hint": "Think about single-pass algorithms",
-                                "options": [
-                                    "O(n) - single pass through array",
-                                    "O(n log n) - requires sorting",
+                                    "O(n) - linear time",
                                     "O(n²) - quadratic time",
-                                    "O(log n) - logarithmic time"
+                                    "O(n log n) - using binary search optimization",
+                                    "O(2^n) - exponential time"
                                 ],
-                                "correct_answer": 0
-                            },
-                            {
-                                "type": "Coding",
-                                "title": "Longest Increasing Subsequence",
-                                "question": "<p>Write a function that finds the length of the longest increasing subsequence.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Find longest subsequence where elements are strictly increasing</li><li>Return the length</li><li>Handle empty arrays</li></ul>",
-                                "hint": "Use dynamic programming with binary search for optimization",
-                                "input": "10 9 2 5 3 7 101 18",
-                                "output": "4"
+                                "correct_answer": 1
                             },
                             {
                                 "type": "MCQ",
-                                "title": "Array Circular Queue",
-                                "question": "<p>What is the advantage of using a circular queue over a linear queue?</p><p>Consider memory utilization and space efficiency</p>",
-                                "hint": "Think about what happens when elements are dequeued",
+                                "title": "Segment Tree Operations",
+                                "question": "<p>What is the time complexity of range sum query using a segment tree?</p><p>Consider: Tree traversal and node updates</p>",
+                                "hint": "Think about the height of the segment tree",
                                 "options": [
-                                    "Better time complexity - O(1) operations",
-                                    "Better space utilization - reuses empty spaces",
-                                    "Simpler implementation - easier to code",
-                                    "No advantage - same performance"
+                                    "O(1) - constant time",
+                                    "O(log n) - logarithmic time",
+                                    "O(n) - linear time",
+                                    "O(n log n) - linearithmic time"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Fenwick Tree (BIT)",
+                                "question": "<p>What is the main advantage of Fenwick Tree over Segment Tree?</p><p>Consider: Implementation complexity and memory usage</p>",
+                                "hint": "Think about code simplicity and space efficiency",
+                                "options": [
+                                    "Faster query time",
+                                    "Simpler implementation and less memory",
+                                    "Supports more operations",
+                                    "Better cache performance"
                                 ],
                                 "correct_answer": 1
                             }
@@ -87,69 +63,45 @@
                     {
                         "level": "Expert",
                         "title": "Advanced String Problems",
-                        "description": "Solve complex string problems requiring advanced algorithms and pattern matching.",
-                        "tags": ["strings", "advanced", "pattern-matching"],
+                        "description": "Solve complex string problems using advanced algorithms and data structures.",
+                        "tags": ["strings", "advanced", "algorithms"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Longest Palindromic Substring",
-                                "question": "<p>Write a function that finds the longest palindromic substring in a string.</p><p>Your function should:</p><ul><li>Accept a string as input</li><li>Find the longest substring that is a palindrome</li><li>Return the palindrome</li><li>Handle edge cases</li></ul>",
-                                "hint": "Use Manacher's algorithm or expand around center approach",
-                                "input": "babad",
-                                "output": "bab"
+                                "type": "MCQ",
+                                "title": "KMP Algorithm",
+                                "question": "<p>What is the time complexity of the KMP (Knuth-Morris-Pratt) string matching algorithm?</p><p>Consider: Pattern preprocessing and text scanning</p>",
+                                "hint": "Think about the number of character comparisons",
+                                "options": [
+                                    "O(n + m) - linear time where n is text length, m is pattern length",
+                                    "O(nm) - quadratic time",
+                                    "O(n log m) - linearithmic time",
+                                    "O(n²) - quadratic time"
+                                ],
+                                "correct_answer": 0
                             },
                             {
                                 "type": "MCQ",
-                                "title": "String Edit Distance",
-                                "question": "<p>What is the minimum edit distance between \"horse\" and \"ros\"?</p><p>Edit operations: insert, delete, replace</p>",
-                                "hint": "Count minimum operations to transform one string to another",
+                                "title": "Suffix Array",
+                                "question": "<p>What is the primary use of a suffix array?</p><p>Consider: String indexing and pattern matching</p>",
+                                "hint": "Think about finding all occurrences of a pattern",
                                 "options": [
-                                    "2 - replace 'h' with 'r', delete 'e'",
-                                    "3 - replace 'h' with 'r', delete 'o', delete 'e'",
-                                    "4 - replace 'h' with 'r', delete 'o', delete 'r', delete 's'",
-                                    "5 - all characters need to be changed"
+                                    "String compression",
+                                    "Efficient substring search and pattern matching",
+                                    "String sorting",
+                                    "String validation"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Regular Expression Matching",
-                                "question": "<p>Write a function that implements basic regex matching with '.' and '*'.</p><p>Your function should:</p><ul><li>Accept pattern and string</li><li>Handle '.' (any character) and '*' (zero or more)</li><li>Return true if pattern matches</li><li>Handle edge cases</li></ul>",
-                                "hint": "Use dynamic programming with memoization",
-                                "input": "a.*b\nacb",
-                                "output": "true"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "String Suffix Array",
-                                "question": "<p>What is the time complexity of building a suffix array for a string of length n?</p><p>Consider: Suffix array contains all suffixes in sorted order</p>",
-                                "hint": "Think about sorting n suffixes of length up to n",
-                                "options": [
-                                    "O(n) - linear time",
-                                    "O(n log n) - sorting n suffixes",
-                                    "O(n²) - quadratic time",
-                                    "O(n³) - cubic time"
-                                ],
-                                "correct_answer": 1
-                            },
-                            {
-                                "type": "Coding",
-                                "title": "Longest Common Subsequence",
-                                "question": "<p>Write a function that finds the longest common subsequence of two strings.</p><p>Your function should:</p><ul><li>Accept two strings</li><li>Find longest subsequence common to both</li><li>Return the LCS length</li><li>Handle empty strings</li></ul>",
-                                "hint": "Use dynamic programming with 2D array",
-                                "input": "ABCDGH\nAEDFHR",
-                                "output": "3"
-                            },
-                            {
-                                "type": "MCQ",
-                                "title": "String Trie Data Structure",
-                                "question": "<p>What is the time complexity of searching a word in a trie?</p><p>Consider: Trie is a tree-like data structure for strings</p>",
-                                "hint": "Think about traversing the trie character by character",
+                                "title": "Trie Data Structure",
+                                "question": "<p>What is the time complexity of inserting a string of length m into a trie?</p><p>Consider: Character-by-character insertion</p>",
+                                "hint": "Think about the number of operations per character",
                                 "options": [
                                     "O(1) - constant time",
-                                    "O(m) - where m is word length",
-                                    "O(n) - where n is total number of words",
-                                    "O(m log n) - logarithmic search"
+                                    "O(m) - linear in string length",
+                                    "O(m²) - quadratic in string length",
+                                    "O(log m) - logarithmic in string length"
                                 ],
                                 "correct_answer": 1
                             }

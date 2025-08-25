@@ -3,87 +3,106 @@
         "category": { 
             "name": "Design", 
             "slug": "design", 
-            "description": "Master design principles, user experience, and visual communication skills.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/design.svg"
+            "description": "Master design principles, user experience, and visual communication techniques."
         },
         "sub_categories": [
             { 
                 "name": "Graphic Design", 
                 "slug": "graphic-design", 
-                "description": "Learn graphic design principles, visual communication, and creative design techniques.", 
-                "image": null,
+                "description": "Learn graphic design principles and visual communication techniques.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Advanced Layout Design",
-                        "description": "Create complex layouts and responsive design systems.",
-                        "tags": ["layout", "responsive", "advanced"],
+                        "description": "Master advanced layout design principles and techniques.",
+                        "tags": ["layout-design", "advanced", "intermediate"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "CSS Grid Magazine Layout",
-                                "question": "<p>Create a magazine-style layout using CSS Grid with complex content areas.</p><p>Your layout should:</p><ul><li>Use CSS Grid with named grid areas</li><li>Include header, sidebar, main content, and footer</li><li>Support responsive breakpoints</li><li>Handle different content types (text, images, ads)</li><li>Maintain visual hierarchy and readability</li></ul>",
-                                "hint": "Use grid-template-areas for complex layouts, media queries for responsiveness, and proper content flow",
-                                "input": "Magazine layout with header, 2-column main, sidebar, footer",
-                                "output": "Responsive magazine layout with proper content organization"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Grid vs Flexbox",
-                                "question": "<p>When should you use CSS Grid instead of Flexbox?</p><p>Consider: The strengths and use cases of each layout method</p>",
-                                "hint": "Think about two-dimensional vs one-dimensional layouts",
+                                "title": "Grid Systems",
+                                "question": "<p>What is the purpose of a grid system in design?</p><p>Consider: Organizing content systematically</p>",
+                                "hint": "Think about creating consistent layouts",
                                 "options": [
-                                    "Always use Grid - it's newer and better",
-                                    "Use Grid for 2D layouts, Flexbox for 1D layouts",
-                                    "Use Flexbox for everything - it's simpler",
-                                    "Grid and Flexbox are interchangeable"
+                                    "Making designs more colorful",
+                                    "Creating consistent, organized layouts",
+                                    "Making text smaller",
+                                    "Adding more images"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Responsive Image Gallery",
-                                "question": "<p>Design a responsive image gallery with masonry layout.</p><p>Your gallery should:</p><ul><li>Display images in a masonry grid layout</li><li>Be responsive across all screen sizes</li><li>Include image lazy loading</li><li>Support lightbox functionality</li><li>Handle different image aspect ratios</li></ul>",
-                                "hint": "Use CSS columns or Grid for masonry, Intersection Observer for lazy loading, and modal for lightbox",
-                                "input": "Gallery with 12 images of varying sizes",
-                                "output": "Responsive masonry gallery with lazy loading and lightbox"
+                                "type": "MCQ",
+                                "title": "White Space",
+                                "question": "<p>What is the purpose of white space in design?</p><p>Consider: Breathing room and visual hierarchy</p>",
+                                "hint": "Think about giving elements room to breathe",
+                                "options": [
+                                    "Wasting space",
+                                    "Creating breathing room and improving readability",
+                                    "Making designs look empty",
+                                    "Saving ink"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Visual Flow",
+                                "question": "<p>What is visual flow in design?</p><p>Consider: How the eye moves through a design</p>",
+                                "hint": "Think about guiding the viewer's eye",
+                                "options": [
+                                    "Using flowing fonts",
+                                    "The path the eye follows through a design",
+                                    "Making everything curved",
+                                    "Using only round shapes"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     },
                     {
                         "level": "Intermediate",
                         "title": "Advanced Visual Design",
-                        "description": "Implement advanced visual design principles and effects.",
-                        "tags": ["visual-design", "effects", "advanced"],
+                        "description": "Master advanced visual design techniques and principles.",
+                        "tags": ["visual-design", "advanced", "intermediate"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "CSS Animation System",
-                                "question": "<p>Create a comprehensive CSS animation system with keyframes.</p><p>Your system should:</p><ul><li>Define reusable animation keyframes</li><li>Support easing functions and timing</li><li>Include hover and focus animations</li><li>Handle animation performance optimization</li><li>Provide animation utilities and classes</li></ul>",
-                                "hint": "Use @keyframes, animation properties, transform, and will-change for performance",
-                                "input": "Animation system with fade, slide, scale, and rotate effects",
-                                "output": "Complete animation system with performance optimizations"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Animation Performance",
-                                "question": "<p>Which CSS properties are most efficient for animations?</p><p>Consider: Browser rendering and GPU acceleration</p>",
-                                "hint": "Think about properties that trigger GPU acceleration",
+                                "title": "Color Psychology",
+                                "question": "<p>What is color psychology in design?</p><p>Consider: How colors affect emotions</p>",
+                                "hint": "Think about the emotional impact of colors",
                                 "options": [
-                                    "Width and height - layout properties",
-                                    "Transform and opacity - GPU accelerated",
-                                    "Background-color - paint properties",
-                                    "All properties are equally efficient"
+                                    "Using only bright colors",
+                                    "How colors affect emotions and behavior",
+                                    "Making everything colorful",
+                                    "Using only dark colors"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Advanced CSS Effects",
-                                "question": "<p>Implement advanced CSS effects like glassmorphism and neumorphism.</p><p>Your effects should:</p><ul><li>Create glassmorphism effect with backdrop-filter</li><li>Implement neumorphism with shadows</li><li>Use CSS custom properties for customization</li><li>Be responsive and accessible</li><li>Include fallbacks for older browsers</li></ul>",
-                                "hint": "Use backdrop-filter for glassmorphism, box-shadow for neumorphism, and @supports for fallbacks",
-                                "input": "Glassmorphism card with blur effect and neumorphic button",
-                                "output": "Advanced CSS effects with proper fallbacks and accessibility"
+                                "type": "MCQ",
+                                "title": "Texture in Design",
+                                "question": "<p>What is the purpose of texture in graphic design?</p><p>Consider: Adding visual interest and depth</p>",
+                                "hint": "Think about creating visual depth and interest",
+                                "options": [
+                                    "Making designs rough",
+                                    "Adding visual interest and depth",
+                                    "Making everything smooth",
+                                    "Using only flat colors"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Pattern Design",
+                                "question": "<p>What is a pattern in graphic design?</p><p>Consider: Repetitive visual elements</p>",
+                                "hint": "Think about repeating visual elements",
+                                "options": [
+                                    "A single design element",
+                                    "Repetitive visual elements that create texture",
+                                    "A random arrangement",
+                                    "A single color"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     }

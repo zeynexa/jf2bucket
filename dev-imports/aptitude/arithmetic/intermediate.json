@@ -3,87 +3,106 @@
         "category": { 
             "name": "Aptitude", 
             "slug": "aptitude", 
-            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
         },
         "sub_categories": [
             { 
                 "name": "Arithmetic", 
                 "slug": "arithmetic", 
                 "description": "Master arithmetic operations, number theory, and mathematical problem-solving techniques.", 
-                "image": null,
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Number Theory",
-                        "description": "Solve problems involving prime numbers, factors, and number properties.",
-                        "tags": ["number-theory", "prime-numbers", "factors"],
+                        "description": "Master number theory concepts and applications.",
+                        "tags": ["number-theory", "intermediate", "mathematics"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Prime Factorization",
-                                "question": "<p>Write a function to find the prime factorization of a number.</p><p>Your function should:</p><ul><li>Accept a positive integer n</li><li>Find all prime factors of n</li><li>Return the factorization in exponential form</li><li>Handle edge cases (1, prime numbers)</li><li>Return factors in ascending order</li></ul>",
-                                "hint": "Use trial division, check divisibility by primes up to √n, count occurrences of each factor",
-                                "input": "84",
-                                "output": "2² × 3¹ × 7¹"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Prime Number Properties",
-                                "question": "<p>What is the smallest prime number greater than 50?</p><p>Consider: Prime numbers are only divisible by 1 and themselves</p>",
-                                "hint": "Check numbers after 50 for primality by testing divisibility",
+                                "title": "Prime Factorization",
+                                "question": "<p>What is the prime factorization of 84?</p><p>Consider: Breaking down into prime factors</p>",
+                                "hint": "84 = 2 × 2 × 3 × 7",
                                 "options": [
-                                    "51 - next number after 50",
-                                    "53 - first prime after 50",
-                                    "55 - odd number after 50",
-                                    "57 - next odd number"
+                                    "2 × 3 × 7",
+                                    "2² × 3 × 7",
+                                    "2 × 3² × 7",
+                                    "2² × 3² × 7"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "GCD and LCM Calculator",
-                                "question": "<p>Implement functions to calculate GCD and LCM of two numbers.</p><p>Your functions should:</p><ul><li>Calculate GCD using Euclidean algorithm</li><li>Calculate LCM using GCD formula</li><li>Handle negative numbers and zero</li><li>Return results efficiently</li><li>Validate input parameters</li></ul>",
-                                "hint": "Use Euclidean algorithm for GCD: gcd(a,b) = gcd(b, a%b), then LCM = (a*b)/gcd(a,b)",
-                                "input": "48 18",
-                                "output": "GCD: 6, LCM: 144"
+                                "type": "MCQ",
+                                "title": "GCD and LCM",
+                                "question": "<p>What is the GCD of 48 and 60?</p><p>Consider: Greatest common divisor</p>",
+                                "hint": "Find the largest number that divides both 48 and 60",
+                                "options": [
+                                    "6 - incorrect",
+                                    "12 - correct GCD",
+                                    "24 - incorrect",
+                                    "48 - incorrect"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Modular Arithmetic",
+                                "question": "<p>What is 17 mod 5?</p><p>Consider: Remainder when 17 is divided by 5</p>",
+                                "hint": "17 ÷ 5 = 3 remainder 2",
+                                "options": [
+                                    "2 - correct remainder",
+                                    "3 - quotient, not remainder",
+                                    "5 - incorrect",
+                                    "17 - incorrect"
+                                ],
+                                "correct_answer": 0
                             }
                         ]
                     },
                     {
                         "level": "Intermediate",
                         "title": "Percentage and Profit Loss",
-                        "description": "Solve complex percentage problems and profit-loss calculations.",
-                        "tags": ["percentage", "profit-loss", "business-math"],
+                        "description": "Master percentage calculations and profit/loss problems.",
+                        "tags": ["percentage", "profit-loss", "intermediate"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Compound Interest Calculator",
-                                "question": "<p>Create a compound interest calculator with different compounding frequencies.</p><p>Your calculator should:</p><ul><li>Accept principal, rate, time, and compounding frequency</li><li>Calculate compound interest and total amount</li><li>Support annual, semi-annual, quarterly, monthly compounding</li><li>Show interest earned and final amount</li><li>Handle decimal precision correctly</li></ul>",
-                                "hint": "Use formula A = P(1 + r/n)^(nt) where n is compounding frequency per year",
-                                "input": "1000 5 2 4",
-                                "output": "Principal: 1000, Interest: 103.81, Amount: 1103.81"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Successive Percentage Changes",
-                                "question": "<p>If a number increases by 20% and then decreases by 10%, what is the net percentage change?</p><p>Consider: Successive percentage changes are not additive</p>",
-                                "hint": "Use formula: net change = (1 + p1/100)(1 + p2/100) - 1",
+                                "title": "Percentage Increase",
+                                "question": "<p>If a price increases from $80 to $100, what is the percentage increase?</p><p>Consider: Calculate the increase and express as percentage</p>",
+                                "hint": "Increase = $20, percentage = (20/80) × 100",
                                 "options": [
-                                    "10% increase - simple addition",
-                                    "8% increase - correct calculation",
-                                    "2% decrease - simple subtraction",
-                                    "No change - percentages cancel out"
+                                    "20% - incorrect calculation",
+                                    "25% - correct percentage",
+                                    "30% - incorrect",
+                                    "40% - incorrect"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Profit Loss Analysis",
-                                "question": "<p>Write a function to analyze profit/loss scenarios with multiple parameters.</p><p>Your function should:</p><ul><li>Calculate profit/loss percentage given cost and selling price</li><li>Find selling price for desired profit percentage</li><li>Calculate cost price given selling price and profit percentage</li><li>Handle discount and markup scenarios</li><li>Return detailed analysis with all calculations</li></ul>",
-                                "hint": "Use formulas: Profit% = ((SP-CP)/CP)*100, SP = CP*(1+P/100), CP = SP/(1+P/100)",
-                                "input": "500 600",
-                                "output": "Cost: 500, Selling: 600, Profit: 100, Profit%: 20%"
+                                "type": "MCQ",
+                                "title": "Profit Percentage",
+                                "question": "<p>If cost price is $50 and selling price is $65, what is the profit percentage?</p><p>Consider: Profit = SP - CP, percentage = (profit/CP) × 100</p>",
+                                "hint": "Profit = $15, percentage = (15/50) × 100",
+                                "options": [
+                                    "15% - incorrect",
+                                    "25% - incorrect",
+                                    "30% - correct percentage",
+                                    "35% - incorrect"
+                                ],
+                                "correct_answer": 2
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Compound Interest",
+                                "question": "<p>What is the compound interest on $1000 at 10% for 2 years?</p><p>Consider: Use compound interest formula</p>",
+                                "hint": "CI = P(1 + r)^n - P",
+                                "options": [
+                                    "$100 - simple interest",
+                                    "$200 - incorrect",
+                                    "$210 - correct compound interest",
+                                    "$300 - incorrect"
+                                ],
+                                "correct_answer": 2
                             }
                         ]
                     }

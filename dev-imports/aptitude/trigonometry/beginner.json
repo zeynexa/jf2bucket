@@ -3,15 +3,14 @@
         "category": { 
             "name": "Aptitude", 
             "slug": "aptitude", 
-            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
         },
         "sub_categories": [
             { 
                 "name": "Trigonometry", 
-                "slug": "tigonometry", 
+                "slug": "trigonometry", 
                 "description": "Master trigonometric functions, identities, and applications.", 
-                "image": null,
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
@@ -19,14 +18,6 @@
                         "description": "Learn fundamental trigonometric functions and their properties.",
                         "tags": ["trigonometric-functions", "basics", "fundamentals"],
                         "tasks": [
-                            {
-                                "type": "Coding",
-                                "title": "Trigonometric Calculator",
-                                "question": "<p>Create a basic trigonometric function calculator.</p><p>Your calculator should:</p><ul><li>Calculate sin, cos, tan for given angles</li><li>Handle angles in degrees and radians</li><li>Calculate inverse trigonometric functions</li><li>Handle special angles (0°, 30°, 45°, 60°, 90°)</li><li>Provide results with proper precision</li></ul>",
-                                "hint": "Use built-in math functions, convert degrees to radians, handle special cases",
-                                "input": "Angle: 45°, Function: sin",
-                                "output": "sin(45°) = 0.7071"
-                            },
                             {
                                 "type": "MCQ",
                                 "title": "Trigonometric Values",
@@ -41,12 +32,30 @@
                                 "correct_answer": 0
                             },
                             {
-                                "type": "Coding",
-                                "title": "Unit Circle Calculator",
-                                "question": "<p>Implement a unit circle calculator for trigonometric values.</p><p>Your calculator should:</p><ul><li>Find coordinates on unit circle for given angle</li><li>Calculate sin and cos from unit circle</li><li>Handle angles in all quadrants</li><li>Provide reference angle calculations</li><li>Show quadrant information</li></ul>",
-                                "hint": "Use (cos θ, sin θ) coordinates, determine quadrant based on angle",
-                                "input": "Angle: 150°",
-                                "output": "Coordinates: (-0.8660, 0.5), Quadrant: II"
+                                "type": "MCQ",
+                                "title": "Unit Circle",
+                                "question": "<p>What are the coordinates of the point on the unit circle at angle 45°?</p><p>Consider: Unit circle coordinates</p>",
+                                "hint": "At 45°, both x and y coordinates are equal",
+                                "options": [
+                                    "(0.5, 0.5)",
+                                    "(0.7071, 0.7071) - correct coordinates",
+                                    "(1, 1)",
+                                    "(0.8660, 0.5)"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Trigonometric Functions",
+                                "question": "<p>What is the range of the sine function?</p><p>Consider: The possible values of sin(x)</p>",
+                                "hint": "Think about the unit circle and y-coordinates",
+                                "options": [
+                                    "[0, 1] - only positive values",
+                                    "[-1, 1] - correct range",
+                                    "[0, ∞) - all non-negative values",
+                                    "(-∞, ∞) - all real numbers"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     },
@@ -56,14 +65,6 @@
                         "description": "Work with basic trigonometric identities and equations.",
                         "tags": ["trigonometric-identities", "equations", "basics"],
                         "tasks": [
-                            {
-                                "type": "Coding",
-                                "title": "Identity Verifier",
-                                "question": "<p>Create a function to verify basic trigonometric identities.</p><p>Your function should:</p><ul><li>Verify Pythagorean identity (sin²θ + cos²θ = 1)</li><li>Check quotient identity (tan θ = sin θ/cos θ)</li><li>Validate reciprocal identities</li><li>Test with different angle values</li><li>Return verification results</li></ul>",
-                                "hint": "Use numerical testing with various angles, check within tolerance",
-                                "input": "Angle: 30°, Identity: sin²θ + cos²θ = 1",
-                                "output": "Verified: true, Left side: 1.0000, Right side: 1.0000"
-                            },
                             {
                                 "type": "MCQ",
                                 "title": "Pythagorean Identity",
@@ -78,12 +79,30 @@
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Trigonometric Equation Solver",
-                                "question": "<p>Implement a basic trigonometric equation solver.</p><p>Your solver should:</p><ul><li>Solve simple equations like sin θ = k</li><li>Find solutions in specified interval</li><li>Handle multiple solutions</li><li>Use inverse trigonometric functions</li><li>Provide step-by-step solution</li></ul>",
-                                "hint": "Use inverse functions, consider periodicity, find all solutions in interval",
-                                "input": "Equation: sin θ = 0.5, Interval: [0°, 360°]",
-                                "output": "Solutions: θ = 30°, 150°"
+                                "type": "MCQ",
+                                "title": "Quotient Identity",
+                                "question": "<p>What is the quotient identity for tangent?</p><p>Consider: Relationship between tan, sin, and cos</p>",
+                                "hint": "Think about the definition of tangent",
+                                "options": [
+                                    "tan θ = sin θ + cos θ",
+                                    "tan θ = sin θ/cos θ - quotient identity",
+                                    "tan θ = sin θ × cos θ",
+                                    "tan θ = sin θ - cos θ"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Reciprocal Identities",
+                                "question": "<p>What is the reciprocal of sine?</p><p>Consider: Reciprocal trigonometric functions</p>",
+                                "hint": "Think about 1/sin θ",
+                                "options": [
+                                    "cosine",
+                                    "cosecant - correct reciprocal",
+                                    "secant",
+                                    "cotangent"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     }

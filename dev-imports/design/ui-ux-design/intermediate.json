@@ -3,87 +3,106 @@
         "category": { 
             "name": "Design", 
             "slug": "design", 
-            "description": "Master design principles, user experience, and visual communication skills.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/design.svg"
+            "description": "Master design principles, user experience, and visual communication techniques."
         },
         "sub_categories": [
             { 
                 "name": "UI/UX Design", 
                 "slug": "ui-ux-design", 
                 "description": "Learn user interface and user experience design principles and best practices.", 
-                "image": null,
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Advanced UI Components",
-                        "description": "Design and implement complex UI components with advanced interactions.",
-                        "tags": ["ui", "components", "interactions"],
+                        "description": "Master advanced UI component design and implementation.",
+                        "tags": ["ui-components", "advanced", "intermediate"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Modal Component Design",
-                                "question": "<p>Create a reusable modal component with advanced features.</p><p>Your modal should:</p><ul><li>Have backdrop overlay with click-to-close</li><li>Support keyboard navigation (Esc to close)</li><li>Include focus management (trap focus inside modal)</li><li>Be fully accessible with ARIA attributes</li><li>Support different sizes and positions</li></ul>",
-                                "hint": "Use CSS for backdrop, JavaScript for keyboard events, and ARIA for accessibility",
-                                "input": "Modal with title 'Confirm Action' and content",
-                                "output": "Accessible modal component with keyboard support and focus management"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Modal Accessibility",
-                                "question": "<p>What is the purpose of focus trapping in modal dialogs?</p><p>Consider: How keyboard users navigate through web content</p>",
-                                "hint": "Think about keeping focus within the modal boundaries",
+                                "title": "Component Design Systems",
+                                "question": "<p>What is a design system?</p><p>Consider: Consistent design language and reusable components</p>",
+                                "hint": "Think about creating a unified design language",
                                 "options": [
-                                    "To prevent users from clicking outside - visual containment",
-                                    "To keep keyboard focus within modal for accessibility",
-                                    "To improve performance - reduce DOM queries",
-                                    "To enhance visual design - better aesthetics"
+                                    "A single design file",
+                                    "A collection of reusable components and design guidelines",
+                                    "A color palette only",
+                                    "A typography guide only"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Dropdown Menu Component",
-                                "question": "<p>Design a dropdown menu component with proper UX patterns.</p><p>Your dropdown should:</p><ul><li>Open on click/hover with smooth animation</li><li>Close when clicking outside or pressing Esc</li><li>Support keyboard navigation (arrow keys)</li><li>Show active/hover states clearly</li><li>Be accessible to screen readers</li></ul>",
-                                "hint": "Use CSS transitions for animations, JavaScript for keyboard handling, and ARIA for accessibility",
-                                "input": "Dropdown with options: Profile, Settings, Logout",
-                                "output": "Accessible dropdown with keyboard navigation and smooth animations"
+                                "type": "MCQ",
+                                "title": "Responsive Design",
+                                "question": "<p>What is the mobile-first approach in responsive design?</p><p>Consider: Starting with mobile and scaling up</p>",
+                                "hint": "Think about designing for the smallest screen first",
+                                "options": [
+                                    "Designing only for mobile devices",
+                                    "Starting with mobile design and scaling up to larger screens",
+                                    "Making everything smaller on mobile",
+                                    "Using only mobile-friendly fonts"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Accessibility Standards",
+                                "question": "<p>What does WCAG stand for in accessibility?</p><p>Consider: Web accessibility guidelines</p>",
+                                "hint": "Think about web content accessibility",
+                                "options": [
+                                    "Web Content Accessibility Guidelines",
+                                    "Web Coding and Graphics",
+                                    "Web Color and Graphics",
+                                    "Web Content and Graphics"
+                                ],
+                                "correct_answer": 0
                             }
                         ]
                     },
                     {
                         "level": "Intermediate",
                         "title": "User Research & Testing",
-                        "description": "Conduct user research and usability testing to improve design decisions.",
-                        "tags": ["ux", "research", "testing"],
+                        "description": "Master user research methods and usability testing techniques.",
+                        "tags": ["user-research", "testing", "intermediate"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "A/B Testing Implementation",
-                                "question": "<p>Implement a simple A/B testing framework for UI components.</p><p>Your framework should:</p><ul><li>Randomly assign users to test groups</li><li>Track user interactions and conversions</li><li>Store results in localStorage or similar</li><li>Calculate statistical significance</li><li>Provide clear metrics and insights</li></ul>",
-                                "hint": "Use Math.random() for group assignment, track events, and calculate conversion rates",
-                                "input": "Test button color: red vs blue, track clicks",
-                                "output": "A/B testing framework with metrics and statistical analysis"
+                                "type": "MCQ",
+                                "title": "User Research Methods",
+                                "question": "<p>What is the difference between qualitative and quantitative research?</p><p>Consider: Types of data collected</p>",
+                                "hint": "Think about numbers vs. descriptive data",
+                                "options": [
+                                    "Qualitative uses numbers, quantitative uses descriptions",
+                                    "Qualitative uses descriptions, quantitative uses numbers",
+                                    "Both use only numbers",
+                                    "Both use only descriptions"
+                                ],
+                                "correct_answer": 1
                             },
                             {
                                 "type": "MCQ",
-                                "title": "Statistical Significance",
-                                "question": "<p>What is the minimum sample size typically needed for A/B testing?</p><p>Consider: Statistical power and confidence levels</p>",
-                                "hint": "Think about having enough data to make reliable conclusions",
+                                "title": "Usability Testing",
+                                "question": "<p>What is the main purpose of usability testing?</p><p>Consider: Identifying user problems</p>",
+                                "hint": "Think about finding issues with the user experience",
                                 "options": [
-                                    "10-50 users - small sample for quick results",
-                                    "100-500 users - minimum for statistical significance",
-                                    "1000+ users - recommended for reliable results",
-                                    "Sample size doesn't matter - any number works"
+                                    "To make the design beautiful",
+                                    "To identify usability problems and improve user experience",
+                                    "To increase website speed",
+                                    "To reduce development costs"
                                 ],
-                                "correct_answer": 2
+                                "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "User Feedback System",
-                                "question": "<p>Create a user feedback collection system for a web application.</p><p>Your system should:</p><ul><li>Allow users to rate their experience (1-5 stars)</li><li>Collect qualitative feedback via text input</li><li>Track user session data and context</li><li>Store feedback securely and anonymously</li><li>Provide analytics dashboard for insights</li></ul>",
-                                "hint": "Use forms for data collection, localStorage for session data, and JSON for storage",
-                                "input": "Feedback form with rating and comment fields",
-                                "output": "Complete feedback system with analytics and data visualization"
+                                "type": "MCQ",
+                                "title": "A/B Testing",
+                                "question": "<p>What is A/B testing used for?</p><p>Consider: Comparing two versions</p>",
+                                "hint": "Think about testing different versions to see which performs better",
+                                "options": [
+                                    "Testing only one version",
+                                    "Comparing two versions to see which performs better",
+                                    "Testing all versions at once",
+                                    "Testing without users"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     }

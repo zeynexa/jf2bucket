@@ -3,87 +3,106 @@
         "category": { 
             "name": "Design", 
             "slug": "design", 
-            "description": "Master design principles, user experience, and visual communication skills.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/design.svg"
+            "description": "Master design principles, user experience, and visual communication techniques."
         },
         "sub_categories": [
             { 
                 "name": "Graphic Design", 
                 "slug": "graphic-design", 
-                "description": "Learn graphic design principles, visual communication, and creative design techniques.", 
-                "image": null,
+                "description": "Learn graphic design principles and visual communication techniques.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Design System Architecture",
-                        "description": "Design and implement comprehensive design systems and component libraries.",
-                        "tags": ["design-systems", "architecture", "component-libraries"],
+                        "description": "Master design system architecture and advanced design patterns.",
+                        "tags": ["design-systems", "architecture", "expert"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Design Token Architecture",
-                                "question": "<p>Create a comprehensive design token system with semantic naming and theme support.</p><p>Your system should:</p><ul><li>Define semantic design tokens for all design elements</li><li>Support multiple themes (light, dark, high contrast)</li><li>Include responsive breakpoints and spacing scales</li><li>Provide TypeScript definitions and documentation</li><li>Support design-to-code workflow integration</li></ul>",
-                                "hint": "Use semantic naming conventions, CSS custom properties, and theme switching mechanisms",
-                                "input": "Design tokens for colors, typography, spacing, and breakpoints",
-                                "output": "Complete design token system with theme support and documentation"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Design Token Benefits",
-                                "question": "<p>What is the primary advantage of using semantic design tokens?</p><p>Consider: How tokens improve design consistency and maintainability</p>",
-                                "hint": "Think about centralized design values and meaning-based naming",
+                                "title": "Design System Components",
+                                "question": "<p>What are the core components of a design system?</p><p>Consider: Essential elements for consistency</p>",
+                                "hint": "Think about what makes a design system complete",
                                 "options": [
-                                    "Faster loading times - performance optimization",
-                                    "Semantic meaning and design consistency - purpose-based naming",
-                                    "Smaller file sizes - compression benefits",
-                                    "Better SEO - search engine optimization"
+                                    "Only colors and fonts",
+                                    "Colors, typography, components, and guidelines",
+                                    "Only components",
+                                    "Only guidelines"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Component Library Architecture",
-                                "question": "<p>Design a scalable component library with proper abstraction and composition.</p><p>Your architecture should:</p><ul><li>Implement atomic design principles (atoms, molecules, organisms)</li><li>Use composition over inheritance patterns</li><li>Include proper TypeScript interfaces and prop validation</li><li>Support theme customization and variant systems</li><li>Provide comprehensive testing and documentation</li></ul>",
-                                "hint": "Use atomic design methodology, composition patterns, and proper TypeScript typing",
-                                "input": "Component library with Button, Card, Modal, and Page components",
-                                "output": "Scalable component architecture with proper abstraction and documentation"
+                                "type": "MCQ",
+                                "title": "Design Token Management",
+                                "question": "<p>What is the purpose of design token management?</p><p>Consider: Centralizing design decisions</p>",
+                                "hint": "Think about maintaining consistency across platforms",
+                                "options": [
+                                    "Making designs more colorful",
+                                    "Centralizing design decisions for consistency",
+                                    "Making everything smaller",
+                                    "Adding more fonts"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Design System Governance",
+                                "question": "<p>What is design system governance?</p><p>Consider: Managing and maintaining design systems</p>",
+                                "hint": "Think about processes for maintaining consistency",
+                                "options": [
+                                    "Creating new designs",
+                                    "Processes for maintaining and evolving design systems",
+                                    "Deleting old components",
+                                    "Changing colors only"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     },
                     {
                         "level": "Expert",
                         "title": "Advanced Visual Effects",
-                        "description": "Implement cutting-edge visual effects and advanced CSS techniques.",
-                        "tags": ["visual-effects", "advanced-css", "modern-techniques"],
+                        "description": "Master advanced visual effects and design techniques.",
+                        "tags": ["visual-effects", "advanced", "expert"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "3D CSS Transformations",
-                                "question": "<p>Create advanced 3D visual effects using CSS transforms and perspective.</p><p>Your effects should:</p><ul><li>Implement 3D card flip animations</li><li>Create parallax scrolling effects</li><li>Use CSS perspective and transform3d</li><li>Include smooth transitions and easing</li><li>Handle performance optimization for mobile</li></ul>",
-                                "hint": "Use transform3d, perspective, backface-visibility, and will-change for performance",
-                                "input": "3D card with flip animation and parallax scrolling",
-                                "output": "Advanced 3D effects with smooth animations and performance optimization"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "CSS Performance Optimization",
-                                "question": "<p>What is the most important factor for CSS animation performance?</p><p>Consider: Browser rendering pipeline and GPU acceleration</p>",
-                                "hint": "Think about which properties trigger layout, paint, or composite operations",
+                                "title": "Visual Effects in Design",
+                                "question": "<p>What is the purpose of visual effects in graphic design?</p><p>Consider: Enhancing visual appeal and communication</p>",
+                                "hint": "Think about making designs more engaging",
                                 "options": [
-                                    "Animation duration - shorter is better",
-                                    "Property choice - composite-only properties are fastest",
-                                    "Easing function - linear is fastest",
-                                    "Animation complexity - simpler is better"
+                                    "Making everything flashy",
+                                    "Enhancing visual appeal and communication",
+                                    "Making designs slower",
+                                    "Using only bright colors"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Advanced CSS Grid Layouts",
-                                "question": "<p>Implement complex CSS Grid layouts with dynamic content and responsive behavior.</p><p>Your layouts should:</p><ul><li>Use CSS Grid with auto-fit and auto-fill</li><li>Implement masonry-style layouts</li><li>Handle dynamic content insertion</li><li>Support responsive breakpoints</li><li>Include accessibility considerations</li></ul>",
-                                "hint": "Use auto-fit/auto-fill, minmax(), and grid-template-columns with responsive units",
-                                "input": "Dynamic grid layout with auto-fitting columns and responsive behavior",
-                                "output": "Complex CSS Grid layout with dynamic content and accessibility"
+                                "type": "MCQ",
+                                "title": "3D Design Principles",
+                                "question": "<p>What are 3D design principles in graphic design?</p><p>Consider: Creating depth and dimension</p>",
+                                "hint": "Think about adding depth to flat designs",
+                                "options": [
+                                    "Making everything flat",
+                                    "Creating depth and dimension in designs",
+                                    "Using only 3D software",
+                                    "Making designs smaller"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Motion Design",
+                                "question": "<p>What is motion design in graphic design?</p><p>Consider: Adding movement to static designs</p>",
+                                "hint": "Think about bringing designs to life",
+                                "options": [
+                                    "Making everything move",
+                                    "Adding purposeful movement to enhance communication",
+                                    "Using only animations",
+                                    "Making designs faster"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     }

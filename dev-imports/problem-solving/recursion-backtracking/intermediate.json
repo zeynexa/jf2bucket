@@ -10,146 +10,98 @@
             { 
                 "name": "Recursion & Backtracking", 
                 "slug": "recursion-backtracking", 
-                "description": "Master recursive thinking and backtracking algorithms for complex problem solving.", 
+                "description": "Master recursive algorithms and backtracking techniques for complex problem solving.", 
                 "image": null,
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Advanced Recursion",
-                        "description": "Implement complex recursive algorithms and optimization techniques.",
+                        "description": "Master advanced recursive algorithms and optimization techniques.",
                         "tags": ["recursion", "advanced", "optimization"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Tower of Hanoi",
-                                "question": "<p>Write a recursive function to solve the Tower of Hanoi puzzle.</p><p>Your function should:</p><ul><li>Accept number of disks n</li><li>Print the moves to solve the puzzle</li><li>Use recursion with three towers</li><li>Follow the rules: only move one disk at a time, larger disk cannot be on smaller</li></ul><p>Format: Move disk from tower to tower</p>",
-                                "hint": "Move n-1 disks to auxiliary tower, move largest disk to destination, then move n-1 disks to destination",
-                                "input": "3",
-                                "output": "Move disk 1 from A to C\nMove disk 2 from A to B\nMove disk 1 from C to B\nMove disk 3 from A to C\nMove disk 1 from B to A\nMove disk 2 from B to C\nMove disk 1 from A to C"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Recursion Stack Depth",
-                                "question": "<p>What is the maximum recursion depth for Tower of Hanoi with n disks?</p><p>Consider: Each recursive call adds one level to the stack</p>",
-                                "hint": "Think about how many recursive calls are made",
+                                "title": "Tail Recursion",
+                                "question": "<p>What is the main advantage of tail recursion?</p><p>Consider: How tail recursion can be optimized</p>",
+                                "hint": "Think about stack space and compiler optimization",
                                 "options": [
-                                    "O(1) - constant depth",
-                                    "O(n) - linear depth, one call per disk",
-                                    "O(2^n) - exponential depth",
-                                    "O(n log n) - linearithmic depth"
+                                    "Faster execution",
+                                    "Can be optimized to use constant stack space",
+                                    "More readable code",
+                                    "Better memory usage"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Binary Tree Traversal",
-                                "question": "<p>Write a recursive function to perform inorder traversal of a binary tree.</p><p>Your function should:</p><ul><li>Accept a binary tree node</li><li>Print nodes in inorder sequence (left, root, right)</li><li>Use recursion</li><li>Handle null nodes</li></ul><p>Note: Inorder traversal visits left subtree, then root, then right subtree</p>",
-                                "hint": "Recursively traverse left subtree, visit current node, then traverse right subtree",
-                                "input": "1 2 3 4 5",
-                                "output": "4 2 5 1 3"
+                                "type": "MCQ",
+                                "title": "Memoization",
+                                "question": "<p>What is memoization used for in recursive functions?</p><p>Consider: Avoiding redundant calculations</p>",
+                                "hint": "Think about storing and reusing computed results",
+                                "options": [
+                                    "To make code more readable",
+                                    "To avoid recalculating same subproblems",
+                                    "To reduce function parameters",
+                                    "To increase recursion depth"
+                                ],
+                                "correct_answer": 1
                             },
                             {
                                 "type": "MCQ",
-                                "title": "Tree Traversal Complexity",
-                                "question": "<p>What is the time complexity of inorder tree traversal?</p><p>Consider: Each node is visited exactly once</p>",
-                                "hint": "Think about how many nodes are processed",
+                                "title": "Recursive Tree Traversal",
+                                "question": "<p>What is the time complexity of recursive tree traversal?</p><p>Consider: Visiting each node exactly once</p>",
+                                "hint": "Think about the number of nodes in the tree",
                                 "options": [
                                     "O(1) - constant time",
-                                    "O(n) - linear time, visit each node once",
+                                    "O(n) - linear time, visits each node once",
                                     "O(n log n) - linearithmic time",
                                     "O(n²) - quadratic time"
                                 ],
                                 "correct_answer": 1
-                            },
-                            {
-                                "type": "Coding",
-                                "title": "Merge Sort Recursive",
-                                "question": "<p>Write a recursive function to implement merge sort.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Sort the array using recursive merge sort</li><li>Return the sorted array</li><li>Handle arrays of any size</li></ul><p>Note: Divide array in half, sort each half recursively, then merge</p>",
-                                "hint": "Divide array into two halves, recursively sort each half, then merge sorted halves",
-                                "input": "38 27 43 3 9 82 10",
-                                "output": "3 9 10 27 38 43 82"
-                            },
-                            {
-                                "type": "MCQ",
-                                "title": "Recursive Merge Sort",
-                                "question": "<p>What is the space complexity of recursive merge sort?</p><p>Consider: Merge sort needs temporary arrays for merging</p>",
-                                "hint": "Think about extra space needed for merging sorted subarrays",
-                                "options": [
-                                    "O(1) - constant space",
-                                    "O(log n) - logarithmic space for recursion",
-                                    "O(n) - linear space for temporary arrays",
-                                    "O(n²) - quadratic space"
-                                ],
-                                "correct_answer": 2
                             }
                         ]
                     },
                     {
                         "level": "Intermediate",
                         "title": "Advanced Backtracking",
-                        "description": "Solve complex backtracking problems with multiple constraints and optimizations.",
+                        "description": "Master advanced backtracking techniques and constraint satisfaction.",
                         "tags": ["backtracking", "advanced", "constraints"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "N-Queens Problem",
-                                "question": "<p>Write a function to solve the N-Queens problem.</p><p>Your function should:</p><ul><li>Accept board size n</li><li>Place n queens so no two queens threaten each other</li><li>Return one valid solution</li><li>Use backtracking approach</li></ul><p>Note: Queens cannot share row, column, or diagonal</p>",
-                                "hint": "Try placing queen in each column of current row, check if valid, then recurse to next row",
-                                "input": "4",
-                                "output": ".Q..\n...Q\nQ...\n..Q."
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "N-Queens Complexity",
-                                "question": "<p>What is the time complexity of the N-Queens backtracking solution?</p><p>Consider: Each row has n choices, and there are n rows</p>",
-                                "hint": "Think about the branching factor and depth of the search tree",
+                                "title": "Constraint Satisfaction",
+                                "question": "<p>What is a constraint in backtracking problems?</p><p>Consider: Rules that must be satisfied</p>",
+                                "hint": "Think about conditions that limit valid solutions",
                                 "options": [
-                                    "O(n) - linear time",
-                                    "O(n!) - factorial time, n choices for each row",
-                                    "O(n²) - quadratic time",
-                                    "O(2^n) - exponential time"
+                                    "A programming language feature",
+                                    "A rule that must be satisfied for a valid solution",
+                                    "A data structure",
+                                    "An algorithm optimization"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Sudoku Solver",
-                                "question": "<p>Write a function to solve a Sudoku puzzle.</p><p>Your function should:</p><ul><li>Accept a 9x9 Sudoku grid</li><li>Fill empty cells (0) with valid numbers</li><li>Use backtracking approach</li><li>Return solved grid</li></ul><p>Rules: Each row, column, and 3x3 box must contain 1-9 without repetition</p>",
-                                "hint": "Try numbers 1-9 in each empty cell, check if valid, then recurse to next empty cell",
-                                "input": "5 3 0 0 7 0 0 0 0\n6 0 0 1 9 5 0 0 0\n0 9 8 0 0 0 0 6 0\n8 0 0 0 6 0 0 0 3\n4 0 0 8 0 3 0 0 1\n7 0 0 0 2 0 0 0 6\n0 6 0 0 0 0 2 8 0\n0 0 0 4 1 9 0 0 5\n0 0 0 0 8 0 0 7 9",
-                                "output": "5 3 4 6 7 8 9 1 2\n6 7 2 1 9 5 3 4 8\n1 9 8 3 4 2 5 6 7\n8 5 9 7 6 1 4 2 3\n4 2 6 8 5 3 7 9 1\n7 1 3 9 2 4 8 5 6\n9 6 1 5 3 7 2 8 4\n2 8 7 4 1 9 6 3 5\n3 4 5 2 8 6 1 7 9"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Sudoku Backtracking",
-                                "question": "<p>What is the key optimization in Sudoku backtracking?</p><p>Consider: Not all numbers are valid in every cell</p>",
-                                "hint": "Think about reducing the search space",
+                                "title": "Pruning in Backtracking",
+                                "question": "<p>What is pruning in backtracking algorithms?</p><p>Consider: Eliminating invalid search paths</p>",
+                                "hint": "Think about stopping exploration of certain branches",
                                 "options": [
-                                    "Using heuristics - guess and check",
-                                    "Constraint propagation - eliminate invalid choices early",
-                                    "Random placement - try random numbers",
-                                    "Brute force - try all combinations"
+                                    "Removing tree branches",
+                                    "Eliminating invalid search paths early",
+                                    "Sorting the search space",
+                                    "Compressing the solution"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Word Search",
-                                "question": "<p>Write a function to find if a word exists in a 2D board.</p><p>Your function should:</p><ul><li>Accept a 2D character board and target word</li><li>Search for word using adjacent cells (up, down, left, right)</li><li>Use backtracking approach</li><li>Return true if word found, false otherwise</li></ul><p>Note: Cannot reuse the same cell in the same path</p>",
-                                "hint": "Start from each cell, try all four directions, mark visited cells, backtrack when needed",
-                                "input": "ABCE\nSFCS\nADEE\nSEE",
-                                "output": "true"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Word Search Complexity",
-                                "question": "<p>What is the time complexity of word search backtracking?</p><p>Consider: For each starting position, explore all possible paths</p>",
-                                "hint": "Think about the branching factor and maximum path length",
+                                "title": "Backtracking vs DFS",
+                                "question": "<p>How is backtracking related to Depth-First Search (DFS)?</p><p>Consider: Search strategy and exploration</p>",
+                                "hint": "Think about the exploration pattern",
                                 "options": [
-                                    "O(m*n) - linear in board size",
-                                    "O(m*n*4^L) - where L is word length, 4 directions",
-                                    "O(4^(m*n)) - exponential in board size",
-                                    "O(m*n*L) - linear in board size and word length"
+                                    "They are completely different algorithms",
+                                    "Backtracking is a systematic DFS with pruning",
+                                    "DFS is a type of backtracking",
+                                    "They have no relationship"
                                 ],
                                 "correct_answer": 1
                             }

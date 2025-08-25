@@ -3,87 +3,106 @@
         "category": { 
             "name": "Aptitude", 
             "slug": "aptitude", 
-            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
         },
         "sub_categories": [
             { 
                 "name": "Algebra", 
                 "slug": "algebra", 
-                "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.",
-                "image": null,
+                "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "Linear Equations",
-                        "description": "Solve basic linear equations and understand algebraic fundamentals.",
-                        "tags": ["linear-equations", "algebra", "basics"],
+                        "description": "Learn fundamental linear equations and their solutions.",
+                        "tags": ["linear-equations", "basics", "fundamentals"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Linear Equation Solver",
-                                "question": "<p>Write a function to solve linear equations in one variable.</p><p>Your function should:</p><ul><li>Accept coefficients a and b for equation ax + b = 0</li><li>Solve for x and return the solution</li><li>Handle special cases (a = 0, infinite solutions)</li><li>Return the solution as a fraction or decimal</li><li>Validate input parameters</li></ul>",
-                                "hint": "Use the formula x = -b/a, handle division by zero, and check for special cases",
-                                "input": "2 -6",
-                                "output": "3"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Linear Equation Properties",
-                                "question": "<p>What is the solution to the equation 3x + 6 = 0?</p><p>Consider: Linear equations have exactly one solution unless coefficients are zero</p>",
-                                "hint": "Use the formula x = -b/a where a=3 and b=6",
+                                "title": "Linear Equation Definition",
+                                "question": "<p>What is a linear equation?</p><p>Consider: The form and degree of the equation</p>",
+                                "hint": "Think about the highest power of the variable",
                                 "options": [
-                                    "x = 2 - positive solution",
-                                    "x = -2 - negative solution",
-                                    "x = 0 - zero solution",
-                                    "No solution - equation is invalid"
+                                    "Any equation with variables",
+                                    "An equation where the highest power of variable is 1",
+                                    "An equation with only numbers",
+                                    "An equation with fractions"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "System of Linear Equations",
-                                "question": "<p>Solve a system of two linear equations using substitution method.</p><p>Your function should:</p><ul><li>Accept coefficients for two equations: a1x + b1y = c1, a2x + b2y = c2</li><li>Use substitution method to solve for x and y</li><li>Handle cases with no solution or infinite solutions</li><li>Return both x and y values</li><li>Validate the solution by substitution</li></ul>",
-                                "hint": "Solve one equation for one variable, substitute into the other equation, then back-substitute",
-                                "input": "2 3 8\n4 1 9",
-                                "output": "x=2, y=1"
+                                "type": "MCQ",
+                                "title": "Solving Linear Equations",
+                                "question": "<p>What is the solution to 2x + 3 = 7?</p><p>Consider: Isolating the variable</p>",
+                                "hint": "Subtract 3 from both sides, then divide by 2",
+                                "options": [
+                                    "x = 1",
+                                    "x = 2",
+                                    "x = 3",
+                                    "x = 4"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Linear Equation Properties",
+                                "question": "<p>How many solutions does a linear equation have?</p><p>Consider: The nature of linear equations</p>",
+                                "hint": "Think about the graph of a linear equation",
+                                "options": [
+                                    "No solutions",
+                                    "Exactly one solution",
+                                    "Two solutions",
+                                    "Infinite solutions"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     },
                     {
                         "level": "Beginner",
                         "title": "Quadratic Equations",
-                        "description": "Solve quadratic equations and understand their properties.",
-                        "tags": ["quadratic-equations", "algebra", "basics"],
+                        "description": "Learn fundamental quadratic equations and their solutions.",
+                        "tags": ["quadratic-equations", "basics", "fundamentals"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Quadratic Formula Solver",
-                                "question": "<p>Implement the quadratic formula to solve ax² + bx + c = 0.</p><p>Your function should:</p><ul><li>Accept coefficients a, b, and c</li><li>Calculate discriminant (b² - 4ac)</li><li>Return real solutions using quadratic formula</li><li>Handle cases with no real solutions</li><li>Return solutions as decimals or fractions</li></ul>",
-                                "hint": "Use x = (-b ± √(b² - 4ac)) / (2a), check discriminant for real solutions",
-                                "input": "1 -5 6",
-                                "output": "x=3, x=2"
+                                "type": "MCQ",
+                                "title": "Quadratic Equation Form",
+                                "question": "<p>What is the standard form of a quadratic equation?</p><p>Consider: The general form with coefficients</p>",
+                                "hint": "Think about the highest power of x",
+                                "options": [
+                                    "ax + b = 0",
+                                    "ax² + bx + c = 0",
+                                    "ax³ + bx² + cx + d = 0",
+                                    "ax + by = c"
+                                ],
+                                "correct_answer": 1
                             },
                             {
                                 "type": "MCQ",
-                                "title": "Quadratic Equation Roots",
-                                "question": "<p>What is the discriminant of the equation x² - 4x + 4 = 0?</p><p>Consider: Discriminant = b² - 4ac where a=1, b=-4, c=4</p>",
-                                "hint": "Calculate b² - 4ac with the given coefficients",
+                                "title": "Quadratic Formula",
+                                "question": "<p>What is the quadratic formula?</p><p>Consider: The formula to solve any quadratic equation</p>",
+                                "hint": "Think about the formula that gives both solutions",
                                 "options": [
-                                    "0 - perfect square, one real root",
-                                    "4 - positive, two real roots",
-                                    "-4 - negative, no real roots",
-                                    "16 - positive, two real roots"
+                                    "x = -b/a",
+                                    "x = (-b ± √(b² - 4ac)) / 2a",
+                                    "x = b/a",
+                                    "x = √(b² - 4ac)"
                                 ],
-                                "correct_answer": 0
+                                "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Factoring Quadratic Equations",
-                                "question": "<p>Write a function to factor quadratic equations when possible.</p><p>Your function should:</p><ul><li>Accept coefficients a, b, and c for ax² + bx + c</li><li>Find factors that multiply to ac and add to b</li><li>Return the factored form (px + q)(rx + s)</li><li>Handle cases where factoring is not possible</li><li>Validate the factored form by expansion</li></ul>",
-                                "hint": "Find two numbers that multiply to a*c and add to b, then use these for factoring",
-                                "input": "1 5 6",
-                                "output": "(x+2)(x+3)"
+                                "type": "MCQ",
+                                "title": "Discriminant",
+                                "question": "<p>What does the discriminant (b² - 4ac) tell us about a quadratic equation?</p><p>Consider: The nature of the roots</p>",
+                                "hint": "Think about how many real solutions exist",
+                                "options": [
+                                    "The value of x",
+                                    "The number and nature of real roots",
+                                    "The coefficient of x²",
+                                    "The constant term"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     }

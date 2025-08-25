@@ -10,148 +10,100 @@
             { 
                 "name": "Recursion & Backtracking", 
                 "slug": "recursion-backtracking", 
-                "description": "Master recursive thinking and backtracking algorithms for complex problem solving.", 
+                "description": "Master recursive algorithms and backtracking techniques for complex problem solving.", 
                 "image": null,
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Advanced Recursive Algorithms",
-                        "description": "Implement highly optimized recursive algorithms and solve complex recursive problems.",
-                        "tags": ["recursion", "optimization", "advanced"],
+                        "description": "Master complex recursive algorithms and advanced optimization techniques.",
+                        "tags": ["recursion", "advanced", "complex"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Memoized Fibonacci",
-                                "question": "<p>Write a memoized recursive function to calculate Fibonacci numbers efficiently.</p><p>Your function should:</p><ul><li>Accept a non-negative integer n</li><li>Use memoization to avoid redundant calculations</li><li>Return the nth Fibonacci number</li><li>Handle large values efficiently</li></ul><p>Note: Use a cache/map to store previously calculated values</p>",
-                                "hint": "Store calculated Fibonacci values in a map to avoid recalculating",
-                                "input": "40",
-                                "output": "102334155"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Memoization Benefits",
-                                "question": "<p>What is the time complexity of memoized Fibonacci?</p><p>Consider: Each Fibonacci number is calculated only once</p>",
-                                "hint": "Think about how many unique calculations are made",
+                                "title": "Mutual Recursion",
+                                "question": "<p>What is mutual recursion?</p><p>Consider: Functions calling each other recursively</p>",
+                                "hint": "Think about two or more functions calling each other",
                                 "options": [
-                                    "O(1) - constant time",
-                                    "O(n) - linear time, each number calculated once",
-                                    "O(n²) - quadratic time",
-                                    "O(2^n) - exponential time"
+                                    "A single function calling itself",
+                                    "Two or more functions calling each other recursively",
+                                    "A recursive function with multiple parameters",
+                                    "A function with multiple base cases"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Recursive Binary Search Tree",
-                                "question": "<p>Write a recursive function to validate if a binary tree is a valid BST.</p><p>Your function should:</p><ul><li>Accept a binary tree root node</li><li>Check if tree satisfies BST property</li><li>Use recursion with range checking</li><li>Return true if valid BST, false otherwise</li></ul><p>Note: Left subtree < root < right subtree for all nodes</p>",
-                                "hint": "Pass valid range (min, max) to each recursive call and check if current node is within range",
-                                "input": "5 1 4 null null 3 6",
-                                "output": "false"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "BST Validation Complexity",
-                                "question": "<p>What is the time complexity of recursive BST validation?</p><p>Consider: Each node is visited exactly once</p>",
-                                "hint": "Think about how many nodes are processed",
+                                "title": "Recursive Descent Parsing",
+                                "question": "<p>What is recursive descent parsing used for?</p><p>Consider: Parsing structured data</p>",
+                                "hint": "Think about analyzing and processing text or code",
                                 "options": [
-                                    "O(1) - constant time",
-                                    "O(n) - linear time, visit each node once",
-                                    "O(n log n) - linearithmic time",
-                                    "O(n²) - quadratic time"
+                                    "Sorting algorithms",
+                                    "Parsing and analyzing structured text or code",
+                                    "Search algorithms",
+                                    "Data compression"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Recursive Graph DFS",
-                                "question": "<p>Write a recursive function to perform depth-first search on a graph.</p><p>Your function should:</p><ul><li>Accept a graph (adjacency list) and starting vertex</li><li>Traverse the graph using recursive DFS</li><li>Mark visited vertices to avoid cycles</li><li>Return the traversal order</li></ul><p>Note: Use recursion instead of a stack</p>",
-                                "hint": "Mark current vertex as visited, then recursively visit all unvisited neighbors",
-                                "input": "0:1,2\n1:0,2,3\n2:0,1,3\n3:1,2\n0",
-                                "output": "0 1 2 3"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Recursive DFS vs Iterative",
-                                "question": "<p>What is the main difference between recursive and iterative DFS?</p><p>Consider: How the call stack vs explicit stack is used</p>",
-                                "hint": "Think about memory usage and stack management",
+                                "title": "Recursive Algorithm Optimization",
+                                "question": "<p>What is the main technique for optimizing recursive algorithms?</p><p>Consider: Avoiding redundant calculations</p>",
+                                "hint": "Think about storing and reusing computed results",
                                 "options": [
-                                    "Recursive uses call stack, iterative uses explicit stack",
-                                    "Recursive is faster, iterative is slower",
-                                    "Recursive uses more memory, iterative uses less",
-                                    "Recursive is simpler, iterative is more complex"
+                                    "Loop unrolling",
+                                    "Memoization - storing computed results",
+                                    "Function inlining",
+                                    "Code optimization"
                                 ],
-                                "correct_answer": 0
+                                "correct_answer": 1
                             }
                         ]
                     },
                     {
                         "level": "Expert",
                         "title": "Complex Backtracking Problems",
-                        "description": "Solve highly complex backtracking problems with multiple constraints and advanced optimizations.",
-                        "tags": ["backtracking", "complex", "optimization"],
+                        "description": "Solve complex backtracking problems with multiple constraints and advanced techniques.",
+                        "tags": ["backtracking", "complex", "advanced"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Knight's Tour",
-                                "question": "<p>Write a function to solve the Knight's Tour problem on an 8x8 chessboard.</p><p>Your function should:</p><ul><li>Find a path where knight visits every square exactly once</li><li>Use backtracking with Warnsdorff's heuristic</li><li>Return the complete tour path</li><li>Handle cases where no solution exists</li></ul><p>Note: Knight moves in L-shape (2 squares in one direction, 1 square perpendicular)</p>",
-                                "hint": "Use Warnsdorff's rule: move to square with fewest onward moves",
-                                "input": "0 0",
-                                "output": "0,0 2,1 4,2 6,3 7,5 5,6 3,7 1,6 0,4 2,5 4,6 6,7 7,5 5,4 3,3 1,2 0,0"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Knight's Tour Heuristic",
-                                "question": "<p>What is Warnsdorff's heuristic for Knight's Tour?</p><p>Consider: How to choose the next move efficiently</p>",
-                                "hint": "Think about reducing the branching factor",
+                                "title": "Constraint Propagation",
+                                "question": "<p>What is constraint propagation in backtracking?</p><p>Consider: Reducing search space by enforcing constraints</p>",
+                                "hint": "Think about eliminating invalid choices early",
                                 "options": [
-                                    "Always move to the center - central squares first",
-                                    "Move to square with fewest onward moves - reduces dead ends",
-                                    "Move in clockwise direction - systematic approach",
-                                    "Move to unvisited corner - corner squares first"
+                                    "Adding more constraints",
+                                    "Eliminating invalid choices by enforcing constraints early",
+                                    "Removing all constraints",
+                                    "Changing constraint types"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Graph Coloring",
-                                "question": "<p>Write a function to solve the graph coloring problem.</p><p>Your function should:</p><ul><li>Accept a graph and number of colors</li><li>Color vertices so no adjacent vertices have same color</li><li>Use backtracking approach</li><li>Return valid coloring or indicate impossible</li></ul><p>Note: Try colors 1 to m for each vertex, backtrack if no valid color</p>",
-                                "hint": "Try each color for current vertex, check if valid with neighbors, recurse to next vertex",
-                                "input": "0:1,2\n1:0,2,3\n2:0,1,3\n3:1,2\n3",
-                                "output": "0:1 1:2 2:3 3:1"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Graph Coloring Complexity",
-                                "question": "<p>What is the time complexity of graph coloring backtracking?</p><p>Consider: Each vertex can be colored with m different colors</p>",
-                                "hint": "Think about the branching factor and depth",
+                                "title": "Backtracking with Heuristics",
+                                "question": "<p>How do heuristics improve backtracking performance?</p><p>Consider: Guiding the search process</p>",
+                                "hint": "Think about making better choices during search",
                                 "options": [
-                                    "O(n) - linear time",
-                                    "O(m^n) - exponential time, m colors for n vertices",
-                                    "O(n log n) - linearithmic time",
-                                    "O(n²) - quadratic time"
+                                    "By making random choices",
+                                    "By guiding search toward promising solutions",
+                                    "By eliminating all choices",
+                                    "By increasing search space"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Hamiltonian Path",
-                                "question": "<p>Write a function to find a Hamiltonian path in a graph.</p><p>Your function should:</p><ul><li>Accept a graph (adjacency matrix)</li><li>Find path that visits each vertex exactly once</li><li>Use backtracking approach</li><li>Return the path or indicate none exists</li></ul><p>Note: Path doesn't need to return to start vertex</p>",
-                                "hint": "Try each unvisited neighbor for current vertex, mark visited, recurse, backtrack",
-                                "input": "0 1 1 0\n1 0 1 1\n1 1 0 1\n0 1 1 0",
-                                "output": "0 1 2 3"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Hamiltonian Path vs Cycle",
-                                "question": "<p>What is the difference between Hamiltonian path and Hamiltonian cycle?</p><p>Consider: Whether the path returns to the starting vertex</p>",
-                                "hint": "Think about the endpoint of the path",
+                                "title": "Backtracking Space Complexity",
+                                "question": "<p>What is the space complexity of backtracking algorithms?</p><p>Consider: Stack space for recursive calls</p>",
+                                "hint": "Think about the depth of the search tree",
                                 "options": [
-                                    "Path visits all vertices, cycle returns to start",
-                                    "Path is shorter, cycle is longer",
-                                    "Path uses fewer edges, cycle uses more edges",
-                                    "Path is easier to find, cycle is harder"
+                                    "O(1) - constant space",
+                                    "O(n) - linear space, depth of search tree",
+                                    "O(n²) - quadratic space",
+                                    "O(2^n) - exponential space"
                                 ],
-                                "correct_answer": 0
+                                "correct_answer": 1
                             }
                         ]
                     }

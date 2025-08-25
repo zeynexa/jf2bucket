@@ -16,74 +16,94 @@
                     {
                         "level": "Intermediate",
                         "title": "Advanced Searching",
-                        "description": "Implement advanced searching algorithms and optimization techniques.",
-                        "tags": ["searching", "algorithms", "optimization"],
+                        "description": "Master advanced searching algorithms and optimization techniques.",
+                        "tags": ["searching", "advanced", "optimization"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Search in Rotated Sorted Array",
-                                "question": "<p>Write a function that searches for a target in a rotated sorted array.</p><p>Your function should:</p><ul><li>Accept a rotated sorted array and target value</li><li>Find the target element efficiently</li><li>Return the index if found, -1 if not found</li><li>Handle cases where array is rotated at any point</li></ul><p>Example: [4,5,6,7,0,1,2] is rotated at index 3</p>",
-                                "hint": "Use binary search but check which half is sorted to determine search direction",
-                                "input": "4 5 6 7 0 1 2\n0",
-                                "output": "4"
-                            },
-                            {
                                 "type": "MCQ",
-                                "title": "Binary Search Tree Search",
-                                "question": "<p>What is the time complexity of searching in a balanced Binary Search Tree?</p><p>Consider: BST property - left subtree < root < right subtree</p>",
-                                "hint": "Think about how BST eliminates half of remaining nodes at each step",
+                                "title": "Interpolation Search",
+                                "question": "<p>What is the time complexity of interpolation search in the best case?</p><p>Consider: When elements are uniformly distributed</p>",
+                                "hint": "Think about how interpolation search estimates position",
                                 "options": [
-                                    "O(1) - constant time access",
-                                    "O(log n) - height of balanced tree",
-                                    "O(n) - linear time traversal",
-                                    "O(n log n) - linearithmic time"
+                                    "O(1) - constant time",
+                                    "O(log log n) - double logarithmic time",
+                                    "O(log n) - logarithmic time",
+                                    "O(n) - linear time"
                                 ],
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "Find Peak Element",
-                                "question": "<p>Write a function that finds a peak element in an array.</p><p>Your function should:</p><ul><li>Accept an array where arr[i] ≠ arr[i+1]</li><li>Find any peak element (greater than neighbors)</li><li>Return the index of a peak</li><li>Handle edge cases (first/last element)</li></ul>",
-                                "hint": "Use binary search - if middle is not peak, search in direction of larger neighbor",
-                                "input": "1 2 3 1",
-                                "output": "2"
+                                "type": "MCQ",
+                                "title": "Exponential Search",
+                                "question": "<p>What is the main advantage of exponential search over binary search?</p><p>Consider: When you don't know the array bounds</p>",
+                                "hint": "Think about finding the range before searching",
+                                "options": [
+                                    "Faster time complexity",
+                                    "Works on unbounded arrays - finds range first",
+                                    "Uses less memory",
+                                    "Simpler implementation"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Ternary Search",
+                                "question": "<p>What is the time complexity of ternary search?</p><p>Consider: How ternary search divides the search space</p>",
+                                "hint": "Think about dividing into three parts",
+                                "options": [
+                                    "O(log₃ n) - base 3 logarithm",
+                                    "O(log n) - same as binary search",
+                                    "O(n/3) - linear time",
+                                    "O(n log n) - linearithmic time"
+                                ],
+                                "correct_answer": 0
                             }
                         ]
                     },
                     {
                         "level": "Intermediate",
                         "title": "Advanced Sorting",
-                        "description": "Implement efficient sorting algorithms and understand their trade-offs.",
-                        "tags": ["sorting", "algorithms", "efficiency"],
+                        "description": "Master advanced sorting algorithms and their optimizations.",
+                        "tags": ["sorting", "advanced", "algorithms"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Merge Sort",
-                                "question": "<p>Write a function that implements merge sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Use divide and conquer approach</li><li>Sort the array in ascending order</li><li>Return the sorted array</li></ul>",
-                                "hint": "Divide array into halves, sort each half, then merge sorted halves",
-                                "input": "38 27 43 3 9 82 10",
-                                "output": "3 9 10 27 38 43 82"
+                                "type": "MCQ",
+                                "title": "Quick Sort Complexity",
+                                "question": "<p>What is the average case time complexity of quick sort?</p><p>Consider: How quick sort partitions the array</p>",
+                                "hint": "Think about the divide and conquer approach",
+                                "options": [
+                                    "O(n) - linear time",
+                                    "O(n log n) - linearithmic time",
+                                    "O(n²) - quadratic time",
+                                    "O(log n) - logarithmic time"
+                                ],
+                                "correct_answer": 1
                             },
                             {
                                 "type": "MCQ",
-                                "title": "Merge Sort Space Complexity",
-                                "question": "<p>What is the space complexity of merge sort?</p><p>Consider: Merge sort needs extra space to merge sorted subarrays</p>",
-                                "hint": "Think about how much extra memory is needed for merging",
+                                "title": "Merge Sort Stability",
+                                "question": "<p>Is merge sort a stable sorting algorithm?</p><p>Consider: How merge sort handles equal elements</p>",
+                                "hint": "Think about the merging process and relative order",
                                 "options": [
-                                    "O(1) - constant space, in-place sorting",
-                                    "O(log n) - logarithmic space for recursion",
-                                    "O(n) - linear space for temporary arrays",
-                                    "O(n²) - quadratic space for large arrays"
+                                    "Yes - preserves relative order of equal elements",
+                                    "No - may change relative order",
+                                    "Sometimes - depends on implementation",
+                                    "Only for small arrays"
                                 ],
-                                "correct_answer": 2
+                                "correct_answer": 0
                             },
                             {
-                                "type": "Coding",
-                                "title": "Quick Sort",
-                                "question": "<p>Write a function that implements quick sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Choose a pivot and partition around it</li><li>Recursively sort subarrays</li><li>Return the sorted array</li></ul>",
-                                "hint": "Choose pivot, partition elements smaller/larger than pivot, recurse on subarrays",
-                                "input": "64 34 25 12 22 11 90",
-                                "output": "11 12 22 25 34 64 90"
+                                "type": "MCQ",
+                                "title": "Heap Sort",
+                                "question": "<p>What is the time complexity of heap sort?</p><p>Consider: Building heap and extracting elements</p>",
+                                "hint": "Think about heapify operation and extraction",
+                                "options": [
+                                    "O(n) - linear time",
+                                    "O(n log n) - linearithmic time",
+                                    "O(n²) - quadratic time",
+                                    "O(log n) - logarithmic time"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     }

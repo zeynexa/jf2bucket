@@ -20,14 +20,6 @@
                         "tags": ["arrays", "basics", "problem-solving"],
                         "tasks": [
                             {
-                                "type": "Coding",
-                                "title": "Find Maximum Element",
-                                "question": "<p>Write a function that finds the maximum element in an array.</p><p>Your function should:</p><ul><li>Accept an array of integers as input</li><li>Find the largest number in the array</li><li>Return the maximum value</li><li>Handle edge cases like empty arrays</li></ul>",
-                                "hint": "Use a loop to compare each element with the current maximum",
-                                "input": "5 2 9 1 7 3",
-                                "output": "9"
-                            },
-                            {
                                 "type": "MCQ",
                                 "title": "Array Indexing",
                                 "question": "<p>What is the index of the first element in an array?</p><p>Consider this array: <code>[10, 20, 30, 40, 50]</code></p>",
@@ -41,12 +33,30 @@
                                 "correct_answer": 0
                             },
                             {
-                                "type": "Coding",
-                                "title": "Array Sum",
-                                "question": "<p>Write a function that calculates the sum of all elements in an array.</p><p>Your function should:</p><ul><li>Accept an array of numbers as input</li><li>Add all elements together</li><li>Return the total sum</li><li>Handle empty arrays by returning 0</li></ul>",
-                                "hint": "Use a loop to accumulate the sum or use built-in sum function",
-                                "input": "1 2 3 4 5",
-                                "output": "15"
+                                "type": "MCQ",
+                                "title": "Array Access Time",
+                                "question": "<p>What is the time complexity of accessing an element at a specific index in an array?</p><p>Consider: How arrays store elements in memory</p>",
+                                "hint": "Arrays use direct memory addressing",
+                                "options": [
+                                    "O(1) - constant time access",
+                                    "O(n) - linear time access",
+                                    "O(log n) - logarithmic time access",
+                                    "O(n²) - quadratic time access"
+                                ],
+                                "correct_answer": 0
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Array Memory Layout",
+                                "question": "<p>How are elements stored in memory for a one-dimensional array?</p><p>Consider: Memory allocation and addressing</p>",
+                                "hint": "Think about contiguous memory allocation",
+                                "options": [
+                                    "Randomly scattered in memory",
+                                    "Contiguously in adjacent memory locations",
+                                    "In a linked list structure",
+                                    "In a tree structure"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     },
@@ -56,14 +66,6 @@
                         "description": "Master basic string operations and manipulation techniques.",
                         "tags": ["strings", "basics", "problem-solving"],
                         "tasks": [
-                            {
-                                "type": "Coding",
-                                "title": "String Length",
-                                "question": "<p>Write a function that finds the length of a string without using built-in length methods.</p><p>Your function should:</p><ul><li>Accept a string as input</li><li>Count the number of characters</li><li>Return the length</li><li>Handle empty strings</li></ul>",
-                                "hint": "Use a loop to count characters one by one",
-                                "input": "Hello World",
-                                "output": "11"
-                            },
                             {
                                 "type": "MCQ",
                                 "title": "String Concatenation",
@@ -78,12 +80,30 @@
                                 "correct_answer": 1
                             },
                             {
-                                "type": "Coding",
-                                "title": "String Case Conversion",
-                                "question": "<p>Write a function that converts a string to uppercase and lowercase.</p><p>Your function should:</p><ul><li>Accept a string as input</li><li>Convert to uppercase</li><li>Convert to lowercase</li><li>Return both versions</li></ul>",
-                                "hint": "Use built-in toUpperCase() and toLowerCase() methods",
-                                "input": "Hello World",
-                                "output": "HELLO WORLD\nhello world"
+                                "type": "MCQ",
+                                "title": "String Immutability",
+                                "question": "<p>In most programming languages, strings are immutable. What does this mean?</p><p>Consider: What happens when you try to modify a string</p>",
+                                "hint": "Think about whether you can change the original string",
+                                "options": [
+                                    "Strings cannot be created",
+                                    "Strings cannot be modified after creation - new string is created",
+                                    "Strings cannot be copied",
+                                    "Strings cannot be compared"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "String Length",
+                                "question": "<p>What is the length of the string \"Hello World\"?</p><p>Consider: Count each character including spaces</p>",
+                                "hint": "Count every character in the string",
+                                "options": [
+                                    "10 - excluding space",
+                                    "11 - including space",
+                                    "12 - including null terminator",
+                                    "9 - excluding 'l' characters"
+                                ],
+                                "correct_answer": 1
                             }
                         ]
                     }
