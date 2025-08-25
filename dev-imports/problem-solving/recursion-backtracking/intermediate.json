@@ -11,6 +11,7 @@
                 "name": "Recursion & Backtracking", 
                 "slug": "recursion-backtracking", 
                 "description": "Master recursive thinking and backtracking algorithms for complex problem solving.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Intermediate",

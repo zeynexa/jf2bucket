@@ -10,7 +10,8 @@
             { 
                 "name": "Algebra", 
                 "slug": "algebra", 
-                "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.", 
+                "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.",
+                "image": null,
                 "exercises": [
                     {
                         "level": "Beginner",

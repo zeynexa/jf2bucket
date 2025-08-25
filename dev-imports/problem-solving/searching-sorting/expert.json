@@ -11,6 +11,7 @@
                 "name": "Searching & Sorting", 
                 "slug": "searching-sorting", 
                 "description": "Master fundamental searching and sorting algorithms and their implementations.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Expert",

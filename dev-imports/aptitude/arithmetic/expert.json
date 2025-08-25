@@ -11,6 +11,7 @@
                 "name": "Arithmetic", 
                 "slug": "arithmetic", 
                 "description": "Master arithmetic operations, number theory, and mathematical problem-solving techniques.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Expert",

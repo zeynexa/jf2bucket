@@ -11,6 +11,7 @@
                 "name": "UI/UX Design", 
                 "slug": "ui-ux-design", 
                 "description": "Learn user interface and user experience design principles and best practices.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Expert",

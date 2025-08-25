@@ -11,6 +11,7 @@
                 "name": "Graphic Design", 
                 "slug": "graphic-design", 
                 "description": "Learn graphic design principles, visual communication, and creative design techniques.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Intermediate",

@@ -11,6 +11,7 @@
                 "name": "Puzzles", 
                 "slug": "puzzles", 
                 "description": "Solve logical puzzles, brain teasers, and analytical thinking problems.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Expert",

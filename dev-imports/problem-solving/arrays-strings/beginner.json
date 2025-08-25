@@ -11,6 +11,7 @@
                 "name": "Arrays & Strings", 
                 "slug": "arrays-strings", 
                 "description": "Master fundamental operations on arrays and string manipulation techniques.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Beginner",

@@ -11,6 +11,7 @@
                 "name": "Series", 
                 "slug": "series", 
                 "description": "Master number series, sequences, and pattern recognition techniques.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Intermediate",

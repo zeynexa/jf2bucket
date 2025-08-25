@@ -11,6 +11,7 @@
                 "name": "Trigonometry", 
                 "slug": "tigonometry", 
                 "description": "Master trigonometric functions, identities, and applications.", 
+                "image": null,
                 "exercises": [
                     {
                         "level": "Expert",
