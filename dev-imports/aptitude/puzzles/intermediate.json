@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Puzzles", 
+                "slug": "puzzles", 
+                "description": "Solve logical puzzles, brain teasers, and analytical thinking problems.", 
+                "exercises": [
+                    {
+                        "level": "Intermediate",
+                        "title": "Advanced Logic Puzzles",
+                        "description": "Solve complex logic puzzles requiring systematic reasoning.",
+                        "tags": ["logic", "reasoning", "systematic"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Sudoku Solver",
+                                "question": "<p>Implement a Sudoku puzzle solver using backtracking.</p><p>Your solver should:</p><ul><li>Accept a 9x9 Sudoku grid with some filled cells</li><li>Use backtracking algorithm to find solution</li><li>Validate Sudoku rules (no duplicates in row/column/box)</li><li>Handle multiple solutions if they exist</li><li>Return the completed grid</li></ul>",
+                                "hint": "Use backtracking with constraint checking, try numbers 1-9 in each empty cell",
+                                "input": "5 3 0 0 7 0 0 0 0\n6 0 0 1 9 5 0 0 0\n0 9 8 0 0 0 0 6 0\n8 0 0 0 6 0 0 0 3\n4 0 0 8 0 3 0 0 1\n7 0 0 0 2 0 0 0 6\n0 6 0 0 0 0 2 8 0\n0 0 0 4 1 9 0 0 5\n0 0 0 0 8 0 0 7 9",
+                                "output": "Completed 9x9 Sudoku grid"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Constraint Satisfaction",
+                                "question": "<p>What is the time complexity of the backtracking Sudoku solver?</p><p>Consider: How many possibilities need to be explored</p>",
+                                "hint": "Think about the branching factor and depth of the search tree",
+                                "options": [
+                                    "O(n) - linear time",
+                                    "O(9^n²) - exponential time for n² empty cells",
+                                    "O(n²) - quadratic time",
+                                    "O(n log n) - linearithmic time"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "N-Queens Problem Solver",
+                                "question": "<p>Create a program to solve the N-Queens problem.</p><p>Your solver should:</p><ul><li>Place N queens on an NxN chessboard</li><li>Ensure no two queens threaten each other</li><li>Use backtracking with optimization</li><li>Find all possible solutions</li><li>Return the board configuration</li></ul>",
+                                "hint": "Use backtracking, check row, column, and diagonal conflicts",
+                                "input": "N = 4",
+                                "output": "Solution: .Q..\n...Q\nQ...\n..Q."
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Intermediate",
+                        "title": "Mathematical Puzzles",
+                        "description": "Solve mathematical puzzles and optimization problems.",
+                        "tags": ["mathematical-puzzles", "optimization", "algorithms"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Knapsack Problem Solver",
+                                "question": "<p>Implement the 0/1 Knapsack problem using dynamic programming.</p><p>Your solver should:</p><ul><li>Accept items with weights and values</li><li>Find maximum value within weight limit</li><li>Use dynamic programming approach</li><li>Return selected items and total value</li><li>Handle fractional knapsack variant</li></ul>",
+                                "hint": "Use 2D DP table, dp[i][w] = max value using first i items with weight w",
+                                "input": "Weights: [2,3,4,5], Values: [3,4,5,6], Capacity: 10",
+                                "output": "Selected: [1,1,0,1], Value: 13"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Dynamic Programming",
+                                "question": "<p>What is the time complexity of the 0/1 Knapsack DP solution?</p><p>Consider: Size of the DP table and computation</p>",
+                                "hint": "Think about the number of subproblems that need to be solved",
+                                "options": [
+                                    "O(n) - linear time",
+                                    "O(nW) - where n is items, W is capacity",
+                                    "O(n²) - quadratic time",
+                                    "O(2^n) - exponential time"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Traveling Salesman Problem",
+                                "question": "<p>Implement a solution for the Traveling Salesman Problem.</p><p>Your solver should:</p><ul><li>Find shortest tour visiting all cities once</li><li>Use nearest neighbor heuristic</li><li>Implement 2-opt local search</li><li>Handle symmetric and asymmetric distances</li><li>Return optimal tour and distance</li></ul>",
+                                "hint": "Start with nearest neighbor, then use 2-opt swaps to improve the tour",
+                                "input": "Distance matrix: [[0,10,15,20],[10,0,35,25],[15,35,0,30],[20,25,30,0]]",
+                                "output": "Tour: [0,1,3,2,0], Distance: 80"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

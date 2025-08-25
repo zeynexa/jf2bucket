@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Trigonometry", 
+                "slug": "tigonometry", 
+                "description": "Master trigonometric functions, identities, and applications.", 
+                "exercises": [
+                    {
+                        "level": "Expert",
+                        "title": "Complex Trigonometric Analysis",
+                        "description": "Analyze complex trigonometric functions and advanced concepts.",
+                        "tags": ["complex-analysis", "advanced-trigonometry", "expert"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Fourier Transform Calculator",
+                                "question": "<p>Implement a basic Fourier Transform calculator for trigonometric functions.</p><p>Your calculator should:</p><ul><li>Calculate Fourier coefficients for periodic functions</li><li>Perform discrete Fourier transform</li><li>Handle complex exponential form</li><li>Calculate power spectrum</li><li>Provide frequency domain analysis</li></ul>",
+                                "hint": "Use FFT algorithm, calculate coefficients using integration, handle complex numbers",
+                                "input": "Function: f(x) = sin(x) + 0.5sin(3x), Period: 2π",
+                                "output": "Fourier coefficients: a₁=0, b₁=1, a₃=0, b₃=0.5"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Fourier Series Properties",
+                                "question": "<p>What is the fundamental frequency of a Fourier series with period T?</p><p>Consider: Relationship between period and fundamental frequency</p>",
+                                "hint": "Fundamental frequency is the inverse of the period",
+                                "options": [
+                                    "T - same as period",
+                                    "1/T - fundamental frequency",
+                                    "2π/T - angular frequency",
+                                    "T/2π - normalized frequency"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Complex Trigonometric Functions",
+                                "question": "<p>Create a calculator for complex trigonometric functions.</p><p>Your calculator should:</p><ul><li>Calculate sin(z), cos(z) for complex z</li><li>Use Euler's formula e^(iz) = cos(z) + isin(z)</li><li>Handle complex exponentials</li><li>Calculate complex roots of unity</li><li>Provide magnitude and phase information</li></ul>",
+                                "hint": "Use Euler's formula, separate real and imaginary parts, calculate magnitude and phase",
+                                "input": "Complex number: z = 1 + i",
+                                "output": "sin(z) = 1.2985 + 0.6350i, cos(z) = 0.8337 - 0.9889i"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Expert",
+                        "title": "Advanced Trigonometric Applications",
+                        "description": "Apply advanced trigonometry to complex real-world problems.",
+                        "tags": ["advanced-applications", "real-world", "expert"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Spherical Trigonometry Calculator",
+                                "question": "<p>Implement a spherical trigonometry calculator for navigation.</p><p>Your calculator should:</p><ul><li>Calculate great circle distances</li><li>Solve spherical triangles</li><li>Use spherical law of cosines and sines</li><li>Handle navigation problems</li><li>Convert between coordinate systems</li></ul>",
+                                "hint": "Use spherical law of cosines: cos(c) = cos(a)cos(b) + sin(a)sin(b)cos(C)",
+                                "input": "Lat/Lon: (40°N, 74°W) to (51°N, 0°W)",
+                                "output": "Great circle distance: 5570 km, Bearing: 78.5°"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Spherical Trigonometry",
+                                "question": "<p>What is the spherical law of cosines used for?</p><p>Consider: Applications in spherical geometry</p>",
+                                "hint": "Think about calculating distances and angles on a sphere",
+                                "options": [
+                                    "Solving plane triangles - 2D geometry",
+                                    "Solving spherical triangles - 3D sphere geometry",
+                                    "Calculating volumes - 3D space",
+                                    "Finding areas - surface calculations"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Signal Processing Calculator",
+                                "question": "<p>Create a signal processing calculator using trigonometric functions.</p><p>Your calculator should:</p><ul><li>Generate sinusoidal signals with different frequencies</li><li>Calculate signal power and energy</li><li>Perform amplitude and phase modulation</li><li>Handle signal filtering</li><li>Analyze signal spectra</li></ul>",
+                                "hint": "Use trigonometric functions for signal generation, calculate RMS values, apply modulation",
+                                "input": "Signal: A*sin(2πft + φ), A=5, f=100Hz, φ=π/4",
+                                "output": "Signal: 5sin(200πt + π/4), RMS: 3.54, Power: 12.5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

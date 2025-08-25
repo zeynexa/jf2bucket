@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Trigonometry", 
+                "slug": "tigonometry", 
+                "description": "Master trigonometric functions, identities, and applications.", 
+                "exercises": [
+                    {
+                        "level": "Beginner",
+                        "title": "Basic Trigonometric Functions",
+                        "description": "Learn fundamental trigonometric functions and their properties.",
+                        "tags": ["trigonometric-functions", "basics", "fundamentals"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Trigonometric Calculator",
+                                "question": "<p>Create a basic trigonometric function calculator.</p><p>Your calculator should:</p><ul><li>Calculate sin, cos, tan for given angles</li><li>Handle angles in degrees and radians</li><li>Calculate inverse trigonometric functions</li><li>Handle special angles (0°, 30°, 45°, 60°, 90°)</li><li>Provide results with proper precision</li></ul>",
+                                "hint": "Use built-in math functions, convert degrees to radians, handle special cases",
+                                "input": "Angle: 45°, Function: sin",
+                                "output": "sin(45°) = 0.7071"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Trigonometric Values",
+                                "question": "<p>What is the value of cos(60°)?</p><p>Consider: Special angle values in trigonometry</p>",
+                                "hint": "Remember the special triangle with angles 30°, 60°, 90°",
+                                "options": [
+                                    "0.5 - correct value",
+                                    "0.7071 - sin(45°)",
+                                    "0.8660 - cos(30°)",
+                                    "1.0 - cos(0°)"
+                                ],
+                                "correct_answer": 0
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Unit Circle Calculator",
+                                "question": "<p>Implement a unit circle calculator for trigonometric values.</p><p>Your calculator should:</p><ul><li>Find coordinates on unit circle for given angle</li><li>Calculate sin and cos from unit circle</li><li>Handle angles in all quadrants</li><li>Provide reference angle calculations</li><li>Show quadrant information</li></ul>",
+                                "hint": "Use (cos θ, sin θ) coordinates, determine quadrant based on angle",
+                                "input": "Angle: 150°",
+                                "output": "Coordinates: (-0.8660, 0.5), Quadrant: II"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Beginner",
+                        "title": "Trigonometric Identities",
+                        "description": "Work with basic trigonometric identities and equations.",
+                        "tags": ["trigonometric-identities", "equations", "basics"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Identity Verifier",
+                                "question": "<p>Create a function to verify basic trigonometric identities.</p><p>Your function should:</p><ul><li>Verify Pythagorean identity (sin²θ + cos²θ = 1)</li><li>Check quotient identity (tan θ = sin θ/cos θ)</li><li>Validate reciprocal identities</li><li>Test with different angle values</li><li>Return verification results</li></ul>",
+                                "hint": "Use numerical testing with various angles, check within tolerance",
+                                "input": "Angle: 30°, Identity: sin²θ + cos²θ = 1",
+                                "output": "Verified: true, Left side: 1.0000, Right side: 1.0000"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Pythagorean Identity",
+                                "question": "<p>What is the Pythagorean identity in trigonometry?</p><p>Consider: Relationship between sin and cos functions</p>",
+                                "hint": "Think about the unit circle and the Pythagorean theorem",
+                                "options": [
+                                    "sin θ + cos θ = 1 - sum identity",
+                                    "sin²θ + cos²θ = 1 - Pythagorean identity",
+                                    "sin θ × cos θ = 1 - product identity",
+                                    "sin θ - cos θ = 1 - difference identity"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Trigonometric Equation Solver",
+                                "question": "<p>Implement a basic trigonometric equation solver.</p><p>Your solver should:</p><ul><li>Solve simple equations like sin θ = k</li><li>Find solutions in specified interval</li><li>Handle multiple solutions</li><li>Use inverse trigonometric functions</li><li>Provide step-by-step solution</li></ul>",
+                                "hint": "Use inverse functions, consider periodicity, find all solutions in interval",
+                                "input": "Equation: sin θ = 0.5, Interval: [0°, 360°]",
+                                "output": "Solutions: θ = 30°, 150°"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

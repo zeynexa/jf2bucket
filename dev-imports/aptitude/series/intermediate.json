@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Series", 
+                "slug": "series", 
+                "description": "Master number series, sequences, and pattern recognition techniques.", 
+                "exercises": [
+                    {
+                        "level": "Intermediate",
+                        "title": "Advanced Series Patterns",
+                        "description": "Identify and solve complex series patterns and sequences.",
+                        "tags": ["advanced-patterns", "complex-series", "intermediate"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Mixed Series Analyzer",
+                                "question": "<p>Create a function to analyze mixed series patterns.</p><p>Your function should:</p><ul><li>Detect alternating arithmetic and geometric patterns</li><li>Identify series with multiple rules</li><li>Handle series with changing differences/ratios</li><li>Predict next terms accurately</li><li>Provide pattern explanation</li></ul>",
+                                "hint": "Look for patterns in odd/even positions, check for alternating rules",
+                                "input": "Series: 2, 4, 8, 16, 32, 64, 128, 256",
+                                "output": "Pattern: Geometric with ratio 2, Next: 512"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Series Pattern Recognition",
+                                "question": "<p>What is the pattern in the series: 1, 2, 4, 7, 11, 16?</p><p>Consider: Look at the differences between consecutive terms</p>",
+                                "hint": "Calculate differences: 1, 2, 3, 4, 5",
+                                "options": [
+                                    "Arithmetic with difference 1",
+                                    "Geometric with ratio 2",
+                                    "Differences increase by 1 each time",
+                                    "Fibonacci sequence"
+                                ],
+                                "correct_answer": 2
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Recursive Series Generator",
+                                "question": "<p>Implement a recursive series generator for complex patterns.</p><p>Your generator should:</p><ul><li>Handle Fibonacci-like sequences</li><li>Generate series with custom recurrence relations</li><li>Calculate closed-form formulas</li><li>Find generating functions</li><li>Handle boundary conditions</li></ul>",
+                                "hint": "Use recurrence relations, implement memoization for efficiency",
+                                "input": "Recurrence: aₙ = 2aₙ₋₁ + aₙ₋₂, Initial: a₀=1, a₁=2",
+                                "output": "Series: [1,2,5,12,29,70,...]"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Intermediate",
+                        "title": "Series Convergence Analysis",
+                        "description": "Analyze series convergence and divergence properties.",
+                        "tags": ["convergence", "analysis", "intermediate"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Convergence Test Suite",
+                                "question": "<p>Create a comprehensive convergence test suite.</p><p>Your suite should:</p><ul><li>Implement ratio test for series convergence</li><li>Use root test for convergence analysis</li><li>Apply comparison test with known series</li><li>Handle alternating series with Leibniz test</li><li>Return convergence status and limit</li></ul>",
+                                "hint": "Use ratio test: lim |aₙ₊₁/aₙ| < 1 for convergence, root test: lim |aₙ|^(1/n) < 1",
+                                "input": "Series: Σ(1/n²) from n=1 to ∞",
+                                "output": "Convergent, Sum: π²/6"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Series Convergence Tests",
+                                "question": "<p>Which test is most appropriate for the series Σ(1/n)?</p><p>Consider: The harmonic series and its convergence properties</p>",
+                                "hint": "Think about comparing with known divergent series",
+                                "options": [
+                                    "Ratio test - for geometric-like series",
+                                    "Comparison test - compare with harmonic series",
+                                    "Root test - for power series",
+                                    "Integral test - for positive decreasing series"
+                                ],
+                                "correct_answer": 3
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Power Series Calculator",
+                                "question": "<p>Implement a power series calculator and analyzer.</p><p>Your calculator should:</p><ul><li>Calculate power series expansions</li><li>Find radius of convergence</li><li>Determine interval of convergence</li><li>Handle Taylor and Maclaurin series</li><li>Provide series approximation</li></ul>",
+                                "hint": "Use ratio test for radius of convergence, check endpoints separately",
+                                "input": "Function: e^x, Center: 0, Terms: 5",
+                                "output": "Series: 1 + x + x²/2! + x³/3! + x⁴/4!, Radius: ∞"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

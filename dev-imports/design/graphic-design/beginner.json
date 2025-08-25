@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Design", 
+            "slug": "design", 
+            "description": "Master design principles, user experience, and visual communication skills.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/design.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Graphic Design", 
+                "slug": "graphic-design", 
+                "description": "Learn graphic design principles, visual communication, and creative design techniques.", 
+                "exercises": [
+                    {
+                        "level": "Beginner",
+                        "title": "Design Principles",
+                        "description": "Learn fundamental graphic design principles and visual composition.",
+                        "tags": ["design-principles", "composition", "basics"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "CSS Grid Layout Design",
+                                "question": "<p>Create a responsive grid layout using CSS Grid for a portfolio website.</p><p>Your layout should:</p><ul><li>Use CSS Grid with proper grid-template-areas</li><li>Include header, navigation, main content, and footer</li><li>Be responsive across different screen sizes</li><li>Use semantic HTML structure</li><li>Include proper spacing and alignment</li></ul>",
+                                "hint": "Use grid-template-areas for layout structure, media queries for responsiveness, and CSS Grid properties",
+                                "input": "Portfolio layout with header, nav, main, sidebar, footer",
+                                "output": "Responsive CSS Grid layout with proper semantic structure"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Visual Hierarchy",
+                                "question": "<p>What is the most important principle for creating effective visual hierarchy?</p><p>Consider: How to guide the viewer's eye through design elements</p>",
+                                "hint": "Think about organizing information by importance and creating clear focal points",
+                                "options": [
+                                    "Using bright colors - attention-grabbing",
+                                    "Creating clear contrast and size relationships - importance hierarchy",
+                                    "Using many fonts - variety",
+                                    "Adding lots of images - visual appeal"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Color Scheme Generator",
+                                "question": "<p>Create a color scheme generator using CSS and JavaScript.</p><p>Your generator should:</p><ul><li>Generate complementary, analogous, and triadic color schemes</li><li>Display color codes and preview swatches</li><li>Allow users to adjust hue, saturation, and brightness</li><li>Provide accessibility information (contrast ratios)</li><li>Include color theory explanations</li></ul>",
+                                "hint": "Use HSL color space for easy manipulation, calculate complementary colors, and check contrast ratios",
+                                "input": "Base color: #3498db, generate complementary scheme",
+                                "output": "Interactive color scheme generator with accessibility features"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Beginner",
+                        "title": "Typography Fundamentals",
+                        "description": "Master typography principles and web font implementation.",
+                        "tags": ["typography", "fonts", "web-design"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Typography Scale System",
+                                "question": "<p>Implement a typography scale system using CSS custom properties.</p><p>Your system should:</p><ul><li>Define a consistent type scale (1.25 or 1.5 ratio)</li><li>Include font sizes, line heights, and letter spacing</li><li>Support multiple font weights and styles</li><li>Be responsive across different screen sizes</li><li>Include proper vertical rhythm</li></ul>",
+                                "hint": "Use CSS custom properties for font sizes, calculate line heights, and implement responsive scaling",
+                                "input": "Typography scale with 6 levels: h1, h2, h3, h4, h5, body",
+                                "output": "Complete typography system with responsive scaling and vertical rhythm"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Font Pairing",
+                                "question": "<p>What is the best practice for pairing fonts in web design?</p><p>Consider: How different font families work together</p>",
+                                "hint": "Think about contrast and harmony between font choices",
+                                "options": [
+                                    "Use the same font for everything - consistency",
+                                    "Pair serif and sans-serif fonts - contrast and harmony",
+                                    "Use as many different fonts as possible - variety",
+                                    "Always use decorative fonts - visual interest"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Responsive Typography",
+                                "question": "<p>Create a responsive typography system that scales with viewport size.</p><p>Your system should:</p><ul><li>Use fluid typography with clamp() or calc()</li><li>Maintain readability across all screen sizes</li><li>Include minimum and maximum font sizes</li><li>Preserve proper line lengths and spacing</li><li>Support different content types (headings, body, captions)</li></ul>",
+                                "hint": "Use CSS clamp() for fluid scaling, set min/max values, and maintain optimal line lengths",
+                                "input": "Fluid typography from 16px to 32px for headings",
+                                "output": "Responsive typography system with fluid scaling and optimal readability"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

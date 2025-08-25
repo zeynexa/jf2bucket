@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Problem Solving", 
+            "slug": "problem-solving", 
+            "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/problem-solving.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Searching & Sorting", 
+                "slug": "searching-sorting", 
+                "description": "Master fundamental searching and sorting algorithms and their implementations.", 
+                "exercises": [
+                    {
+                        "level": "Intermediate",
+                        "title": "Advanced Searching",
+                        "description": "Implement advanced searching algorithms and optimization techniques.",
+                        "tags": ["searching", "algorithms", "optimization"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Search in Rotated Sorted Array",
+                                "question": "<p>Write a function that searches for a target in a rotated sorted array.</p><p>Your function should:</p><ul><li>Accept a rotated sorted array and target value</li><li>Find the target element efficiently</li><li>Return the index if found, -1 if not found</li><li>Handle cases where array is rotated at any point</li></ul><p>Example: [4,5,6,7,0,1,2] is rotated at index 3</p>",
+                                "hint": "Use binary search but check which half is sorted to determine search direction",
+                                "input": "4 5 6 7 0 1 2\n0",
+                                "output": "4"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Binary Search Tree Search",
+                                "question": "<p>What is the time complexity of searching in a balanced Binary Search Tree?</p><p>Consider: BST property - left subtree < root < right subtree</p>",
+                                "hint": "Think about how BST eliminates half of remaining nodes at each step",
+                                "options": [
+                                    "O(1) - constant time access",
+                                    "O(log n) - height of balanced tree",
+                                    "O(n) - linear time traversal",
+                                    "O(n log n) - linearithmic time"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Find Peak Element",
+                                "question": "<p>Write a function that finds a peak element in an array.</p><p>Your function should:</p><ul><li>Accept an array where arr[i] ≠ arr[i+1]</li><li>Find any peak element (greater than neighbors)</li><li>Return the index of a peak</li><li>Handle edge cases (first/last element)</li></ul>",
+                                "hint": "Use binary search - if middle is not peak, search in direction of larger neighbor",
+                                "input": "1 2 3 1",
+                                "output": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Intermediate",
+                        "title": "Advanced Sorting",
+                        "description": "Implement efficient sorting algorithms and understand their trade-offs.",
+                        "tags": ["sorting", "algorithms", "efficiency"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Merge Sort",
+                                "question": "<p>Write a function that implements merge sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Use divide and conquer approach</li><li>Sort the array in ascending order</li><li>Return the sorted array</li></ul>",
+                                "hint": "Divide array into halves, sort each half, then merge sorted halves",
+                                "input": "38 27 43 3 9 82 10",
+                                "output": "3 9 10 27 38 43 82"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Merge Sort Space Complexity",
+                                "question": "<p>What is the space complexity of merge sort?</p><p>Consider: Merge sort needs extra space to merge sorted subarrays</p>",
+                                "hint": "Think about how much extra memory is needed for merging",
+                                "options": [
+                                    "O(1) - constant space, in-place sorting",
+                                    "O(log n) - logarithmic space for recursion",
+                                    "O(n) - linear space for temporary arrays",
+                                    "O(n²) - quadratic space for large arrays"
+                                ],
+                                "correct_answer": 2
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Quick Sort",
+                                "question": "<p>Write a function that implements quick sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Choose a pivot and partition around it</li><li>Recursively sort subarrays</li><li>Return the sorted array</li></ul>",
+                                "hint": "Choose pivot, partition elements smaller/larger than pivot, recurse on subarrays",
+                                "input": "64 34 25 12 22 11 90",
+                                "output": "11 12 22 25 34 64 90"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

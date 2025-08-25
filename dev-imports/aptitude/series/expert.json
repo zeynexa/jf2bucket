@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Series", 
+                "slug": "series", 
+                "description": "Master number series, sequences, and pattern recognition techniques.", 
+                "exercises": [
+                    {
+                        "level": "Expert",
+                        "title": "Advanced Series Analysis",
+                        "description": "Analyze complex series and advanced mathematical sequences.",
+                        "tags": ["advanced-analysis", "complex-series", "expert"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Fourier Series Calculator",
+                                "question": "<p>Implement a Fourier series calculator for periodic functions.</p><p>Your calculator should:</p><ul><li>Calculate Fourier coefficients (aₙ, bₙ)</li><li>Generate Fourier series expansion</li><li>Handle different periodic functions</li><li>Calculate partial sums and convergence</li><li>Visualize series approximation</li></ul>",
+                                "hint": "Use integration formulas for coefficients, aₙ = (1/π)∫f(x)cos(nx)dx",
+                                "input": "Function: f(x) = x, Period: 2π",
+                                "output": "Fourier series: Σ(2(-1)^(n+1)/n)sin(nx)"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Fourier Series Properties",
+                                "question": "<p>What is the fundamental frequency of a Fourier series with period 2π?</p><p>Consider: Relationship between period and fundamental frequency</p>",
+                                "hint": "Fundamental frequency = 1/period",
+                                "options": [
+                                    "1/π - inverse of period",
+                                    "1/(2π) - fundamental frequency",
+                                    "π - half period",
+                                    "2π - full period"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Zeta Function Calculator",
+                                "question": "<p>Create a calculator for the Riemann zeta function.</p><p>Your calculator should:</p><ul><li>Calculate ζ(s) for complex arguments</li><li>Handle special values (even integers)</li><li>Implement series representation</li><li>Calculate critical line values</li><li>Provide numerical approximation</li></ul>",
+                                "hint": "Use series definition ζ(s) = Σ(1/n^s), special values for even integers",
+                                "input": "s = 2",
+                                "output": "ζ(2) = π²/6 ≈ 1.6449"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Expert",
+                        "title": "Complex Series Theory",
+                        "description": "Work with complex series and advanced mathematical concepts.",
+                        "tags": ["complex-series", "mathematical-theory", "expert"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Laurent Series Expander",
+                                "question": "<p>Implement a Laurent series expansion calculator.</p><p>Your calculator should:</p><ul><li>Expand functions in Laurent series around singularities</li><li>Identify poles and their orders</li><li>Calculate principal part and regular part</li><li>Handle different types of singularities</li><li>Provide convergence analysis</li></ul>",
+                                "hint": "Use partial fraction decomposition, identify pole orders, calculate residues",
+                                "input": "Function: 1/(z²-1), Center: z=1",
+                                "output": "Laurent series: 1/(2(z-1)) - 1/4 + (z-1)/8 - ..."
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Laurent Series Convergence",
+                                "question": "<p>What is the region of convergence for a Laurent series around z₀?</p><p>Consider: Annular region between two circles</p>",
+                                "hint": "Think about the distance from the center of expansion",
+                                "options": [
+                                    "Inside a circle - like Taylor series",
+                                    "Outside a circle - exterior region",
+                                    "Annular region - between two circles",
+                                    "Entire complex plane - everywhere"
+                                ],
+                                "correct_answer": 2
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Generating Function Calculator",
+                                "question": "<p>Create a generating function calculator for sequences.</p><p>Your calculator should:</p><ul><li>Find generating functions for given sequences</li><li>Extract coefficients from generating functions</li><li>Handle exponential generating functions</li><li>Solve recurrence relations</li><li>Provide closed-form solutions</li></ul>",
+                                "hint": "Use G(x) = Σaₙxⁿ, manipulate series algebraically",
+                                "input": "Sequence: [1,1,2,3,5,8,...] (Fibonacci)",
+                                "output": "G(x) = x/(1-x-x²), closed form: Fₙ = (φⁿ-(-φ)^(-n))/√5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

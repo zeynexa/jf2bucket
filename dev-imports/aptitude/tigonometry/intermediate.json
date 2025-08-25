@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Trigonometry", 
+                "slug": "tigonometry", 
+                "description": "Master trigonometric functions, identities, and applications.", 
+                "exercises": [
+                    {
+                        "level": "Intermediate",
+                        "title": "Advanced Trigonometric Identities",
+                        "description": "Work with complex trigonometric identities and proofs.",
+                        "tags": ["advanced-identities", "proofs", "intermediate"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Double Angle Calculator",
+                                "question": "<p>Implement a double angle formula calculator.</p><p>Your calculator should:</p><ul><li>Calculate sin(2θ), cos(2θ), tan(2θ)</li><li>Use double angle formulas</li><li>Verify identities numerically</li><li>Handle different forms of cos(2θ)</li><li>Provide step-by-step calculations</li></ul>",
+                                "hint": "Use formulas: sin(2θ) = 2sinθcosθ, cos(2θ) = cos²θ - sin²θ = 2cos²θ - 1 = 1 - 2sin²θ",
+                                "input": "Angle: 30°, Function: sin(2θ)",
+                                "output": "sin(60°) = 0.8660, Formula: 2sin(30°)cos(30°) = 2×0.5×0.8660"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Double Angle Formulas",
+                                "question": "<p>What is cos(2θ) in terms of cos θ only?</p><p>Consider: Different forms of the double angle formula</p>",
+                                "hint": "Use the identity cos(2θ) = 2cos²θ - 1",
+                                "options": [
+                                    "cos²θ - sin²θ - mixed form",
+                                    "2cos²θ - 1 - cos only form",
+                                    "1 - 2sin²θ - sin only form",
+                                    "All of the above - equivalent forms"
+                                ],
+                                "correct_answer": 3
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Sum and Difference Calculator",
+                                "question": "<p>Create a calculator for sum and difference formulas.</p><p>Your calculator should:</p><ul><li>Calculate sin(A±B), cos(A±B), tan(A±B)</li><li>Use sum and difference formulas</li><li>Verify results numerically</li><li>Handle special cases</li><li>Provide formula applications</li></ul>",
+                                "hint": "Use formulas: sin(A+B) = sinAcosB + cosAsinB, cos(A+B) = cosAcosB - sinAsinB",
+                                "input": "A = 30°, B = 45°, Function: sin(A+B)",
+                                "output": "sin(75°) = 0.9659, Formula: sin(30°)cos(45°) + cos(30°)sin(45°)"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Intermediate",
+                        "title": "Trigonometric Applications",
+                        "description": "Apply trigonometry to solve real-world problems.",
+                        "tags": ["applications", "real-world", "intermediate"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Triangle Solver",
+                                "question": "<p>Implement a comprehensive triangle solver using trigonometry.</p><p>Your solver should:</p><ul><li>Solve triangles given different combinations of sides/angles</li><li>Use Law of Sines and Law of Cosines</li><li>Handle ambiguous cases (SSA)</li><li>Calculate area using various formulas</li><li>Provide all missing sides and angles</li></ul>",
+                                "hint": "Use Law of Sines: a/sinA = b/sinB = c/sinC, Law of Cosines: c² = a² + b² - 2abcosC",
+                                "input": "Sides: a=5, b=7, Angle: C=60°",
+                                "output": "Side c=6.24, Angles: A=43.2°, B=76.8°, Area=15.2"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Law of Sines",
+                                "question": "<p>When can the Law of Sines be used to solve a triangle?</p><p>Consider: What information is needed to apply the Law of Sines</p>",
+                                "hint": "Think about the minimum information required",
+                                "options": [
+                                    "Any triangle - always applicable",
+                                    "When you have two angles and one side - AAS or ASA",
+                                    "When you have three sides - SSS",
+                                    "When you have two sides and included angle - SAS"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Vector Calculator",
+                                "question": "<p>Create a vector calculator using trigonometric functions.</p><p>Your calculator should:</p><ul><li>Add and subtract vectors</li><li>Calculate vector magnitude and direction</li><li>Find dot product and cross product</li><li>Convert between polar and rectangular form</li><li>Handle 2D and 3D vectors</li></ul>",
+                                "hint": "Use magnitude = √(x² + y²), direction = tan⁻¹(y/x), dot product = |A||B|cosθ",
+                                "input": "Vector A: (3,4), Vector B: (1,2)",
+                                "output": "A+B = (4,6), Magnitude A = 5, Dot product = 11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

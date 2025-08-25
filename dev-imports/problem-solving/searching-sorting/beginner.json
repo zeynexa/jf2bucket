@@ -1,0 +1,161 @@
+[
+    {
+        "category": { 
+            "name": "Problem Solving", 
+            "slug": "problem-solving", 
+            "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/problem-solving.svg"
+        },
+        "sub_categories": [
+            { 
+                "name": "Searching & Sorting", 
+                "slug": "searching-sorting", 
+                "description": "Master fundamental searching and sorting algorithms and their implementations.", 
+                "exercises": [
+                    {
+                        "level": "Beginner",
+                        "title": "Basic Searching",
+                        "description": "Learn fundamental searching algorithms and their applications.",
+                        "tags": ["searching", "algorithms", "basics"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Linear Search",
+                                "question": "<p>Write a function that implements linear search to find an element in an array.</p><p>Your function should:</p><ul><li>Accept an array and target element</li><li>Search sequentially from start to end</li><li>Return the index if found, -1 if not found</li><li>Handle edge cases</li></ul>",
+                                "hint": "Use a loop to check each element one by one",
+                                "input": "5 2 9 1 7 3\n7",
+                                "output": "4"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Linear Search Complexity",
+                                "question": "<p>What is the time complexity of linear search in the worst case?</p><p>Consider: Worst case is when element is not found or is at the end</p>",
+                                "hint": "Think about how many comparisons are needed",
+                                "options": [
+                                    "O(1) - constant time",
+                                    "O(n) - linear time, checks all elements",
+                                    "O(log n) - logarithmic time",
+                                    "O(n²) - quadratic time"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Binary Search",
+                                "question": "<p>Write a function that implements binary search on a sorted array.</p><p>Your function should:</p><ul><li>Accept a sorted array and target element</li><li>Use divide and conquer approach</li><li>Return the index if found, -1 if not found</li><li>Handle edge cases</li></ul>",
+                                "hint": "Compare with middle element and eliminate half of the array",
+                                "input": "1 3 5 7 9 11 13 15\n7",
+                                "output": "3"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Binary Search Requirement",
+                                "question": "<p>What is the prerequisite for using binary search?</p><p>Consider: Binary search divides the search space in half</p>",
+                                "hint": "Think about what allows the divide and conquer approach",
+                                "options": [
+                                    "Array must be sorted - allows elimination of half",
+                                    "Array must be small - less than 100 elements",
+                                    "Array must contain only numbers",
+                                    "Array must be unique - no duplicates"
+                                ],
+                                "correct_answer": 0
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Find First Occurrence",
+                                "question": "<p>Write a function that finds the first occurrence of an element in a sorted array.</p><p>Your function should:</p><ul><li>Accept a sorted array with duplicates</li><li>Find the first occurrence of target</li><li>Return the index of first occurrence</li><li>Return -1 if not found</li></ul>",
+                                "hint": "Modify binary search to continue searching left when found",
+                                "input": "1 2 2 2 3 4 5\n2",
+                                "output": "1"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Search Space Reduction",
+                                "question": "<p>How much does binary search reduce the search space in each iteration?</p><p>Consider: Binary search compares with middle element</p>",
+                                "hint": "Think about what happens after comparing with middle",
+                                "options": [
+                                    "By 1 element - removes one element",
+                                    "By half - eliminates half of remaining elements",
+                                    "By 2 elements - removes two elements",
+                                    "By 75% - eliminates three quarters"
+                                ],
+                                "correct_answer": 1
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Beginner",
+                        "title": "Basic Sorting",
+                        "description": "Learn fundamental sorting algorithms and their implementations.",
+                        "tags": ["sorting", "algorithms", "basics"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Bubble Sort",
+                                "question": "<p>Write a function that implements bubble sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Sort the array in ascending order</li><li>Use bubble sort algorithm</li><li>Return the sorted array</li></ul>",
+                                "hint": "Compare adjacent elements and swap if they are in wrong order",
+                                "input": "64 34 25 12 22 11 90",
+                                "output": "11 12 22 25 34 64 90"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Bubble Sort Complexity",
+                                "question": "<p>What is the time complexity of bubble sort in the worst case?</p><p>Consider: Worst case is when array is in reverse order</p>",
+                                "hint": "Think about nested loops and comparisons",
+                                "options": [
+                                    "O(n) - linear time",
+                                    "O(n log n) - linearithmic time",
+                                    "O(n²) - quadratic time, nested loops",
+                                    "O(log n) - logarithmic time"
+                                ],
+                                "correct_answer": 2
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Selection Sort",
+                                "question": "<p>Write a function that implements selection sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Find minimum element and place at beginning</li><li>Repeat for remaining elements</li><li>Return the sorted array</li></ul>",
+                                "hint": "Find minimum in unsorted portion and swap with first unsorted element",
+                                "input": "64 25 12 22 11",
+                                "output": "11 12 22 25 64"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Selection Sort Stability",
+                                "question": "<p>Is selection sort a stable sorting algorithm?</p><p>Consider: Stable sort preserves relative order of equal elements</p>",
+                                "hint": "Think about what happens when swapping elements",
+                                "options": [
+                                    "Yes - preserves relative order of equal elements",
+                                    "No - may change relative order of equal elements",
+                                    "Sometimes - depends on implementation",
+                                    "Only for small arrays"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Insertion Sort",
+                                "question": "<p>Write a function that implements insertion sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Build sorted array one element at a time</li><li>Insert each element in correct position</li><li>Return the sorted array</li></ul>",
+                                "hint": "Take each element and insert it into its correct position in sorted portion",
+                                "input": "12 11 13 5 6",
+                                "output": "5 6 11 12 13"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Insertion Sort Best Case",
+                                "question": "<p>What is the time complexity of insertion sort in the best case?</p><p>Consider: Best case is when array is already sorted</p>",
+                                "hint": "Think about how many comparisons are needed when array is sorted",
+                                "options": [
+                                    "O(n²) - still quadratic time",
+                                    "O(n log n) - linearithmic time",
+                                    "O(n) - linear time, minimal comparisons",
+                                    "O(log n) - logarithmic time"
+                                ],
+                                "correct_answer": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
