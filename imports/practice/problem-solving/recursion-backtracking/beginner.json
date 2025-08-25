@@ -1,0 +1,161 @@
+[
+    {
+        "category": { 
+            "name": "Problem Solving", 
+            "slug": "problem-solving", 
+            "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges."
+        },
+        "sub_categories": [
+            { 
+                "name": "Recursion & Backtracking", 
+                "slug": "recursion-backtracking", 
+                "description": "Master recursive thinking and backtracking algorithms for complex problem solving.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
+                "exercises": [
+                    {
+                        "level": "Beginner",
+                        "title": "Basic Recursion",
+                        "description": "Learn fundamental recursive concepts and simple recursive functions.",
+                        "tags": ["recursion", "basics", "fundamentals"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Factorial Calculation",
+                                "question": "<p>Write a recursive function to calculate the factorial of a number.</p><p>Your function should:</p><ul><li>Accept a non-negative integer n</li><li>Return n! (n factorial)</li><li>Use recursion (not iteration)</li><li>Handle base case (0! = 1)</li></ul><p>Note: n! = n × (n-1) × (n-2) × ... × 1</p>",
+                                "hint": "Use the formula: n! = n × (n-1)! with base case 0! = 1",
+                                "input": "5",
+                                "output": "120"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Recursion Base Case",
+                                "question": "<p>What is the purpose of a base case in recursion?</p><p>Consider: Recursion involves function calling itself</p>",
+                                "hint": "Think about what stops the infinite recursion",
+                                "options": [
+                                    "To make the function faster - improves performance",
+                                    "To stop the recursion - prevents infinite calls",
+                                    "To handle errors - catches exceptions",
+                                    "To optimize memory - reduces stack usage"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Fibonacci Sequence",
+                                "question": "<p>Write a recursive function to find the nth Fibonacci number.</p><p>Your function should:</p><ul><li>Accept a non-negative integer n</li><li>Return the nth Fibonacci number</li><li>Use recursion with base cases</li><li>Handle F(0) = 0, F(1) = 1</li></ul><p>Note: F(n) = F(n-1) + F(n-2)</p>",
+                                "hint": "Use the formula: F(n) = F(n-1) + F(n-2) with base cases F(0) = 0, F(1) = 1",
+                                "input": "6",
+                                "output": "8"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Recursion vs Iteration",
+                                "question": "<p>What is a disadvantage of recursion compared to iteration?</p><p>Consider: Recursion uses function call stack</p>",
+                                "hint": "Think about memory usage and stack space",
+                                "options": [
+                                    "Slower execution time - more overhead",
+                                    "Higher memory usage - stack space",
+                                    "More complex code - harder to understand",
+                                    "All of the above - multiple disadvantages"
+                                ],
+                                "correct_answer": 3
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Sum of Array",
+                                "question": "<p>Write a recursive function to calculate the sum of all elements in an array.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Return the sum of all elements</li><li>Use recursion (not iteration)</li><li>Handle empty arrays</li></ul>",
+                                "hint": "Sum = first element + sum of remaining elements (recursive case)",
+                                "input": "1 2 3 4 5",
+                                "output": "15"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Recursive Thinking",
+                                "question": "<p>What is the key principle of recursive problem solving?</p><p>Consider: How recursive functions break down problems</p>",
+                                "hint": "Think about solving smaller instances of the same problem",
+                                "options": [
+                                    "Solve the entire problem at once",
+                                    "Break problem into smaller subproblems of same type",
+                                    "Use multiple different algorithms",
+                                    "Avoid using loops entirely"
+                                ],
+                                "correct_answer": 1
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Beginner",
+                        "title": "Simple Backtracking",
+                        "description": "Learn basic backtracking concepts and simple backtracking problems.",
+                        "tags": ["backtracking", "basics", "search"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Generate All Subsets",
+                                "question": "<p>Write a function that generates all possible subsets of an array.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Return all possible subsets (including empty set)</li><li>Use backtracking approach</li><li>Handle duplicates properly</li></ul><p>Note: For array [1,2], subsets are [], [1], [2], [1,2]</p>",
+                                "hint": "For each element, choose to include or exclude it in the current subset",
+                                "input": "1 2 3",
+                                "output": "[] [1] [2] [1,2] [3] [1,3] [2,3] [1,2,3]"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Backtracking Definition",
+                                "question": "<p>What is backtracking?</p><p>Consider: Backtracking is a systematic way to explore all possible solutions</p>",
+                                "hint": "Think about exploring choices and undoing them when needed",
+                                "options": [
+                                    "A sorting algorithm - arranges elements",
+                                    "A search technique - explores all possibilities systematically",
+                                    "A data structure - stores elements",
+                                    "A programming paradigm - object-oriented"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Generate Permutations",
+                                "question": "<p>Write a function that generates all permutations of an array.</p><p>Your function should:</p><ul><li>Accept an array of integers</li><li>Return all possible permutations</li><li>Use backtracking approach</li><li>Handle arrays with unique elements</li></ul><p>Note: For array [1,2], permutations are [1,2], [2,1]</p>",
+                                "hint": "Swap elements and recursively generate permutations of remaining elements",
+                                "input": "1 2 3",
+                                "output": "[1,2,3] [1,3,2] [2,1,3] [2,3,1] [3,1,2] [3,2,1]"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Backtracking State",
+                                "question": "<p>What happens when backtracking reaches a dead end?</p><p>Consider: Dead end means current path cannot lead to a solution</p>",
+                                "hint": "Think about what the algorithm does when it can't proceed",
+                                "options": [
+                                    "Stops completely - no more solutions",
+                                    "Goes back and tries different choices - undoes last decision",
+                                    "Starts over from beginning - restarts search",
+                                    "Skips to next problem - moves on"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Combination Sum",
+                                "question": "<p>Write a function that finds all combinations of numbers that sum to a target.</p><p>Your function should:</p><ul><li>Accept an array of candidates and target sum</li><li>Find all combinations that sum to target</li><li>Use backtracking approach</li><li>Allow using same element multiple times</li></ul>",
+                                "hint": "Try including each candidate and recursively find combinations for remaining sum",
+                                "input": "2 3 6 7\n7",
+                                "output": "[2,2,3] [7]"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Backtracking Efficiency",
+                                "question": "<p>What is the main advantage of backtracking over brute force?</p><p>Consider: Backtracking prunes search space</p>",
+                                "hint": "Think about avoiding unnecessary exploration",
+                                "options": [
+                                    "Faster execution - skips invalid paths",
+                                    "Less memory usage - no storage needed",
+                                    "Simpler code - easier to implement",
+                                    "Better accuracy - more precise results"
+                                ],
+                                "correct_answer": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Problem Solving", 
+            "slug": "problem-solving", 
+            "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges."
+        },
+        "sub_categories": [
+            { 
+                "name": "Searching & Sorting", 
+                "slug": "searching-sorting", 
+                "description": "Master fundamental searching and sorting algorithms and their implementations.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
+                "exercises": [
+                    {
+                        "level": "Expert",
+                        "title": "Advanced Search Optimization",
+                        "description": "Implement highly optimized search algorithms and solve complex search problems.",
+                        "tags": ["searching", "optimization", "advanced"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Kth Smallest Element",
+                                "question": "<p>Write a function that finds the kth smallest element in an unsorted array.</p><p>Your function should:</p><ul><li>Accept an array and integer k</li><li>Find the kth smallest element efficiently</li><li>Return the element value</li><li>Handle edge cases (k > array length)</li></ul><p>Note: k is 1-indexed (1st smallest = smallest element)</p>",
+                                "hint": "Use quickselect algorithm - similar to quicksort but only recurse on relevant partition",
+                                "input": "7 10 4 3 20 15\n3",
+                                "output": "7"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Quickselect Complexity",
+                                "question": "<p>What is the average time complexity of quickselect algorithm?</p><p>Consider: Quickselect is like quicksort but only recurses on one partition</p>",
+                                "hint": "Think about how much work is done in each recursive call",
+                                "options": [
+                                    "O(n) - linear time on average",
+                                    "O(n log n) - linearithmic time",
+                                    "O(n²) - quadratic time",
+                                    "O(log n) - logarithmic time"
+                                ],
+                                "correct_answer": 0
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Median of Two Sorted Arrays",
+                                "question": "<p>Write a function that finds the median of two sorted arrays of different sizes.</p><p>Your function should:</p><ul><li>Accept two sorted arrays</li><li>Find the median of the combined array</li><li>Handle arrays of different lengths</li><li>Return the median value</li></ul><p>Note: For even total length, return average of two middle elements</p>",
+                                "hint": "Use binary search to find correct partition point in both arrays",
+                                "input": "1 3 8 9 15\n7 11 18 19 21 25",
+                                "output": "11"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Expert",
+                        "title": "Advanced Sorting Algorithms",
+                        "description": "Implement specialized sorting algorithms and solve complex sorting problems.",
+                        "tags": ["sorting", "advanced", "specialized"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Counting Sort",
+                                "question": "<p>Write a function that implements counting sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of integers with known range</li><li>Sort the array using counting sort</li><li>Return the sorted array</li><li>Handle duplicate elements</li></ul><p>Note: Assume range is 0 to max_value</p>",
+                                "hint": "Count occurrences of each element, then reconstruct sorted array",
+                                "input": "4 2 1 4 1 2 0 1",
+                                "output": "0 1 1 1 2 2 4 4"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Counting Sort Complexity",
+                                "question": "<p>What is the time complexity of counting sort?</p><p>Consider: Counting sort works by counting occurrences of each element</p>",
+                                "hint": "Think about the range of values vs number of elements",
+                                "options": [
+                                    "O(n) - linear time",
+                                    "O(n + k) - where k is range of values",
+                                    "O(n log n) - linearithmic time",
+                                    "O(n²) - quadratic time"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Radix Sort",
+                                "question": "<p>Write a function that implements radix sort algorithm.</p><p>Your function should:</p><ul><li>Accept an array of positive integers</li><li>Sort by individual digits from least to most significant</li><li>Return the sorted array</li><li>Handle numbers of different lengths</li></ul>",
+                                "hint": "Use counting sort for each digit position, starting from least significant",
+                                "input": "170 45 75 90 802 24 2 66",
+                                "output": "2 24 45 66 75 90 170 802"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

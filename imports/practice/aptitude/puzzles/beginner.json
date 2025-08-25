@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
+        },
+        "sub_categories": [
+            { 
+                "name": "Puzzles", 
+                "slug": "puzzles", 
+                "description": "Solve logical puzzles, brain teasers, and analytical thinking problems.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
+                "exercises": [
+                    {
+                        "level": "Beginner",
+                        "title": "Logic Puzzles",
+                        "description": "Solve basic logic puzzles and reasoning problems.",
+                        "tags": ["logic", "reasoning", "puzzles"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Truth Teller and Liar Puzzle",
+                                "question": "<p>Implement a solution for the truth teller and liar puzzle.</p><p>Your program should:</p><ul><li>Handle scenarios with truth tellers and liars</li><li>Process statements and determine who is who</li><li>Use logical deduction to solve puzzles</li><li>Handle multiple scenarios</li><li>Return the solution with explanation</li></ul>",
+                                "hint": "Use boolean logic, create truth tables, and systematically eliminate possibilities",
+                                "input": "Person A says: 'B is a liar', Person B says: 'A is telling the truth'",
+                                "output": "A is liar, B is truth teller"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Logical Deduction",
+                                "question": "<p>If all roses are flowers and some flowers are red, what can we conclude?</p><p>Consider: Logical relationships and valid deductions</p>",
+                                "hint": "Think about what can be logically inferred from the given statements",
+                                "options": [
+                                    "All roses are red - invalid deduction",
+                                    "Some roses are red - possible but not certain",
+                                    "All red things are roses - invalid deduction",
+                                    "No valid conclusion can be drawn - correct"
+                                ],
+                                "correct_answer": 3
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Number Sequence Solver",
+                                "question": "<p>Create a program to identify patterns in number sequences.</p><p>Your program should:</p><ul><li>Detect arithmetic, geometric, and Fibonacci sequences</li><li>Find the next number in the sequence</li><li>Identify the pattern rule</li><li>Handle complex patterns</li><li>Return the pattern description and next number</li></ul>",
+                                "hint": "Check for common differences, ratios, and recursive patterns",
+                                "input": "2, 4, 8, 16, 32",
+                                "output": "Geometric sequence, ratio=2, next=64"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Beginner",
+                        "title": "Word Puzzles",
+                        "description": "Solve word-based puzzles and language logic problems.",
+                        "tags": ["word-puzzles", "language", "logic"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Anagram Finder",
+                                "question": "<p>Create a program to find anagrams of a given word.</p><p>Your program should:</p><ul><li>Generate all possible anagrams of a word</li><li>Check if generated words are valid</li><li>Handle words with repeated letters</li><li>Return all valid anagrams</li><li>Include word length filtering</li></ul>",
+                                "hint": "Use permutations, check against dictionary, and handle duplicate letters",
+                                "input": "listen",
+                                "output": "silent, enlist, tinsel"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Word Relationships",
+                                "question": "<p>What is the relationship between 'doctor' and 'patient'?</p><p>Consider: How these words are related in meaning</p>",
+                                "hint": "Think about the professional relationship and roles",
+                                "options": [
+                                    "Synonyms - same meaning",
+                                    "Antonyms - opposite meaning",
+                                    "Professional relationship - one serves the other",
+                                    "Hierarchical relationship - one is superior"
+                                ],
+                                "correct_answer": 2
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Crossword Puzzle Solver",
+                                "question": "<p>Implement a basic crossword puzzle solver.</p><p>Your solver should:</p><ul><li>Find words that fit given patterns</li><li>Use a dictionary of valid words</li><li>Handle word length constraints</li><li>Consider letter positions</li><li>Return all possible solutions</li></ul>",
+                                "hint": "Use regex patterns, filter by length, and check letter positions",
+                                "input": "Pattern: C_T, Length: 3, Dictionary: [cat, cot, cut, dog]",
+                                "output": "cat, cot, cut"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

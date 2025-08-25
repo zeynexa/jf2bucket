@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
+        },
+        "sub_categories": [
+            { 
+                "name": "Arithmetic", 
+                "slug": "arithmetic", 
+                "description": "Master arithmetic operations, number theory, and mathematical problem-solving techniques.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
+                "exercises": [
+                    {
+                        "level": "Intermediate",
+                        "title": "Number Theory",
+                        "description": "Solve problems involving prime numbers, factors, and number properties.",
+                        "tags": ["number-theory", "prime-numbers", "factors"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Prime Factorization",
+                                "question": "<p>Write a function to find the prime factorization of a number.</p><p>Your function should:</p><ul><li>Accept a positive integer n</li><li>Find all prime factors of n</li><li>Return the factorization in exponential form</li><li>Handle edge cases (1, prime numbers)</li><li>Return factors in ascending order</li></ul>",
+                                "hint": "Use trial division, check divisibility by primes up to √n, count occurrences of each factor",
+                                "input": "84",
+                                "output": "2² × 3¹ × 7¹"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Prime Number Properties",
+                                "question": "<p>What is the smallest prime number greater than 50?</p><p>Consider: Prime numbers are only divisible by 1 and themselves</p>",
+                                "hint": "Check numbers after 50 for primality by testing divisibility",
+                                "options": [
+                                    "51 - next number after 50",
+                                    "53 - first prime after 50",
+                                    "55 - odd number after 50",
+                                    "57 - next odd number"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "GCD and LCM Calculator",
+                                "question": "<p>Implement functions to calculate GCD and LCM of two numbers.</p><p>Your functions should:</p><ul><li>Calculate GCD using Euclidean algorithm</li><li>Calculate LCM using GCD formula</li><li>Handle negative numbers and zero</li><li>Return results efficiently</li><li>Validate input parameters</li></ul>",
+                                "hint": "Use Euclidean algorithm for GCD: gcd(a,b) = gcd(b, a%b), then LCM = (a*b)/gcd(a,b)",
+                                "input": "48 18",
+                                "output": "GCD: 6, LCM: 144"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Intermediate",
+                        "title": "Percentage and Profit Loss",
+                        "description": "Solve complex percentage problems and profit-loss calculations.",
+                        "tags": ["percentage", "profit-loss", "business-math"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Compound Interest Calculator",
+                                "question": "<p>Create a compound interest calculator with different compounding frequencies.</p><p>Your calculator should:</p><ul><li>Accept principal, rate, time, and compounding frequency</li><li>Calculate compound interest and total amount</li><li>Support annual, semi-annual, quarterly, monthly compounding</li><li>Show interest earned and final amount</li><li>Handle decimal precision correctly</li></ul>",
+                                "hint": "Use formula A = P(1 + r/n)^(nt) where n is compounding frequency per year",
+                                "input": "1000 5 2 4",
+                                "output": "Principal: 1000, Interest: 103.81, Amount: 1103.81"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Successive Percentage Changes",
+                                "question": "<p>If a number increases by 20% and then decreases by 10%, what is the net percentage change?</p><p>Consider: Successive percentage changes are not additive</p>",
+                                "hint": "Use formula: net change = (1 + p1/100)(1 + p2/100) - 1",
+                                "options": [
+                                    "10% increase - simple addition",
+                                    "8% increase - correct calculation",
+                                    "2% decrease - simple subtraction",
+                                    "No change - percentages cancel out"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Profit Loss Analysis",
+                                "question": "<p>Write a function to analyze profit/loss scenarios with multiple parameters.</p><p>Your function should:</p><ul><li>Calculate profit/loss percentage given cost and selling price</li><li>Find selling price for desired profit percentage</li><li>Calculate cost price given selling price and profit percentage</li><li>Handle discount and markup scenarios</li><li>Return detailed analysis with all calculations</li></ul>",
+                                "hint": "Use formulas: Profit% = ((SP-CP)/CP)*100, SP = CP*(1+P/100), CP = SP/(1+P/100)",
+                                "input": "500 600",
+                                "output": "Cost: 500, Selling: 600, Profit: 100, Profit%: 20%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

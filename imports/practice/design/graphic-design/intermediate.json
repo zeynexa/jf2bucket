@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Design", 
+            "slug": "design", 
+            "description": "Master design principles, user experience, and visual communication skills."
+        },
+        "sub_categories": [
+            { 
+                "name": "Graphic Design", 
+                "slug": "graphic-design", 
+                "description": "Learn graphic design principles, visual communication, and creative design techniques.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/framework/react.svg",
+                "exercises": [
+                    {
+                        "level": "Intermediate",
+                        "title": "Advanced Layout Design",
+                        "description": "Create complex layouts and responsive design systems.",
+                        "tags": ["layout", "responsive", "advanced"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "CSS Grid Magazine Layout",
+                                "question": "<p>Create a magazine-style layout using CSS Grid with complex content areas.</p><p>Your layout should:</p><ul><li>Use CSS Grid with named grid areas</li><li>Include header, sidebar, main content, and footer</li><li>Support responsive breakpoints</li><li>Handle different content types (text, images, ads)</li><li>Maintain visual hierarchy and readability</li></ul>",
+                                "hint": "Use grid-template-areas for complex layouts, media queries for responsiveness, and proper content flow",
+                                "input": "Magazine layout with header, 2-column main, sidebar, footer",
+                                "output": "Responsive magazine layout with proper content organization"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Grid vs Flexbox",
+                                "question": "<p>When should you use CSS Grid instead of Flexbox?</p><p>Consider: The strengths and use cases of each layout method</p>",
+                                "hint": "Think about two-dimensional vs one-dimensional layouts",
+                                "options": [
+                                    "Always use Grid - it's newer and better",
+                                    "Use Grid for 2D layouts, Flexbox for 1D layouts",
+                                    "Use Flexbox for everything - it's simpler",
+                                    "Grid and Flexbox are interchangeable"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Responsive Image Gallery",
+                                "question": "<p>Design a responsive image gallery with masonry layout.</p><p>Your gallery should:</p><ul><li>Display images in a masonry grid layout</li><li>Be responsive across all screen sizes</li><li>Include image lazy loading</li><li>Support lightbox functionality</li><li>Handle different image aspect ratios</li></ul>",
+                                "hint": "Use CSS columns or Grid for masonry, Intersection Observer for lazy loading, and modal for lightbox",
+                                "input": "Gallery with 12 images of varying sizes",
+                                "output": "Responsive masonry gallery with lazy loading and lightbox"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Intermediate",
+                        "title": "Advanced Visual Design",
+                        "description": "Implement advanced visual design principles and effects.",
+                        "tags": ["visual-design", "effects", "advanced"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "CSS Animation System",
+                                "question": "<p>Create a comprehensive CSS animation system with keyframes.</p><p>Your system should:</p><ul><li>Define reusable animation keyframes</li><li>Support easing functions and timing</li><li>Include hover and focus animations</li><li>Handle animation performance optimization</li><li>Provide animation utilities and classes</li></ul>",
+                                "hint": "Use @keyframes, animation properties, transform, and will-change for performance",
+                                "input": "Animation system with fade, slide, scale, and rotate effects",
+                                "output": "Complete animation system with performance optimizations"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Animation Performance",
+                                "question": "<p>Which CSS properties are most efficient for animations?</p><p>Consider: Browser rendering and GPU acceleration</p>",
+                                "hint": "Think about properties that trigger GPU acceleration",
+                                "options": [
+                                    "Width and height - layout properties",
+                                    "Transform and opacity - GPU accelerated",
+                                    "Background-color - paint properties",
+                                    "All properties are equally efficient"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Advanced CSS Effects",
+                                "question": "<p>Implement advanced CSS effects like glassmorphism and neumorphism.</p><p>Your effects should:</p><ul><li>Create glassmorphism effect with backdrop-filter</li><li>Implement neumorphism with shadows</li><li>Use CSS custom properties for customization</li><li>Be responsive and accessible</li><li>Include fallbacks for older browsers</li></ul>",
+                                "hint": "Use backdrop-filter for glassmorphism, box-shadow for neumorphism, and @supports for fallbacks",
+                                "input": "Glassmorphism card with blur effect and neumorphic button",
+                                "output": "Advanced CSS effects with proper fallbacks and accessibility"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

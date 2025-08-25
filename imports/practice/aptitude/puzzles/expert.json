@@ -1,0 +1,93 @@
+[
+    {
+        "category": { 
+            "name": "Aptitude", 
+            "slug": "aptitude", 
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
+        },
+        "sub_categories": [
+            { 
+                "name": "Puzzles", 
+                "slug": "puzzles", 
+                "description": "Solve logical puzzles, brain teasers, and analytical thinking problems.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
+                "exercises": [
+                    {
+                        "level": "Expert",
+                        "title": "Complex Algorithmic Puzzles",
+                        "description": "Solve complex algorithmic puzzles requiring advanced problem-solving techniques.",
+                        "tags": ["algorithms", "complex-puzzles", "optimization"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Rubik's Cube Solver",
+                                "question": "<p>Implement a basic Rubik's Cube solver using state space search.</p><p>Your solver should:</p><ul><li>Represent cube state as a data structure</li><li>Implement basic moves (R, L, U, D, F, B)</li><li>Use BFS or A* search to find solution</li><li>Calculate heuristic for A* optimization</li><li>Return sequence of moves to solve</li></ul>",
+                                "hint": "Use 3D array for cube state, implement move functions, use Manhattan distance heuristic",
+                                "input": "Scrambled cube state",
+                                "output": "Sequence of moves: R U R' U' R' F R F'"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "State Space Search",
+                                "question": "<p>What is the branching factor of a Rubik's Cube search tree?</p><p>Consider: How many possible moves can be made from any state</p>",
+                                "hint": "Think about the number of different moves available at each step",
+                                "options": [
+                                    "6 - one for each face",
+                                    "12 - 6 faces × 2 directions",
+                                    "18 - 6 faces × 3 rotations",
+                                    "24 - 6 faces × 4 possible moves"
+                                ],
+                                "correct_answer": 2
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "15-Puzzle Solver",
+                                "question": "<p>Create a solver for the 15-puzzle sliding tile problem.</p><p>Your solver should:</p><ul><li>Represent puzzle state as a grid</li><li>Implement sliding moves and validation</li><li>Use A* search with Manhattan distance heuristic</li><li>Detect if puzzle is solvable</li><li>Return optimal solution path</li></ul>",
+                                "hint": "Use 2D array for state, check solvability using inversions, use Manhattan distance heuristic",
+                                "input": "Puzzle state: [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,0,15]]",
+                                "output": "Solution: 15 moves to reach goal state"
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Expert",
+                        "title": "Advanced Mathematical Puzzles",
+                        "description": "Solve complex mathematical puzzles requiring deep analytical thinking.",
+                        "tags": ["mathematical-puzzles", "advanced", "analytical"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Magic Square Generator",
+                                "question": "<p>Implement a magic square generator for odd-order squares.</p><p>Your generator should:</p><ul><li>Create magic squares of any odd order</li><li>Use Siamese method or similar algorithm</li><li>Verify magic square properties</li><li>Calculate magic constant</li><li>Handle edge cases and validation</li></ul>",
+                                "hint": "Use Siamese method: start at top center, move diagonally up-right, wrap around edges",
+                                "input": "Order: 5",
+                                "output": "5x5 magic square with magic constant 65"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Magic Square Properties",
+                                "question": "<p>What is the magic constant for a 3x3 magic square using numbers 1-9?</p><p>Consider: Sum of all numbers divided by number of rows</p>",
+                                "hint": "Calculate sum of 1+2+...+9 and divide by 3",
+                                "options": [
+                                    "12 - average of numbers",
+                                    "15 - magic constant for 3x3",
+                                    "18 - sum of corner numbers",
+                                    "21 - sum of edge numbers"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Latin Square Generator",
+                                "question": "<p>Create a Latin square generator and validator.</p><p>Your generator should:</p><ul><li>Generate Latin squares of any order n</li><li>Ensure each symbol appears once in each row and column</li><li>Check if square is reduced (first row/column in order)</li><li>Find orthogonal Latin squares</li><li>Validate Latin square properties</li></ul>",
+                                "hint": "Use cyclic permutation method, check row/column constraints, verify orthogonality",
+                                "input": "Order: 4",
+                                "output": "4x4 Latin square with symbols 1,2,3,4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,161 @@
+[
+    {
+        "category": { 
+            "name": "Design", 
+            "slug": "design", 
+            "description": "Master design principles, user experience, and visual communication skills."
+        },
+        "sub_categories": [
+            { 
+                "name": "UI/UX Design", 
+                "slug": "ui-ux-design", 
+                "description": "Learn user interface and user experience design principles and best practices.", 
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/framework/react.svg",
+                "exercises": [
+                    {
+                        "level": "Beginner",
+                        "title": "Design Fundamentals",
+                        "description": "Learn fundamental design principles and basic UI/UX concepts.",
+                        "tags": ["design", "principles", "fundamentals"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "CSS Layout Basics",
+                                "question": "<p>Create a responsive navigation bar using HTML and CSS.</p><p>Your navigation should:</p><ul><li>Have a logo on the left</li><li>Include navigation links (Home, About, Services, Contact)</li><li>Be responsive (mobile-friendly)</li><li>Use flexbox for layout</li><li>Have hover effects on links</li></ul>",
+                                "hint": "Use flexbox with justify-content: space-between for main layout, media queries for mobile",
+                                "input": "Navigation bar with logo and 4 links",
+                                "output": "Responsive navigation with flexbox layout and hover effects"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Visual Hierarchy",
+                                "question": "<p>What is the primary purpose of visual hierarchy in UI design?</p><p>Consider: How users scan and process information on a page</p>",
+                                "hint": "Think about guiding user attention and organizing content",
+                                "options": [
+                                    "To make the design colorful - aesthetic appeal",
+                                    "To guide user attention and organize content importance",
+                                    "To reduce loading time - performance optimization",
+                                    "To increase text readability - typography focus"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Color Scheme Implementation",
+                                "question": "<p>Create a color scheme using CSS custom properties (variables) for a website.</p><p>Your color scheme should:</p><ul><li>Define primary, secondary, and accent colors</li><li>Include light and dark variants</li><li>Use CSS custom properties</li><li>Apply colors to different elements</li><li>Ensure good contrast ratios</li></ul>",
+                                "hint": "Use :root to define CSS variables, then apply them to elements with good contrast",
+                                "input": "Primary: #2563eb, Secondary: #64748b, Accent: #f59e0b",
+                                "output": "CSS variables defined and applied to elements with proper contrast"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "User-Centered Design",
+                                "question": "<p>What is the core principle of user-centered design?</p><p>Consider: Who the design is created for</p>",
+                                "hint": "Think about putting users first in the design process",
+                                "options": [
+                                    "Design for designers - aesthetic focus",
+                                    "Design for users - understand their needs and goals",
+                                    "Design for technology - technical constraints",
+                                    "Design for business - profit maximization"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Button Component Design",
+                                "question": "<p>Create a reusable button component with different states.</p><p>Your button should:</p><ul><li>Have default, hover, active, and disabled states</li><li>Use consistent styling and spacing</li><li>Be accessible (proper ARIA labels)</li><li>Support different sizes (small, medium, large)</li><li>Include smooth transitions</li></ul>",
+                                "hint": "Use CSS pseudo-classes (:hover, :active, :disabled) and transitions for smooth state changes",
+                                "input": "Button with text 'Submit' and different states",
+                                "output": "Accessible button component with hover, active, and disabled states"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Accessibility in Design",
+                                "question": "<p>What is the purpose of ARIA labels in web design?</p><p>Consider: How screen readers interpret web content</p>",
+                                "hint": "Think about making content accessible to users with disabilities",
+                                "options": [
+                                    "To make text larger - visual accessibility",
+                                    "To provide context for screen readers - assistive technology",
+                                    "To improve SEO - search engine optimization",
+                                    "To reduce loading time - performance"
+                                ],
+                                "correct_answer": 1
+                            }
+                        ]
+                    },
+                    {
+                        "level": "Beginner",
+                        "title": "User Experience Basics",
+                        "description": "Understand basic UX concepts and user research fundamentals.",
+                        "tags": ["ux", "user-research", "basics"],
+                        "tasks": [
+                            {
+                                "type": "Coding",
+                                "title": "Form Design",
+                                "question": "<p>Design a user-friendly contact form with proper UX practices.</p><p>Your form should:</p><ul><li>Include name, email, and message fields</li><li>Have clear labels and placeholders</li><li>Show validation errors appropriately</li><li>Be responsive and accessible</li><li>Have a clear call-to-action button</li></ul>",
+                                "hint": "Use semantic HTML, proper form validation, and clear error messaging",
+                                "input": "Contact form with name, email, message fields",
+                                "output": "Accessible form with validation and responsive design"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "User Journey Mapping",
+                                "question": "<p>What is the purpose of user journey mapping in UX design?</p><p>Consider: Understanding user interactions with a product</p>",
+                                "hint": "Think about visualizing the user's experience over time",
+                                "options": [
+                                    "To create beautiful graphics - visual design",
+                                    "To understand user emotions and pain points throughout their experience",
+                                    "To reduce development costs - budget planning",
+                                    "To improve website speed - performance optimization"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Loading State Design",
+                                "question": "<p>Create a loading state component with skeleton screens.</p><p>Your loading state should:</p><ul><li>Show skeleton placeholders for content</li><li>Use subtle animations</li><li>Match the actual content layout</li><li>Provide visual feedback</li><li>Be accessible to screen readers</li></ul>",
+                                "hint": "Use CSS animations with @keyframes for skeleton loading effects",
+                                "input": "Skeleton loading for a card component",
+                                "output": "Animated skeleton loading with proper accessibility"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Usability Testing",
+                                "question": "<p>What is the main goal of usability testing?</p><p>Consider: Testing with real users to identify problems</p>",
+                                "hint": "Think about finding issues before final release",
+                                "options": [
+                                    "To make the design beautiful - aesthetic improvement",
+                                    "To identify usability problems and improve user experience",
+                                    "To reduce development time - efficiency",
+                                    "To increase website traffic - marketing"
+                                ],
+                                "correct_answer": 1
+                            },
+                            {
+                                "type": "Coding",
+                                "title": "Error State Design",
+                                "question": "<p>Design an error state component for a web application.</p><p>Your error state should:</p><ul><li>Clearly communicate the error</li><li>Provide helpful next steps</li><li>Use appropriate visual design</li><li>Include a way to recover</li><li>Be user-friendly and not intimidating</li></ul>",
+                                "hint": "Use clear messaging, helpful actions, and non-threatening visual design",
+                                "input": "404 error page design",
+                                "output": "User-friendly error page with clear messaging and recovery options"
+                            },
+                            {
+                                "type": "MCQ",
+                                "title": "Information Architecture",
+                                "question": "<p>What is information architecture in UX design?</p><p>Consider: How information is organized and structured</p>",
+                                "hint": "Think about organizing content for easy navigation",
+                                "options": [
+                                    "The visual design of information - graphics",
+                                    "The organization and structure of information for easy navigation",
+                                    "The technical implementation - coding",
+                                    "The marketing strategy - promotion"
+                                ],
+                                "correct_answer": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
