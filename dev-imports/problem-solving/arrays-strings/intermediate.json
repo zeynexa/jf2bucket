@@ -4,14 +4,13 @@
             "name": "Problem Solving", 
             "slug": "problem-solving", 
             "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/problem-solving.svg"
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/categories/problem-solving.svg"
         },
         "sub_categories": [
             { 
                 "name": "Arrays & Strings", 
                 "slug": "arrays-strings", 
                 "description": "Master fundamental operations on arrays and string manipulation techniques.", 
-                "image": null,
                 "exercises": [
                     {
                         "level": "Intermediate",

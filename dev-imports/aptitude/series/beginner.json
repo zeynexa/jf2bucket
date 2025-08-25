@@ -3,14 +3,14 @@
         "category": { 
             "name": "Aptitude", 
             "slug": "aptitude", 
-            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews."
+            "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/categories/aptitude.svg"
         },
         "sub_categories": [
             { 
                 "name": "Series", 
                 "slug": "series", 
                 "description": "Master number series, sequences, and pattern recognition techniques.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Beginner",

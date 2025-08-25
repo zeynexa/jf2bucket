@@ -4,14 +4,13 @@
             "name": "Aptitude", 
             "slug": "aptitude", 
             "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
-            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/aptitude.svg"
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/categories/aptitude.svg"
         },
         "sub_categories": [
             { 
                 "name": "Algebra", 
                 "slug": "algebra", 
                 "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.", 
-                "image": null,
                 "exercises": [
                     {
                         "level": "Intermediate",

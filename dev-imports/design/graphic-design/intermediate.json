@@ -3,14 +3,14 @@
         "category": { 
             "name": "Design", 
             "slug": "design", 
-            "description": "Master design principles, user experience, and visual communication techniques."
+            "description": "Master design principles, user experience, and visual communication techniques.",
+            "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/icons/categories/design.svg"
         },
         "sub_categories": [
             { 
                 "name": "Graphic Design", 
                 "slug": "graphic-design", 
                 "description": "Learn graphic design principles and visual communication techniques.", 
-                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/images/logo/language/javascript.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
