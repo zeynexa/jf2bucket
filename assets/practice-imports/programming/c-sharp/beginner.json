@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "C#", 
-                "slug": "c-sharp", 
-                "description": "Learn C# for .NET development, Windows applications, and enterprise software.", 
+            {
+                "name": "C#",
+                "slug": "c-sharp",
+                "description": "Learn C# for .NET development, Windows applications, and enterprise software.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/c-sharp.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "C# Basic Syntax",
                         "description": "Learn C# basic syntax, variables, data types, and console applications.",
-                        "tags": ["syntax", "c-sharp", "basics"],
+                        "tags": [
+                            "syntax",
+                            "c-sharp",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Beginner",
                         "title": "C# Control Flow",
                         "description": "Learn conditional statements and loops in C#.",
-                        "tags": ["control-flow", "c-sharp", "basics"],
+                        "tags": [
+                            "control-flow",
+                            "c-sharp",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,11 @@
                         "level": "Beginner",
                         "title": "C# Methods",
                         "description": "Learn method declaration, parameters, and usage in C#.",
-                        "tags": ["methods", "c-sharp", "basics"],
+                        "tags": [
+                            "methods",
+                            "c-sharp",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

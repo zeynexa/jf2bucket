@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Problem Solving", 
-            "slug": "problem-solving", 
+        "category": {
+            "name": "Problem Solving",
+            "slug": "problem-solving",
             "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/problem-solving.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Searching & Sorting", 
-                "slug": "searching-sorting", 
-                "description": "Master fundamental searching and sorting algorithms and their implementations.", 
+            {
+                "name": "Searching & Sorting",
+                "slug": "searching-sorting",
+                "description": "Master fundamental searching and sorting algorithms and their implementations.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/searching-sorting.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Advanced Searching",
                         "description": "Master advanced searching algorithms and optimization techniques.",
-                        "tags": ["searching", "advanced", "optimization"],
+                        "tags": [
+                            "searching",
+                            "advanced",
+                            "optimization"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Intermediate",
                         "title": "Advanced Sorting",
                         "description": "Master advanced sorting algorithms and their optimizations.",
-                        "tags": ["sorting", "advanced", "algorithms"],
+                        "tags": [
+                            "sorting",
+                            "advanced",
+                            "algorithms"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

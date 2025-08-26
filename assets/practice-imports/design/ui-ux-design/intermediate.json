@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Design", 
-            "slug": "design", 
+        "category": {
+            "name": "Design",
+            "slug": "design",
             "description": "Master design principles, user experience, and visual communication techniques.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/design.svg"
         },
         "sub_categories": [
-            { 
-                "name": "UI/UX Design", 
-                "slug": "ui-ux-design", 
-                "description": "Learn user interface and user experience design principles and best practices.", 
+            {
+                "name": "UI/UX Design",
+                "slug": "ui-ux-design",
+                "description": "Learn user interface and user experience design principles and best practices.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/ui-ux-design.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Advanced UI Components",
                         "description": "Master advanced UI component design and implementation.",
-                        "tags": ["ui-components", "advanced", "intermediate"],
+                        "tags": [
+                            "ui-components",
+                            "advanced",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Intermediate",
                         "title": "User Research & Testing",
                         "description": "Master user research methods and usability testing techniques.",
-                        "tags": ["user-research", "testing", "intermediate"],
+                        "tags": [
+                            "user-research",
+                            "testing",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

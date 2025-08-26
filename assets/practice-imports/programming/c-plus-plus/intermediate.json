@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "C++", 
-                "slug": "c-plus-plus", 
-                "description": "Learn C++ for system programming, game development, and high-performance applications.", 
+            {
+                "name": "C++",
+                "slug": "c-plus-plus",
+                "description": "Learn C++ for system programming, game development, and high-performance applications.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/c-plus-plus.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "C++ Object-Oriented Programming",
                         "description": "Master classes, objects, inheritance, and polymorphism in C++.",
-                        "tags": ["oop", "c++", "intermediate"],
+                        "tags": [
+                            "oop",
+                            "c++",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Intermediate",
                         "title": "C++ Templates",
                         "description": "Learn function templates, class templates, and generic programming in C++.",
-                        "tags": ["templates", "c++", "intermediate"],
+                        "tags": [
+                            "templates",
+                            "c++",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,12 @@
                         "level": "Intermediate",
                         "title": "C++ STL Containers",
                         "description": "Master Standard Template Library containers and algorithms in C++.",
-                        "tags": ["stl", "containers", "c++", "intermediate"],
+                        "tags": [
+                            "stl",
+                            "containers",
+                            "c++",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

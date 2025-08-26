@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Aptitude", 
-            "slug": "aptitude", 
+        "category": {
+            "name": "Aptitude",
+            "slug": "aptitude",
             "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/aptitude.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Algebra", 
-                "slug": "algebra", 
-                "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.", 
+            {
+                "name": "Algebra",
+                "slug": "algebra",
+                "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/algebra.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Advanced Linear Algebra",
                         "description": "Solve complex linear algebra problems and matrix operations.",
-                        "tags": ["linear-algebra", "matrices", "advanced"],
+                        "tags": [
+                            "linear-algebra",
+                            "matrices",
+                            "advanced"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -53,7 +58,11 @@
                         "level": "Expert",
                         "title": "Abstract Algebra Concepts",
                         "description": "Work with abstract algebraic structures and concepts.",
-                        "tags": ["abstract-algebra", "groups", "rings"],
+                        "tags": [
+                            "abstract-algebra",
+                            "groups",
+                            "rings"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

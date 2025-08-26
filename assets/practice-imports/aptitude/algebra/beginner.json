@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Aptitude", 
-            "slug": "aptitude", 
+        "category": {
+            "name": "Aptitude",
+            "slug": "aptitude",
             "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/aptitude.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Algebra", 
-                "slug": "algebra", 
-                "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.", 
+            {
+                "name": "Algebra",
+                "slug": "algebra",
+                "description": "Master algebraic concepts, equations, and mathematical problem-solving techniques.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/algebra.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "Linear Equations",
                         "description": "Learn fundamental linear equations and their solutions.",
-                        "tags": ["linear-equations", "basics", "fundamentals"],
+                        "tags": [
+                            "linear-equations",
+                            "basics",
+                            "fundamentals"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Beginner",
                         "title": "Quadratic Equations",
                         "description": "Learn fundamental quadratic equations and their solutions.",
-                        "tags": ["quadratic-equations", "basics", "fundamentals"],
+                        "tags": [
+                            "quadratic-equations",
+                            "basics",
+                            "fundamentals"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

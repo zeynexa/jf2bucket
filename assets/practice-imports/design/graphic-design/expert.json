@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Design", 
-            "slug": "design", 
+        "category": {
+            "name": "Design",
+            "slug": "design",
             "description": "Master design principles, user experience, and visual communication techniques.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/design.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Graphic Design", 
-                "slug": "graphic-design", 
-                "description": "Learn graphic design principles and visual communication techniques.", 
+            {
+                "name": "Graphic Design",
+                "slug": "graphic-design",
+                "description": "Learn graphic design principles and visual communication techniques.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/graphic-design.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Design System Architecture",
                         "description": "Master design system architecture and advanced design patterns.",
-                        "tags": ["design-systems", "architecture", "expert"],
+                        "tags": [
+                            "design-systems",
+                            "architecture",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Expert",
                         "title": "Advanced Visual Effects",
                         "description": "Master advanced visual effects and design techniques.",
-                        "tags": ["visual-effects", "advanced", "expert"],
+                        "tags": [
+                            "visual-effects",
+                            "advanced",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

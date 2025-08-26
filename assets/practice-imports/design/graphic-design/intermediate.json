@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Design", 
-            "slug": "design", 
+        "category": {
+            "name": "Design",
+            "slug": "design",
             "description": "Master design principles, user experience, and visual communication techniques.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/design.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Graphic Design", 
-                "slug": "graphic-design", 
-                "description": "Learn graphic design principles and visual communication techniques.", 
+            {
+                "name": "Graphic Design",
+                "slug": "graphic-design",
+                "description": "Learn graphic design principles and visual communication techniques.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/graphic-design.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Advanced Layout Design",
                         "description": "Master advanced layout design principles and techniques.",
-                        "tags": ["layout-design", "advanced", "intermediate"],
+                        "tags": [
+                            "layout-design",
+                            "advanced",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Intermediate",
                         "title": "Advanced Visual Design",
                         "description": "Master advanced visual design techniques and principles.",
-                        "tags": ["visual-design", "advanced", "intermediate"],
+                        "tags": [
+                            "visual-design",
+                            "advanced",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

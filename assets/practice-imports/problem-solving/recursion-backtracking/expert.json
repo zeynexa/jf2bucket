@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Problem Solving", 
-            "slug": "problem-solving", 
+        "category": {
+            "name": "Problem Solving",
+            "slug": "problem-solving",
             "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/problem-solving.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Recursion & Backtracking", 
-                "slug": "recursion-backtracking", 
-                "description": "Master recursive algorithms and backtracking techniques for complex problem solving.", 
+            {
+                "name": "Recursion & Backtracking",
+                "slug": "recursion-backtracking",
+                "description": "Master recursive algorithms and backtracking techniques for complex problem solving.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/recursion-backtracking.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Advanced Recursive Algorithms",
                         "description": "Master complex recursive algorithms and advanced optimization techniques.",
-                        "tags": ["recursion", "advanced", "complex"],
+                        "tags": [
+                            "recursion",
+                            "advanced",
+                            "complex"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Expert",
                         "title": "Complex Backtracking Problems",
                         "description": "Solve complex backtracking problems with multiple constraints and advanced techniques.",
-                        "tags": ["backtracking", "complex", "advanced"],
+                        "tags": [
+                            "backtracking",
+                            "complex",
+                            "advanced"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

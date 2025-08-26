@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "C", 
-                "slug": "c", 
-                "description": "Learn C for system programming, embedded systems, and low-level development.", 
+            {
+                "name": "C",
+                "slug": "c",
+                "description": "Learn C for system programming, embedded systems, and low-level development.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/c.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "C Advanced Memory Management",
                         "description": "Learn advanced memory management techniques, memory pools, and optimization.",
-                        "tags": ["memory-management", "c", "expert"],
+                        "tags": [
+                            "memory-management",
+                            "c",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,12 @@
                         "level": "Expert",
                         "title": "C Advanced Pointers and Data Structures",
                         "description": "Learn advanced pointer techniques, complex data structures, and optimization.",
-                        "tags": ["pointers", "data-structures", "c", "expert"],
+                        "tags": [
+                            "pointers",
+                            "data-structures",
+                            "c",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +252,12 @@
                         "level": "Expert",
                         "title": "C System Programming and Optimization",
                         "description": "Learn system programming techniques, performance optimization, and low-level programming.",
-                        "tags": ["system-programming", "optimization", "c", "expert"],
+                        "tags": [
+                            "system-programming",
+                            "optimization",
+                            "c",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

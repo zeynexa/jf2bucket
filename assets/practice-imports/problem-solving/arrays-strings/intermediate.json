@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Problem Solving", 
-            "slug": "problem-solving", 
+        "category": {
+            "name": "Problem Solving",
+            "slug": "problem-solving",
             "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/problem-solving.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Arrays & Strings", 
-                "slug": "arrays-strings", 
-                "description": "Master fundamental operations on arrays and string manipulation techniques.", 
+            {
+                "name": "Arrays & Strings",
+                "slug": "arrays-strings",
+                "description": "Master fundamental operations on arrays and string manipulation techniques.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/arrays-strings.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Array Algorithms",
                         "description": "Implement intermediate array algorithms and optimization techniques.",
-                        "tags": ["arrays", "algorithms", "intermediate"],
+                        "tags": [
+                            "arrays",
+                            "algorithms",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Intermediate",
                         "title": "String Algorithms",
                         "description": "Master intermediate string manipulation and pattern matching algorithms.",
-                        "tags": ["strings", "algorithms", "intermediate"],
+                        "tags": [
+                            "strings",
+                            "algorithms",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

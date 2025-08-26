@@ -1,23 +1,28 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Java", 
-                "slug": "java", 
-                "description": "Master Java for enterprise development and Android applications.", 
+            {
+                "name": "Java",
+                "slug": "java",
+                "description": "Master Java for enterprise development and Android applications.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/java.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Java Multithreading & Concurrency",
                         "description": "Master advanced multithreading concepts and concurrent programming.",
-                        "tags": ["multithreading", "concurrency", "java", "expert"],
+                        "tags": [
+                            "multithreading",
+                            "concurrency",
+                            "java",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +135,11 @@
                         "level": "Expert",
                         "title": "Java Design Patterns",
                         "description": "Master advanced design patterns and architectural concepts.",
-                        "tags": ["design-patterns", "java", "expert"],
+                        "tags": [
+                            "design-patterns",
+                            "java",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +252,11 @@
                         "level": "Expert",
                         "title": "Java Advanced Features",
                         "description": "Master advanced Java features including reflection, annotations, and generics.",
-                        "tags": ["advanced-features", "java", "expert"],
+                        "tags": [
+                            "advanced-features",
+                            "java",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

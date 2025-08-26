@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "TypeScript", 
-                "slug": "typescript", 
-                "description": "Learn TypeScript for type-safe JavaScript development.", 
+            {
+                "name": "TypeScript",
+                "slug": "typescript",
+                "description": "Learn TypeScript for type-safe JavaScript development.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/typescript.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "TypeScript Advanced Types",
                         "description": "Master advanced TypeScript types including generics, mapped types, and conditional types.",
-                        "tags": ["advanced-types", "typescript", "intermediate"],
+                        "tags": [
+                            "advanced-types",
+                            "typescript",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Intermediate",
                         "title": "TypeScript Decorators",
                         "description": "Learn TypeScript decorators for class and method modification.",
-                        "tags": ["decorators", "typescript", "intermediate"],
+                        "tags": [
+                            "decorators",
+                            "typescript",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,12 @@
                         "level": "Intermediate",
                         "title": "TypeScript Modules & Namespaces",
                         "description": "Master TypeScript module systems, namespaces, and module resolution.",
-                        "tags": ["modules", "namespaces", "typescript", "intermediate"],
+                        "tags": [
+                            "modules",
+                            "namespaces",
+                            "typescript",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

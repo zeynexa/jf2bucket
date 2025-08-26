@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "TypeScript", 
-                "slug": "typescript", 
-                "description": "Learn TypeScript for type-safe JavaScript development.", 
+            {
+                "name": "TypeScript",
+                "slug": "typescript",
+                "description": "Learn TypeScript for type-safe JavaScript development.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/typescript.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "TypeScript Basic Types",
                         "description": "Learn TypeScript basic types, type annotations, and type safety.",
-                        "tags": ["types", "typescript", "basics"],
+                        "tags": [
+                            "types",
+                            "typescript",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Beginner",
                         "title": "TypeScript Functions",
                         "description": "Learn function types, parameters, and return types in TypeScript.",
-                        "tags": ["functions", "typescript", "basics"],
+                        "tags": [
+                            "functions",
+                            "typescript",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,11 @@
                         "level": "Beginner",
                         "title": "TypeScript Interfaces",
                         "description": "Learn interface definitions, object shapes, and type contracts in TypeScript.",
-                        "tags": ["interfaces", "typescript", "basics"],
+                        "tags": [
+                            "interfaces",
+                            "typescript",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

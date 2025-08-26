@@ -1,23 +1,29 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "C#", 
-                "slug": "c-sharp", 
-                "description": "Learn C# for .NET development, Windows applications, and enterprise software.", 
+            {
+                "name": "C#",
+                "slug": "c-sharp",
+                "description": "Learn C# for .NET development, Windows applications, and enterprise software.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/c-sharp.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "C# Advanced Language Features",
                         "description": "Learn advanced C# features like delegates, events, reflection, and attributes.",
-                        "tags": ["delegates", "events", "reflection", "c-sharp", "expert"],
+                        "tags": [
+                            "delegates",
+                            "events",
+                            "reflection",
+                            "c-sharp",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +136,13 @@
                         "level": "Expert",
                         "title": "C# Asynchronous Programming",
                         "description": "Learn async/await patterns, Task Parallel Library, and concurrent programming.",
-                        "tags": ["async-await", "tasks", "concurrency", "c-sharp", "expert"],
+                        "tags": [
+                            "async-await",
+                            "tasks",
+                            "concurrency",
+                            "c-sharp",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +255,13 @@
                         "level": "Expert",
                         "title": "C# Memory Management and Performance",
                         "description": "Learn garbage collection, memory optimization, and performance tuning in C#.",
-                        "tags": ["memory-management", "performance", "garbage-collection", "c-sharp", "expert"],
+                        "tags": [
+                            "memory-management",
+                            "performance",
+                            "garbage-collection",
+                            "c-sharp",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

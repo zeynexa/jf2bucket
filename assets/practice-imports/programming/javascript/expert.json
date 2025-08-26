@@ -1,23 +1,28 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "JavaScript", 
-                "slug": "javascript", 
-                "description": "Master JavaScript for web development and dynamic applications.", 
+            {
+                "name": "JavaScript",
+                "slug": "javascript",
+                "description": "Master JavaScript for web development and dynamic applications.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/javascript.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "JavaScript Classes & OOP",
                         "description": "Master object-oriented programming with ES6 classes.",
-                        "tags": ["classes", "oop", "javascript", "expert"],
+                        "tags": [
+                            "classes",
+                            "oop",
+                            "javascript",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +135,11 @@
                         "level": "Expert",
                         "title": "JavaScript Design Patterns",
                         "description": "Learn advanced design patterns and architectural concepts.",
-                        "tags": ["design-patterns", "javascript", "expert"],
+                        "tags": [
+                            "design-patterns",
+                            "javascript",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +252,11 @@
                         "level": "Expert",
                         "title": "JavaScript Advanced Concepts",
                         "description": "Master advanced JavaScript concepts including generators, symbols, and metaprogramming.",
-                        "tags": ["advanced", "javascript", "expert"],
+                        "tags": [
+                            "advanced",
+                            "javascript",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

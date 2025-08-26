@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Design", 
-            "slug": "design", 
+        "category": {
+            "name": "Design",
+            "slug": "design",
             "description": "Master design principles, user experience, and visual communication techniques.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/design.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Graphic Design", 
-                "slug": "graphic-design", 
-                "description": "Learn graphic design principles and visual communication techniques.", 
+            {
+                "name": "Graphic Design",
+                "slug": "graphic-design",
+                "description": "Learn graphic design principles and visual communication techniques.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/graphic-design.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "Design Principles",
                         "description": "Learn fundamental graphic design principles and concepts.",
-                        "tags": ["design-principles", "fundamentals", "basics"],
+                        "tags": [
+                            "design-principles",
+                            "fundamentals",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Beginner",
                         "title": "Typography Fundamentals",
                         "description": "Learn fundamental typography principles and techniques.",
-                        "tags": ["typography", "fundamentals", "basics"],
+                        "tags": [
+                            "typography",
+                            "fundamentals",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

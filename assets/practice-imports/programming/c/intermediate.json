@@ -1,23 +1,28 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "C", 
-                "slug": "c", 
-                "description": "Learn C for system programming, embedded systems, and low-level development.", 
+            {
+                "name": "C",
+                "slug": "c",
+                "description": "Learn C for system programming, embedded systems, and low-level development.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/c.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "C Arrays and Pointers",
                         "description": "Learn array manipulation, pointer arithmetic, and dynamic memory allocation.",
-                        "tags": ["arrays", "pointers", "c", "intermediate"],
+                        "tags": [
+                            "arrays",
+                            "pointers",
+                            "c",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +135,12 @@
                         "level": "Intermediate",
                         "title": "C Structures and Unions",
                         "description": "Learn structure definition, nested structures, and union usage.",
-                        "tags": ["structures", "unions", "c", "intermediate"],
+                        "tags": [
+                            "structures",
+                            "unions",
+                            "c",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +253,11 @@
                         "level": "Intermediate",
                         "title": "C File Operations",
                         "description": "Learn file I/O operations, text and binary file handling.",
-                        "tags": ["file-io", "c", "intermediate"],
+                        "tags": [
+                            "file-io",
+                            "c",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

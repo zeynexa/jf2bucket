@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Aptitude", 
-            "slug": "aptitude", 
+        "category": {
+            "name": "Aptitude",
+            "slug": "aptitude",
             "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/aptitude.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Trigonometry", 
-                "slug": "trigonometry", 
-                "description": "Master trigonometric functions, identities, and applications.", 
+            {
+                "name": "Trigonometry",
+                "slug": "trigonometry",
+                "description": "Master trigonometric functions, identities, and applications.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/trignometry.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "Basic Trigonometric Functions",
                         "description": "Learn fundamental trigonometric functions and their properties.",
-                        "tags": ["trigonometric-functions", "basics", "fundamentals"],
+                        "tags": [
+                            "trigonometric-functions",
+                            "basics",
+                            "fundamentals"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Beginner",
                         "title": "Trigonometric Identities",
                         "description": "Work with basic trigonometric identities and equations.",
-                        "tags": ["trigonometric-identities", "equations", "basics"],
+                        "tags": [
+                            "trigonometric-identities",
+                            "equations",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

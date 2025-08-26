@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "JavaScript", 
-                "slug": "javascript", 
-                "description": "Master JavaScript for web development and dynamic applications.", 
+            {
+                "name": "JavaScript",
+                "slug": "javascript",
+                "description": "Master JavaScript for web development and dynamic applications.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/javascript.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "JavaScript Promises",
                         "description": "Master asynchronous programming with Promises.",
-                        "tags": ["promises", "javascript", "intermediate"],
+                        "tags": [
+                            "promises",
+                            "javascript",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Intermediate",
                         "title": "JavaScript Async/Await",
                         "description": "Learn modern async programming with async/await syntax.",
-                        "tags": ["async-await", "javascript", "intermediate"],
+                        "tags": [
+                            "async-await",
+                            "javascript",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,11 @@
                         "level": "Intermediate",
                         "title": "JavaScript DOM Manipulation",
                         "description": "Learn to manipulate the Document Object Model dynamically.",
-                        "tags": ["dom", "javascript", "intermediate"],
+                        "tags": [
+                            "dom",
+                            "javascript",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

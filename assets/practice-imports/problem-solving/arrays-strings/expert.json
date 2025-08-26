@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Problem Solving", 
-            "slug": "problem-solving", 
+        "category": {
+            "name": "Problem Solving",
+            "slug": "problem-solving",
             "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/problem-solving.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Arrays & Strings", 
-                "slug": "arrays-strings", 
-                "description": "Master fundamental operations on arrays and string manipulation techniques.", 
+            {
+                "name": "Arrays & Strings",
+                "slug": "arrays-strings",
+                "description": "Master fundamental operations on arrays and string manipulation techniques.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/arrays-strings.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Advanced Array Problems",
                         "description": "Solve complex array problems requiring advanced algorithms and optimization.",
-                        "tags": ["arrays", "advanced", "optimization"],
+                        "tags": [
+                            "arrays",
+                            "advanced",
+                            "optimization"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Expert",
                         "title": "Advanced String Problems",
                         "description": "Solve complex string problems using advanced algorithms and data structures.",
-                        "tags": ["strings", "advanced", "algorithms"],
+                        "tags": [
+                            "strings",
+                            "advanced",
+                            "algorithms"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

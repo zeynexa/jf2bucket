@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Problem Solving", 
-            "slug": "problem-solving", 
+        "category": {
+            "name": "Problem Solving",
+            "slug": "problem-solving",
             "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/problem-solving.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Arrays & Strings", 
-                "slug": "arrays-strings", 
-                "description": "Master fundamental operations on arrays and string manipulation techniques.", 
+            {
+                "name": "Arrays & Strings",
+                "slug": "arrays-strings",
+                "description": "Master fundamental operations on arrays and string manipulation techniques.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/arrays-strings.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "Array Basics",
                         "description": "Learn fundamental array operations and manipulation techniques.",
-                        "tags": ["arrays", "basics", "problem-solving"],
+                        "tags": [
+                            "arrays",
+                            "basics",
+                            "problem-solving"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Beginner",
                         "title": "String Fundamentals",
                         "description": "Master basic string operations and manipulation techniques.",
-                        "tags": ["strings", "basics", "problem-solving"],
+                        "tags": [
+                            "strings",
+                            "basics",
+                            "problem-solving"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

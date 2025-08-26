@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "C++", 
-                "slug": "c-plus-plus", 
-                "description": "Learn C++ for system programming, game development, and high-performance applications.", 
+            {
+                "name": "C++",
+                "slug": "c-plus-plus",
+                "description": "Learn C++ for system programming, game development, and high-performance applications.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/c-plus-plus.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "C++ Advanced Memory Management",
                         "description": "Master smart pointers, move semantics, and advanced memory management techniques.",
-                        "tags": ["memory-management", "c++", "expert"],
+                        "tags": [
+                            "memory-management",
+                            "c++",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,12 @@
                         "level": "Expert",
                         "title": "C++ Concurrency & Threading",
                         "description": "Master multi-threading, synchronization, and concurrent programming in C++.",
-                        "tags": ["concurrency", "threading", "c++", "expert"],
+                        "tags": [
+                            "concurrency",
+                            "threading",
+                            "c++",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +252,12 @@
                         "level": "Expert",
                         "title": "C++ Performance Optimization",
                         "description": "Master C++ performance optimization techniques and profiling.",
-                        "tags": ["performance", "optimization", "c++", "expert"],
+                        "tags": [
+                            "performance",
+                            "optimization",
+                            "c++",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

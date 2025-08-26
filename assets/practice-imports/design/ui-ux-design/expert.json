@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Design", 
-            "slug": "design", 
+        "category": {
+            "name": "Design",
+            "slug": "design",
             "description": "Master design principles, user experience, and visual communication techniques.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/design.svg"
         },
         "sub_categories": [
-            { 
-                "name": "UI/UX Design", 
-                "slug": "ui-ux-design", 
-                "description": "Learn user interface and user experience design principles and best practices.", 
+            {
+                "name": "UI/UX Design",
+                "slug": "ui-ux-design",
+                "description": "Learn user interface and user experience design principles and best practices.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/ui-ux-design.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Design Systems & Architecture",
                         "description": "Master design system architecture and advanced design patterns.",
-                        "tags": ["design-systems", "architecture", "expert"],
+                        "tags": [
+                            "design-systems",
+                            "architecture",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Expert",
                         "title": "Advanced UX Research & Analytics",
                         "description": "Master advanced UX research methods and analytics techniques.",
-                        "tags": ["ux-research", "analytics", "expert"],
+                        "tags": [
+                            "ux-research",
+                            "analytics",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

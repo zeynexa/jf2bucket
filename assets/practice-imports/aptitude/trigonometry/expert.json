@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Aptitude", 
-            "slug": "aptitude", 
+        "category": {
+            "name": "Aptitude",
+            "slug": "aptitude",
             "description": "Develop mathematical reasoning and problem-solving skills for competitive exams and interviews.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/aptitude.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Trigonometry", 
-                "slug": "trigonometry", 
-                "description": "Master trigonometric functions, identities, and applications.", 
+            {
+                "name": "Trigonometry",
+                "slug": "trigonometry",
+                "description": "Master trigonometric functions, identities, and applications.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/trignometry.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Complex Trigonometric Analysis",
                         "description": "Master complex trigonometric analysis and advanced applications.",
-                        "tags": ["complex-analysis", "advanced", "expert"],
+                        "tags": [
+                            "complex-analysis",
+                            "advanced",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Expert",
                         "title": "Advanced Trigonometric Applications",
                         "description": "Apply advanced trigonometric concepts to complex problems.",
-                        "tags": ["advanced-applications", "complex-problems", "expert"],
+                        "tags": [
+                            "advanced-applications",
+                            "complex-problems",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "C++", 
-                "slug": "c-plus-plus", 
-                "description": "Learn C++ for system programming, game development, and high-performance applications.", 
+            {
+                "name": "C++",
+                "slug": "c-plus-plus",
+                "description": "Learn C++ for system programming, game development, and high-performance applications.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/c-plus-plus.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "C++ Basic Syntax",
                         "description": "Learn C++ basic syntax, variables, data types, and input/output operations.",
-                        "tags": ["syntax", "c++", "basics"],
+                        "tags": [
+                            "syntax",
+                            "c++",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Beginner",
                         "title": "C++ Control Flow",
                         "description": "Learn conditional statements and loops in C++.",
-                        "tags": ["control-flow", "c++", "basics"],
+                        "tags": [
+                            "control-flow",
+                            "c++",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,11 @@
                         "level": "Beginner",
                         "title": "C++ Functions",
                         "description": "Learn function declaration, definition, and usage in C++.",
-                        "tags": ["functions", "c++", "basics"],
+                        "tags": [
+                            "functions",
+                            "c++",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

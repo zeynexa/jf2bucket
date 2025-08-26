@@ -1,22 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Problem Solving", 
-            "slug": "problem-solving", 
+        "category": {
+            "name": "Problem Solving",
+            "slug": "problem-solving",
             "description": "Develop analytical thinking and problem-solving skills through algorithmic challenges.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/problem-solving.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Recursion & Backtracking", 
-                "slug": "recursion-backtracking", 
-                "description": "Master recursive algorithms and backtracking techniques for complex problem solving.", 
+            {
+                "name": "Recursion & Backtracking",
+                "slug": "recursion-backtracking",
+                "description": "Master recursive algorithms and backtracking techniques for complex problem solving.",
+                "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/recursion-backtracking.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "Basic Recursion",
                         "description": "Learn fundamental recursive algorithms and their applications.",
-                        "tags": ["recursion", "basics", "algorithms"],
+                        "tags": [
+                            "recursion",
+                            "basics",
+                            "algorithms"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",
@@ -63,7 +68,11 @@
                         "level": "Beginner",
                         "title": "Simple Backtracking",
                         "description": "Learn basic backtracking techniques and their applications.",
-                        "tags": ["backtracking", "basics", "algorithms"],
+                        "tags": [
+                            "backtracking",
+                            "basics",
+                            "algorithms"
+                        ],
                         "tasks": [
                             {
                                 "type": "MCQ",

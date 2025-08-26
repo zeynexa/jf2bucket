@@ -1,23 +1,28 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Python", 
-                "slug": "python", 
-                "description": "Learn Python for data science, web development, and automation.", 
+            {
+                "name": "Python",
+                "slug": "python",
+                "description": "Learn Python for data science, web development, and automation.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/python.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "Python Metaclasses & Metaprogramming",
                         "description": "Master advanced Python concepts including metaclasses, descriptors, and metaprogramming.",
-                        "tags": ["metaclasses", "metaprogramming", "python", "expert"],
+                        "tags": [
+                            "metaclasses",
+                            "metaprogramming",
+                            "python",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +135,12 @@
                         "level": "Expert",
                         "title": "Python Concurrency & Async",
                         "description": "Master asynchronous programming, asyncio, and concurrent execution patterns.",
-                        "tags": ["concurrency", "async", "python", "expert"],
+                        "tags": [
+                            "concurrency",
+                            "async",
+                            "python",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +253,12 @@
                         "level": "Expert",
                         "title": "Python Performance & Optimization",
                         "description": "Master Python performance optimization, profiling, and advanced techniques.",
-                        "tags": ["performance", "optimization", "python", "expert"],
+                        "tags": [
+                            "performance",
+                            "optimization",
+                            "python",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

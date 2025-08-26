@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "TypeScript", 
-                "slug": "typescript", 
-                "description": "Learn TypeScript for type-safe JavaScript development.", 
+            {
+                "name": "TypeScript",
+                "slug": "typescript",
+                "description": "Learn TypeScript for type-safe JavaScript development.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/typescript.svg",
                 "exercises": [
                     {
                         "level": "Expert",
                         "title": "TypeScript Advanced Patterns",
                         "description": "Master advanced TypeScript patterns including branded types, phantom types, and complex type manipulations.",
-                        "tags": ["advanced-patterns", "typescript", "expert"],
+                        "tags": [
+                            "advanced-patterns",
+                            "typescript",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Expert",
                         "title": "TypeScript Compiler API",
                         "description": "Master TypeScript compiler API for programmatic type checking and code analysis.",
-                        "tags": ["compiler-api", "typescript", "expert"],
+                        "tags": [
+                            "compiler-api",
+                            "typescript",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,12 @@
                         "level": "Expert",
                         "title": "TypeScript Tooling & Ecosystem",
                         "description": "Master TypeScript tooling, build systems, and ecosystem integration.",
-                        "tags": ["tooling", "ecosystem", "typescript", "expert"],
+                        "tags": [
+                            "tooling",
+                            "ecosystem",
+                            "typescript",
+                            "expert"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

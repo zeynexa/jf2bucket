@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Java", 
-                "slug": "java", 
-                "description": "Master Java for enterprise development and Android applications.", 
+            {
+                "name": "Java",
+                "slug": "java",
+                "description": "Master Java for enterprise development and Android applications.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/java.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Java Object-Oriented Programming",
                         "description": "Learn classes, objects, inheritance, and polymorphism in Java.",
-                        "tags": ["oop", "java", "intermediate"],
+                        "tags": [
+                            "oop",
+                            "java",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Intermediate",
                         "title": "Java Collections Framework",
                         "description": "Master Java collections including Lists, Sets, and Maps.",
-                        "tags": ["collections", "java", "intermediate"],
+                        "tags": [
+                            "collections",
+                            "java",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,11 @@
                         "level": "Intermediate",
                         "title": "Java Exception Handling",
                         "description": "Learn exception handling, custom exceptions, and best practices.",
-                        "tags": ["exceptions", "java", "intermediate"],
+                        "tags": [
+                            "exceptions",
+                            "java",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

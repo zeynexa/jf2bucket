@@ -1,23 +1,27 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Python", 
-                "slug": "python", 
-                "description": "Learn Python for data science, web development, and automation.", 
+            {
+                "name": "Python",
+                "slug": "python",
+                "description": "Learn Python for data science, web development, and automation.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/python.svg",
                 "exercises": [
                     {
                         "level": "Intermediate",
                         "title": "Python Object-Oriented Programming",
                         "description": "Master classes, objects, inheritance, and polymorphism in Python.",
-                        "tags": ["oop", "python", "intermediate"],
+                        "tags": [
+                            "oop",
+                            "python",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +134,11 @@
                         "level": "Intermediate",
                         "title": "Python Decorators",
                         "description": "Learn function decorators, class decorators, and advanced decorator patterns.",
-                        "tags": ["decorators", "python", "intermediate"],
+                        "tags": [
+                            "decorators",
+                            "python",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +251,11 @@
                         "level": "Intermediate",
                         "title": "Python Generators",
                         "description": "Learn generator functions, generator expressions, and memory-efficient iteration.",
-                        "tags": ["generators", "python", "intermediate"],
+                        "tags": [
+                            "generators",
+                            "python",
+                            "intermediate"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",

@@ -1,23 +1,28 @@
 [
     {
-        "category": { 
-            "name": "Programming", 
-            "slug": "programming", 
+        "category": {
+            "name": "Programming",
+            "slug": "programming",
             "description": "Learn programming languages, algorithms, and software development skills.",
             "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-categories/programming.svg"
         },
         "sub_categories": [
-            { 
-                "name": "Java", 
-                "slug": "java", 
-                "description": "Master Java for enterprise development and Android applications.", 
+            {
+                "name": "Java",
+                "slug": "java",
+                "description": "Master Java for enterprise development and Android applications.",
                 "image": "https://raw.githubusercontent.com/zeynexa/jf2bucket/refs/heads/main/uploads/practice-sub-categories/java.svg",
                 "exercises": [
                     {
                         "level": "Beginner",
                         "title": "Java Variables & Data Types",
                         "description": "Learn about Java variables, primitive data types, and basic operations.",
-                        "tags": ["variables", "data-types", "java", "basics"],
+                        "tags": [
+                            "variables",
+                            "data-types",
+                            "java",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -130,7 +135,11 @@
                         "level": "Beginner",
                         "title": "Java Control Flow",
                         "description": "Learn conditional statements and loops in Java.",
-                        "tags": ["control-flow", "java", "basics"],
+                        "tags": [
+                            "control-flow",
+                            "java",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
@@ -243,7 +252,11 @@
                         "level": "Beginner",
                         "title": "Java Arrays",
                         "description": "Learn array declaration, initialization, and manipulation in Java.",
-                        "tags": ["arrays", "java", "basics"],
+                        "tags": [
+                            "arrays",
+                            "java",
+                            "basics"
+                        ],
                         "tasks": [
                             {
                                 "type": "Coding",
